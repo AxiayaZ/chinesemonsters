@@ -9,7 +9,12 @@ dotenv.config();
 const app = express();
 
 // 中间件
-app.use(cors());
+app.use(cors({
+  origin: process.env.NODE_ENV === 'production'
+    ? ['https://你的前端域名']
+    : 'http://localhost:5173',
+  credentials: true
+}));
 app.use(express.json());
 
 // MongoDB连接配置
@@ -32,7 +37,10 @@ app.use('/api/monsters', monsterRoutes);
 // 错误处理中间件
 app.use((err, req, res, next) => {
   console.error(err.stack);
-  res.status(500).json({ message: '服务器内部错误' });
+  res.status(500).json({
+    message: '服务器错误',
+    error: process.env.NODE_ENV === 'production' ? null : err.message
+  });
 });
 
 const PORT = process.env.PORT || 3000;
