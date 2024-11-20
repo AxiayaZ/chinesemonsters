@@ -11,7 +11,7 @@ const app = express();
 // 中间件
 app.use(cors({
   origin: process.env.NODE_ENV === 'production'
-    ? ['https://你的前端域名']
+    ? ['https://chinesemonsters.vercel.app']
     : 'http://localhost:5173',
   credentials: true
 }));
