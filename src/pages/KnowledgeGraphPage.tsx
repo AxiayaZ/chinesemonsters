@@ -143,7 +143,7 @@ const KnowledgeGraphPage: React.FC = () => {
                   返回列表
                 </button>
               </div>
-              <div className="h-[500px] border border-gray-200 rounded-lg">
+              <div className="h-[800px] w-full border border-gray-200 rounded-lg">
                 {loading ? (
                   <div className="h-full flex items-center justify-center">
                     <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-gray-900"></div>
