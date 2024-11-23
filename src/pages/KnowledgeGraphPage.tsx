@@ -50,6 +50,7 @@ const KnowledgeGraphPage: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [loading, setLoading] = useState(false);
+  const [connectionError, setConnectionError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchGraphData = async () => {
@@ -57,11 +58,22 @@ const KnowledgeGraphPage: React.FC = () => {
         try {
           setLoading(true);
           setError(null);
+          setConnectionError(null);
+          
+          // 添加连接测试
+          try {
+            await neo4jService.testConnection();
+          } catch (e) {
+            setConnectionError('Neo4j 数据库连接失败');
+            console.error('Neo4j Connection Error:', e);
+            return;
+          }
+
           const data = await neo4jService.getBookKnowledgeGraph(selectedBook.title);
           setGraphData(data);
         } catch (error) {
           console.error('获取知识图谱数据失败:', error);
-          setError('连接数据库失败，请稍后重试');
+          setError('获取数据失败，请稍后重试');
         } finally {
           setLoading(false);
         }
@@ -74,6 +86,20 @@ const KnowledgeGraphPage: React.FC = () => {
   const filteredBooks = MOCK_BOOKS.filter(book => 
     book.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  if (connectionError) {
+    return (
+      <div className="min-h-screen bg-gray-50">
+        <Header />
+        <div className="container mx-auto px-4 pt-20">
+          <div className="bg-red-50 border border-red-200 rounded-lg p-4">
+            <h3 className="text-red-800 font-medium">连接错误</h3>
+            <p className="text-red-600 mt-1">{connectionError}</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">

@@ -5,11 +5,35 @@ class Neo4jService {
 
   constructor() {
     // 从环境变量获取连接信息
-    const uri = import.meta.env.VITE_NEO4J_URI;
-    const user = import.meta.env.VITE_NEO4J_USER;
-    const password = import.meta.env.VITE_NEO4J_PASSWORD;
+    const neo4jUri = import.meta.env.VITE_NEO4J_URI || process.env.VITE_NEO4J_URI;
+    const neo4jUser = import.meta.env.VITE_NEO4J_USER || process.env.VITE_NEO4J_USER;
+    const neo4jPassword = import.meta.env.VITE_NEO4J_PASSWORD || process.env.VITE_NEO4J_PASSWORD;
 
-    this.driver = neo4j.driver(uri, neo4j.auth.basic(user, password));
+    if (!neo4jUri || !neo4jUser || !neo4jPassword) {
+      throw new Error('Missing Neo4j credentials');
+    }
+
+    console.log('Neo4j URI:', neo4jUri); // 不要在生产环境记录完整 URI
+    console.log('Neo4j Connection Status: Initializing');
+
+    this.driver = neo4j.driver(
+      neo4jUri,
+      neo4j.auth.basic(neo4jUser, neo4jPassword),
+      {
+        maxConnectionLifetime: 3 * 60 * 60 * 1000, // 3 hours
+        maxConnectionPoolSize: 50,
+        connectionAcquisitionTimeout: 2 * 60 * 1000, // 2 minutes
+      }
+    );
+
+    // 添加连接事件监听
+    this.driver.onCompleted = () => {
+      console.log('Neo4j Connection Status: Connected');
+    };
+    
+    this.driver.onError = (error) => {
+      console.error('Neo4j Connection Error:', error);
+    };
   }
 
   async getBookKnowledgeGraph(bookTitle: string) {
@@ -95,6 +119,19 @@ class Neo4jService {
 
   async close() {
     await this.driver.close();
+  }
+
+  async testConnection() {
+    const session = this.driver.session();
+    try {
+      await session.run('RETURN 1');
+      return true;
+    } catch (error) {
+      console.error('Neo4j connection test failed:', error);
+      throw error;
+    } finally {
+      await session.close();
+    }
   }
 }
 
