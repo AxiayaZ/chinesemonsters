@@ -31,7 +31,7 @@ const MOCK_BOOKS: Book[] = [
     description: '记录魏晋时期的志怪故事',
     era: '东晋',
     author: '干宝',
-    content: '《搜神记》是中国古代志怪小说的代表作，收录了大量神仙鬼怪故事。'
+    content: '《搜神记》是中国古代志怪小说的代表作，收录了大量神仙鬼怪故事��'
   },
   {
     id: '3',
@@ -90,7 +90,10 @@ const KnowledgeGraphPage: React.FC = () => {
   if (connectionError) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <Header />
+        <Header 
+          onSearch={() => {}} 
+          searchPlaceholder="搜索书籍..."
+        />
         <div className="container mx-auto px-4 pt-20">
           <div className="bg-red-50 border border-red-200 rounded-lg p-4">
             <h3 className="text-red-800 font-medium">连接错误</h3>

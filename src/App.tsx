@@ -6,6 +6,7 @@ import CategoryPage from './pages/CategoryPage';
 import MonsterDetailPage from './pages/MonsterDetailPage';
 import KnowledgeGraphPage from './pages/KnowledgeGraphPage';
 import MapPage from './pages/MapPage';
+import ErrorBoundary from './components/ErrorBoundary';
 
 // 定义分类数据
 const categories = [
@@ -47,19 +48,21 @@ const HomePage = () => (
   </div>
 );
 
-function App() {
+const App = () => {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/category" element={<Navigate to="/category/妖" replace />} />
-        <Route path="/category/:type" element={<CategoryPage />} />
-        <Route path="/monster/:id" element={<MonsterDetailPage />} />
-        <Route path="/knowledge-graph" element={<KnowledgeGraphPage />} />
-        <Route path="/map" element={<MapPage />} />
-      </Routes>
-    </Router>
+    <ErrorBoundary>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/category" element={<Navigate to="/category/妖" replace />} />
+          <Route path="/category/:type" element={<CategoryPage />} />
+          <Route path="/monster/:id" element={<MonsterDetailPage />} />
+          <Route path="/knowledge-graph" element={<KnowledgeGraphPage />} />
+          <Route path="/map" element={<MapPage />} />
+        </Routes>
+      </Router>
+    </ErrorBoundary>
   );
-}
+};
 
 export default App;
