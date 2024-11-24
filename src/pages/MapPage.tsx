@@ -31,8 +31,14 @@ const MapPage: React.FC = () => {
   // 加载所有妖怪数据
   useEffect(() => {
     const loadAllMonsters = async () => {
-      const allMonsters = await getMonsters();
-      setMonsters(allMonsters);
+      try {
+        const response = await getMonsters();
+        setMonsters(response.monsters.filter(monster => 
+          monster.location && monster.location.lat && monster.location.lng
+        ));
+      } catch (error) {
+        console.error('Failed to load monsters:', error);
+      }
     };
     loadAllMonsters();
   }, []);
