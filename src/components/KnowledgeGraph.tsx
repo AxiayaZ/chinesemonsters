@@ -1,16 +1,22 @@
-import React, { useEffect, useRef, useCallback, useMemo, useState } from 'react';
+import React, { useRef, useState, useCallback, useMemo, useEffect } from 'react';
 import * as d3 from 'd3';
 
-// 扩展 NodeData 接口以兼容 D3 的 SimulationNodeDatum
-interface NodeData extends d3.SimulationNodeDatum {
+interface NodeData {
   id: string;
   name: string;
-  type: string;
+  type: 'Book' | 'Monster' | 'Location';
   description?: string;
-  properties?: { [key: string]: any };
+  x?: number;
+  y?: number;
+  fx?: number | null;
+  fy?: number | null;
+  vx?: number;
+  vy?: number;
 }
 
-interface LinkData extends d3.SimulationLinkDatum<NodeData> {
+interface LinkData {
+  source: NodeData;
+  target: NodeData;
   type: string;
   description?: string;
 }
@@ -22,220 +28,203 @@ interface KnowledgeGraphProps {
   };
 }
 
-interface DragEvent {
-  active: boolean;
-  subject: NodeData;
-  x: number;
-  y: number;
-}
-
 const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({ data }) => {
   const svgRef = useRef<SVGSVGElement>(null);
-  const tooltipRef = useRef<HTMLDivElement>(null);
-  const [selectedNode, setSelectedNode] = useState<NodeData | null>(null);
+  const containerRef = useRef<SVGGElement | null>(null);
   const [zoom, setZoom] = useState(1);
-  
-  // 定义拖拽函数
-  const dragstarted = useCallback((event: DragEvent, simulation: d3.Simulation<NodeData, LinkData>) => {
-    if (!event.active) simulation.alphaTarget(0.3).restart();
-    event.subject.fx = event.subject.x;
-    event.subject.fy = event.subject.y;
-  }, []);
+  const [selectedNode, setSelectedNode] = useState<NodeData | null>(null);
+  const [showLocations, setShowLocations] = useState(true);
 
-  const dragged = useCallback((event: DragEvent) => {
-    event.subject.fx = event.x;
-    event.subject.fy = event.y;
-  }, []);
-
-  const dragended = useCallback((event: DragEvent, simulation: d3.Simulation<NodeData, LinkData>) => {
-    if (!event.active) simulation.alphaTarget(0);
-    event.subject.fx = null;
-    event.subject.fy = null;
-  }, []);
-  
-  // 使用 useMemo 缓存力导向模拟配置
-  const simulation = useMemo(() => {
-    if (!data.nodes.length) return null;
+  const visibleData = useMemo(() => {
+    const visibleNodes = data.nodes.filter(node => 
+      node.type !== 'Location' || showLocations
+    );
+    const visibleNodeIds = new Set(visibleNodes.map(node => node.id));
     
-    return d3.forceSimulation<NodeData, LinkData>(data.nodes)
-      .force('link', d3.forceLink<NodeData, LinkData>(data.links)
-        .id(d => d.id)
+    const visibleLinks = data.links.filter(link => {
+      const sourceId = typeof link.source === 'string' ? link.source : link.source.id;
+      const targetId = typeof link.target === 'string' ? link.target : link.target.id;
+      return visibleNodeIds.has(sourceId) && visibleNodeIds.has(targetId);
+    });
+
+    return { nodes: visibleNodes, links: visibleLinks };
+  }, [data, showLocations]);
+
+  const simulation = useMemo(() => {
+    if (!visibleData.nodes.length) return null;
+    
+    return d3.forceSimulation(visibleData.nodes)
+      .force('link', d3.forceLink(visibleData.links)
+        .id((d: any) => d.id)
         .distance(150))
-      .force('charge', d3.forceManyBody().strength(-500))
-      .force('collision', d3.forceCollide().radius(60))
-      .stop();
-  }, [data.nodes, data.links]);
+      .force('charge', d3.forceManyBody()
+        .strength(d => d.type === 'Book' ? -2000 : -1000)
+        .distanceMax(500))
+      .force('collision', d3.forceCollide()
+        .radius(d => d.type === 'Book' ? 80 : 50)
+        .strength(0.5))
+      .force('x', d3.forceX()
+        .strength(0.02))
+      .force('y', d3.forceY()
+        .strength(0.02))
+      .velocityDecay(0.8)
+      .alpha(0.3)
+      .alphaDecay(0.02);
+  }, [visibleData]);
 
-  // 修改渲染函数
   const renderGraph = useCallback(() => {
-    if (!svgRef.current || !simulation || !data.nodes.length) return;
-
-    d3.select(svgRef.current).selectAll('*').remove();
+    if (!svgRef.current || !simulation || !visibleData.nodes.length) return;
 
     const width = svgRef.current.clientWidth;
     const height = svgRef.current.clientHeight;
 
-    // 修改缩放行为，添加范围限制
+    d3.select(svgRef.current).selectAll('*').remove();
+
+    const svg = d3.select(svgRef.current)
+      .attr('viewBox', [0, 0, width, height]);
+
+    const container = svg.append('g');
+    containerRef.current = container.node();
+
     const zoomBehavior = d3.zoom()
-      .scaleExtent([0.1, 4])
-      .translateExtent([[0, 0], [width, height]]) // 限制平移范围
-      .extent([[0, 0], [width, height]])
+      .scaleExtent([0.2, 2])
       .on('zoom', (event) => {
         container.attr('transform', event.transform);
         setZoom(event.transform.k);
       });
 
-    const svg = d3.select(svgRef.current)
-      .attr('viewBox', [0, 0, width, height])
-      .call(zoomBehavior as any);
+    svg.call(zoomBehavior as any)
+       .call(zoomBehavior.transform as any, 
+         d3.zoomIdentity
+           .translate(width / 2, height / 2)
+           .scale(0.8));
 
-    // 创建一个背景矩形来捕获点击事件
-    svg.append('rect')
-      .attr('width', width)
-      .attr('height', height)
-      .attr('fill', 'none')
-      .attr('pointer-events', 'all')
-      .on('click', () => setSelectedNode(null));
-
-    // 创建一个容器组来包含所有元素
-    const container = svg.append('g');
-
-    // 定义箭头标记
-    const defs = container.append('defs');
-    defs.append('marker')
-      .attr('id', 'arrow')
-      .attr('viewBox', '0 -5 10 10')
-      .attr('refX', 30)
-      .attr('refY', 0)
-      .attr('markerWidth', 6)
-      .attr('markerHeight', 6)
-      .attr('orient', 'auto')
-      .append('path')
-      .attr('fill', '#999')
-      .attr('d', 'M0,-5L10,0L0,5');
-
-    // 创建连接线
     const link = container.append('g')
-      .selectAll('g')
-      .data(data.links)
-      .join('g');
-
-    // 添加连接线
-    link.append('line')
+      .selectAll('line')
+      .data(visibleData.links)
+      .join('line')
       .attr('stroke', '#999')
       .attr('stroke-opacity', 0.6)
-      .attr('stroke-width', 1.5)
-      .attr('marker-end', 'url(#arrow)');
+      .attr('stroke-width', 1);
 
-    // 添加关系类型标签
-    link.append('text')
-      .attr('dy', -5)
-      .attr('text-anchor', 'middle')
-      .attr('fill', '#666')
-      .style('font-size', '10px')
-      .text((d: LinkData) => d.type);
-
-    // 修改节点组，移除 mouseover 事件
     const node = container.append('g')
-      .selectAll<SVGGElement, NodeData>('g')
-      .data(data.nodes)
+      .selectAll('g')
+      .data(visibleData.nodes)
       .join('g')
-      .call(d3.drag<SVGGElement, NodeData>()
-        .on('start', (event) => dragstarted(event as unknown as DragEvent, simulation))
-        .on('drag', (event) => dragged(event as unknown as DragEvent))
-        .on('end', (event) => dragended(event as unknown as DragEvent, simulation)))
-      .on('click', (event, d) => {
+      .on('click', (event, d: NodeData) => {
         event.stopPropagation();
         setSelectedNode(d);
-      });
+      })
+      .call(d3.drag<any, NodeData>()
+        .on('start', (event, d) => {
+          if (!event.active && simulation) simulation.alphaTarget(0.1).restart();
+          d.fx = d.x;
+          d.fy = d.y;
+        })
+        .on('drag', (event, d) => {
+          d.fx = event.x;
+          d.fy = event.y;
+        })
+        .on('end', (event, d) => {
+          if (!event.active && simulation) simulation.alphaTarget(0);
+          if (d.type !== 'Book') {
+            d.fx = null;
+            d.fy = null;
+          }
+        }) as any);
 
-    // 添加节点外圈
     node.append('circle')
-      .attr('r', 25)
-      .attr('fill', 'white')
-      .attr('stroke', (d: NodeData) => getNodeColor(d.type))
-      .attr('stroke-width', 3);
+      .attr('r', d => d.type === 'Book' ? 40 : 25)
+      .attr('fill', d => {
+        switch (d.type) {
+          case 'Book': return '#1E40AF';
+          case 'Monster': return '#DC2626';
+          case 'Location': return '#047857';
+          default: return '#999';
+        }
+      })
+      .attr('fill-opacity', 0.8)
+      .attr('stroke', '#fff')
+      .attr('stroke-width', 2);
 
-    // 添加节点内圈
-    node.append('circle')
-      .attr('r', 23)
-      .attr('fill', (d: NodeData) => getNodeColor(d.type))
-      .attr('fill-opacity', 0.3);
-
-    // 添加节点文本
     node.append('text')
-      .text((d: NodeData) => d.name)
+      .text(d => d.name)
       .attr('text-anchor', 'middle')
-      .attr('dy', 35)
+      .attr('dy', d => d.type === 'Book' ? 50 : 35)
       .attr('fill', '#333')
-      .style('font-size', '12px')
+      .style('font-size', d => d.type === 'Book' ? '14px' : '12px')
       .style('font-weight', 'bold');
 
-    // 更新位置时添加边界检查
     simulation.on('tick', () => {
-      requestAnimationFrame(() => {
-        // 添加边界限制
-        data.nodes.forEach(d => {
-          d.x = Math.max(30, Math.min(width - 30, d.x || 0));
-          d.y = Math.max(30, Math.min(height - 30, d.y || 0));
-        });
+      link
+        .attr('x1', d => (d.source as any).x)
+        .attr('y1', d => (d.source as any).y)
+        .attr('x2', d => (d.target as any).x)
+        .attr('y2', d => (d.target as any).y);
 
-        link.select('line')
-          .attr('x1', (d: any) => d.source.x)
-          .attr('y1', (d: any) => d.source.y)
-          .attr('x2', (d: any) => d.target.x)
-          .attr('y2', (d: any) => d.target.y);
-
-        link.select('text')
-          .attr('x', (d: any) => (d.source.x + d.target.x) / 2)
-          .attr('y', (d: any) => (d.source.y + d.target.y) / 2);
-
-        node.attr('transform', (d: any) => `translate(${d.x},${d.y})`);
-      });
+      node.attr('transform', d => `translate(${d.x},${d.y})`);
     });
 
-    simulation.restart();
+    svg.on('click', () => setSelectedNode(null));
 
-  }, [data, simulation, dragstarted, dragged, dragended]);
+  }, [visibleData, simulation]);
 
-  // 获取节点颜色
-  const getNodeColor = useCallback((type: string) => {
-    const colorMap: { [key: string]: string } = {
-      Book: '#4CAF50',
-      Monster: '#FF5722',
-      Location: '#2196F3'
-    };
-    return colorMap[type] || '#9E9E9E';
-  }, []);
-
-  // 监听窗口大小变化
-  useEffect(() => {
-    const handleResize = () => {
-      renderGraph();
-    };
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, [renderGraph]);
-
-  // 初始渲染
   useEffect(() => {
     renderGraph();
-  }, [renderGraph]);
+  }, [renderGraph, showLocations]);
+
+  const colorMap = {
+    'Book': '#1E40AF',    // 深蓝色 - 典籍
+    'Monster': '#6B7280', // 灰色 - 妖怪
+    'Location': '#047857' // 绿色 - 地点
+  };
 
   return (
     <div className="relative w-full h-full">
-      {/* 控制面板 */}
+      <div className="absolute top-4 left-4 bg-white p-4 rounded-lg shadow-lg z-10">
+        <h3 className="text-sm font-semibold mb-2">图例说明</h3>
+        <div className="space-y-2">
+          <div className="flex items-center">
+            <div className="w-4 h-4 rounded-full bg-[#1E40AF] mr-2"></div>
+            <span className="text-sm">典籍</span>
+          </div>
+          <div className="flex items-center">
+            <div className="w-4 h-4 rounded-full bg-[#6B7280] mr-2"></div>
+            <span className="text-sm">妖怪</span>
+          </div>
+          <div className="flex items-center justify-between">
+            <div className="flex items-center">
+              <div className="w-4 h-4 rounded-full bg-[#047857] mr-2"></div>
+              <span className="text-sm">地点</span>
+            </div>
+            <input
+              type="checkbox"
+              checked={showLocations}
+              onChange={e => setShowLocations(e.target.checked)}
+              className="ml-2 h-4 w-4 rounded border-gray-300 
+                         text-blue-600 focus:ring-blue-500"
+            />
+          </div>
+        </div>
+      </div>
+
       <div className="absolute top-4 right-4 bg-white p-4 rounded-lg shadow-lg z-10">
         <div className="mb-2">缩放: {(zoom * 100).toFixed(0)}%</div>
         <button 
           className="px-3 py-1 bg-gray-100 rounded hover:bg-gray-200"
           onClick={() => {
-            if (svgRef.current) {
+            if (svgRef.current && containerRef.current) {
+              const width = svgRef.current.clientWidth;
+              const height = svgRef.current.clientHeight;
               d3.select(svgRef.current)
                 .transition()
                 .duration(750)
-                .call(d3.zoom().transform as any, d3.zoomIdentity);
+                .call(
+                  (d3.zoom() as any).transform,
+                  d3.zoomIdentity
+                    .translate(width / 2, height / 2)
+                    .scale(0.8)
+                );
             }
           }}
         >
@@ -243,27 +232,62 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({ data }) => {
         </button>
       </div>
 
-      {/* 节点详情面板 */}
       {selectedNode && (
-        <div className="absolute left-4 top-4 bg-white p-4 rounded-lg shadow-lg z-10 max-w-xs">
-          <div className="flex justify-between items-start">
-            <h3 className="font-bold text-lg">{selectedNode.name}</h3>
-            <button 
+        <div 
+          className="absolute top-32 left-4 bg-white p-4 rounded-lg shadow-xl z-20 
+                     max-w-md border border-gray-200"
+        >
+          <div className="flex justify-between items-start mb-2">
+            <h3 className="text-lg font-bold">{selectedNode.name}</h3>
+            <button
+              className="text-gray-400 hover:text-gray-600 p-1"
               onClick={() => setSelectedNode(null)}
-              className="text-gray-500 hover:text-gray-700"
             >
-              ×
+              ✕
             </button>
           </div>
-          <div className="text-sm text-gray-600 mb-2">类型: {selectedNode.type}</div>
-          {selectedNode.description && (
-            <p className="text-sm mb-2">{selectedNode.description}</p>
-          )}
-          {selectedNode.properties && Object.entries(selectedNode.properties).map(([key, value]) => (
-            <div key={key} className="text-sm">
-              <span className="font-medium">{key}:</span> {value}
+          <div className="space-y-2">
+            <div className="flex items-center text-sm text-gray-500">
+              <span className="font-medium mr-2">类型:</span>
+              <span>{selectedNode.type}</span>
             </div>
-          ))}
+            {selectedNode.description && (
+              <div className="text-sm text-gray-600">
+                <span className="font-medium mr-2">描述:</span>
+                <span>{selectedNode.description}</span>
+              </div>
+            )}
+            {visibleData.links.some(link => 
+              link.source.id === selectedNode.id || link.target.id === selectedNode.id
+            ) && (
+              <div className="mt-2 pt-2 border-t border-gray-100">
+                <span className="text-sm font-medium text-gray-500">关联关系:</span>
+                <ul className="mt-1 space-y-1">
+                  {Array.from(new Set(visibleData.links
+                    .filter(link => link.source.id === selectedNode.id || link.target.id === selectedNode.id)
+                    .map(link => {
+                      const isSource = link.source.id === selectedNode.id;
+                      const otherNode = isSource ? link.target : link.source;
+                      return {
+                        name: (otherNode as NodeData).name,
+                        description: link.description,
+                        direction: isSource ? '→' : '←'
+                      };
+                    })
+                    .map(item => JSON.stringify(item))
+                  )).map(itemStr => {
+                    const item = JSON.parse(itemStr);
+                    return (
+                      <li key={itemStr} className="text-xs text-gray-600">
+                        {`${item.direction} ${item.name}`}
+                        {item.description && ` (${item.description})`}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            )}
+          </div>
         </div>
       )}
 
@@ -273,7 +297,7 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({ data }) => {
         style={{ 
           width: '100%',
           height: '100%',
-          minHeight: '700px'
+          minHeight: '85vh'
         }}
       />
     </div>

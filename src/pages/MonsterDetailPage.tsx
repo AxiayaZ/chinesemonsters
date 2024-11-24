@@ -59,12 +59,16 @@ const MonsterDetailPage: React.FC = () => {
   }, [id]);
 
   const handleSearch = async (term: string) => {
-    setSearchTerm(term);
-    if (term.trim()) {
-      const allMonsters = await getMonsters({ search: term });
-      const suggestions = allMonsters.map(m => m.name);
-      setSearchSuggestions(suggestions);
-    } else {
+    try {
+      if (term.trim()) {
+        const response = await getMonsters({ search: term });
+        const suggestions = response.monsters.map((m: { name: string }) => m.name);
+        setSearchSuggestions(suggestions);
+      } else {
+        setSearchSuggestions([]);
+      }
+    } catch (error) {
+      console.error('Error fetching suggestions:', error);
       setSearchSuggestions([]);
     }
   };

@@ -31,7 +31,7 @@ const MOCK_BOOKS: Book[] = [
     description: '记录魏晋时期的志怪故事',
     era: '东晋',
     author: '干宝',
-    content: '《搜神记》是中国古代志怪小说的代表作，收录了大量神仙鬼怪故事��'
+    content: '《搜神记》是中国古代志怪小说的代表作，收录了大量神仙鬼怪故事'
   },
   {
     id: '3',
@@ -111,14 +111,14 @@ const KnowledgeGraphPage: React.FC = () => {
         searchPlaceholder="搜索书籍..."
       />
 
-      <main className="container mx-auto px-4 pt-20 pb-8 max-w-4xl">
+      <main className="container mx-auto px-4 pt-20 pb-8">
         {error && (
           <div className="fixed top-16 right-4 bg-red-100 border border-red-400 text-red-700 px-3 py-2 rounded text-sm">
             <p>{error}</p>
           </div>
         )}
 
-        <div className="max-w-3xl mx-auto">
+        <div className="mx-auto">
           {!selectedBook ? (
             <div className="space-y-4 pt-6">
               {filteredBooks.map((book) => (
@@ -172,7 +172,7 @@ const KnowledgeGraphPage: React.FC = () => {
                   返回列表
                 </button>
               </div>
-              <div className="h-[800px] w-full border border-gray-200 rounded-lg">
+              <div className="h-[85vh] w-full border border-gray-200 rounded-lg">
                 {loading ? (
                   <div className="h-full flex items-center justify-center">
                     <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-gray-900"></div>
