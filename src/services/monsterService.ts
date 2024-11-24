@@ -17,18 +17,17 @@ export const getMonsters = async (query: MonsterQuery = {}) => {
       params: query,
       validateStatus: (status) => status < 500
     });
+
+    const monsters = Array.isArray(data.monsters) ? data.monsters : [];
+    
     return {
-      monsters: data.monsters || [],
+      monsters,
       totalPages: data.totalPages || 1,
       currentPage: data.currentPage || 1,
       total: data.total || 0
     };
   } catch (error) {
-    if (axios.isAxiosError(error)) {
-      console.error('API Error:', error.response?.data || error.message);
-    } else {
-      console.error('Error fetching monsters:', error);
-    }
+    console.error('Error fetching monsters:', error);
     return {
       monsters: [],
       totalPages: 1,
@@ -43,13 +42,14 @@ export const getMonsterById = async (id: string) => {
     const { data } = await axios.get(`${API_BASE_URL}/monsters/${id}`, {
       validateStatus: (status) => status < 500
     });
+    
+    if (!data) {
+      throw new Error('妖怪不存在');
+    }
+    
     return data;
   } catch (error) {
-    if (axios.isAxiosError(error)) {
-      console.error('API Error:', error.response?.data || error.message);
-    } else {
-      console.error('Error fetching monster:', error);
-    }
+    console.error('Error fetching monster:', error);
     throw error;
   }
 };

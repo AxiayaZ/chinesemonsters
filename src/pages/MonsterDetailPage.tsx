@@ -17,48 +17,45 @@ const MonsterDetailPage: React.FC = () => {
   const [nextMonsterId, setNextMonsterId] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchMonsterAndNeighbors = async () => {
+    const fetchMonster = async () => {
+      if (!id) return;
+      
       try {
         setLoading(true);
-        if (!id) {
-          setError('无效的妖怪ID');
-          setLoading(false);
-          return;
-        }
-
-        const allMonsters = await getMonsters();
-        const currentIndex = allMonsters.findIndex((m: { _id: string }) => m._id === id);
-        
-        if (currentIndex === -1) {
-          setError('未找到该妖怪');
-          setLoading(false);
-          return;
-        }
-        
-        if (currentIndex > 0) {
-          setPrevMonsterId(allMonsters[currentIndex - 1]._id);
-        } else {
-          setPrevMonsterId(null);
-        }
-        
-        if (currentIndex < allMonsters.length - 1) {
-          setNextMonsterId(allMonsters[currentIndex + 1]._id);
-        } else {
-          setNextMonsterId(null);
-        }
-
-        const data = await getMonsterById(id);
-        setMonster(data);
         setError(null);
+        const data = await getMonsterById(id);
+        
+        if (!data) {
+          setError('妖怪不存在');
+          return;
+        }
+
+        setMonster(data);
+        
+        // 获取前后妖怪ID
+        const allMonsters = await getMonsters();
+        if (Array.isArray(allMonsters.monsters)) {
+          const currentIndex = allMonsters.monsters.findIndex(m => m._id === id);
+          if (currentIndex > 0) {
+            setPrevMonsterId(allMonsters.monsters[currentIndex - 1]._id);
+          } else {
+            setPrevMonsterId(null);
+          }
+          if (currentIndex < allMonsters.monsters.length - 1) {
+            setNextMonsterId(allMonsters.monsters[currentIndex + 1]._id);
+          } else {
+            setNextMonsterId(null);
+          }
+        }
       } catch (err) {
         console.error('Failed to fetch monster:', err);
-        setError('获取数据失败');
+        setError('获取数据失败，请稍后重试');
       } finally {
         setLoading(false);
       }
     };
 
-    fetchMonsterAndNeighbors();
+    fetchMonster();
   }, [id]);
 
   const handleSearch = async (term: string) => {
@@ -74,16 +71,24 @@ const MonsterDetailPage: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center h-screen">
-        <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-gray-900"></div>
+      <div className="min-h-screen bg-gray-50 flex justify-center items-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900"></div>
       </div>
     );
   }
 
   if (error || !monster) {
     return (
-      <div className="flex flex-col items-center justify-center h-screen">
-        <p className="text-red-600 mb-4">{error || '妖怪不存在'}</p>
+      <div className="min-h-screen bg-gray-50 flex justify-center items-center">
+        <div className="text-center">
+          <p className="text-red-600 mb-4">{error || '妖怪不存在'}</p>
+          <button
+            onClick={() => navigate(-1)}
+            className="px-4 py-2 bg-gray-800 text-white rounded hover:bg-gray-700"
+          >
+            返回上一页
+          </button>
+        </div>
       </div>
     );
   }
