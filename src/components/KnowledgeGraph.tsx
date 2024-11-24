@@ -1,22 +1,16 @@
 import React, { useRef, useState, useCallback, useMemo, useEffect } from 'react';
 import * as d3 from 'd3';
 
-interface NodeData {
+interface NodeData extends d3.SimulationNodeDatum {
   id: string;
   name: string;
   type: 'Book' | 'Monster' | 'Location';
   description?: string;
-  x?: number;
-  y?: number;
-  fx?: number | null;
-  fy?: number | null;
-  vx?: number;
-  vy?: number;
 }
 
 interface LinkData {
-  source: NodeData;
-  target: NodeData;
+  source: string | NodeData;
+  target: string | NodeData;
   type: string;
   description?: string;
 }
@@ -53,19 +47,19 @@ const KnowledgeGraph: React.FC<KnowledgeGraphProps> = ({ data }) => {
   const simulation = useMemo(() => {
     if (!visibleData.nodes.length) return null;
     
-    return d3.forceSimulation(visibleData.nodes)
-      .force('link', d3.forceLink(visibleData.links)
-        .id((d: any) => d.id)
+    return d3.forceSimulation<NodeData>(visibleData.nodes)
+      .force('link', d3.forceLink<NodeData, LinkData>(visibleData.links)
+        .id((d) => d.id)
         .distance(150))
-      .force('charge', d3.forceManyBody()
-        .strength(d => d.type === 'Book' ? -2000 : -1000)
+      .force('charge', d3.forceManyBody<NodeData>()
+        .strength((d) => d.type === 'Book' ? -2000 : -1000)
         .distanceMax(500))
-      .force('collision', d3.forceCollide()
-        .radius(d => d.type === 'Book' ? 80 : 50)
+      .force('collision', d3.forceCollide<NodeData>()
+        .radius((d) => d.type === 'Book' ? 80 : 50)
         .strength(0.5))
-      .force('x', d3.forceX()
+      .force('x', d3.forceX<NodeData>()
         .strength(0.02))
-      .force('y', d3.forceY()
+      .force('y', d3.forceY<NodeData>()
         .strength(0.02))
       .velocityDecay(0.8)
       .alpha(0.3)
