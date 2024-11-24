@@ -15,17 +15,26 @@ export const getMonsters = async (query: MonsterQuery = {}) => {
   try {
     const { data } = await axios.get(`${API_BASE_URL}/monsters`, { 
       params: query,
-      // 添加错误处理配置
       validateStatus: (status) => status < 500
     });
-    return data.monsters || [];
+    return {
+      monsters: data.monsters || [],
+      totalPages: data.totalPages || 1,
+      currentPage: data.currentPage || 1,
+      total: data.total || 0
+    };
   } catch (error) {
     if (axios.isAxiosError(error)) {
       console.error('API Error:', error.response?.data || error.message);
     } else {
       console.error('Error fetching monsters:', error);
     }
-    return []; // 返回空数组而不是抛出错误
+    return {
+      monsters: [],
+      totalPages: 1,
+      currentPage: 1,
+      total: 0
+    };
   }
 };
 

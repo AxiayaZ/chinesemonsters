@@ -16,21 +16,23 @@ const CategoryPage: React.FC = () => {
   const [monsters, setMonsters] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [totalPages, setTotalPages] = useState(1);
 
   useEffect(() => {
     const fetchMonsters = async () => {
       try {
         setLoading(true);
         setError(null);
-        const data = await getMonsters({ 
+        const response = await getMonsters({ 
           type, 
           search: searchTerm,
           page: currentPage,
           limit: ITEMS_PER_PAGE 
         });
         
-        if (Array.isArray(data)) {
-          setMonsters(data);
+        if (response.monsters && Array.isArray(response.monsters)) {
+          setMonsters(response.monsters);
+          setTotalPages(response.totalPages || 1);
         } else {
           setMonsters([]);
           setError('数据格式错误');
@@ -45,9 +47,6 @@ const CategoryPage: React.FC = () => {
 
     fetchMonsters();
   }, [type, searchTerm, currentPage]);
-
-  const currentMonsters = monsters;
-  const totalPages = Math.ceil(monsters.length / ITEMS_PER_PAGE);
 
   const getSuggestions = (term: string) => {
     if (!term) return [];
@@ -81,7 +80,7 @@ const CategoryPage: React.FC = () => {
           <div className="text-center text-gray-600 py-6">暂无数据</div>
         ) : (
           <>
-            <MonsterGrid monsters={currentMonsters} />
+            <MonsterGrid monsters={monsters} />
             {totalPages > 1 && (
               <div className="mt-8">
                 <Pagination
