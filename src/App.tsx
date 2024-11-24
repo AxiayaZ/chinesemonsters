@@ -12,23 +12,23 @@ import ErrorBoundary from './components/ErrorBoundary';
 const categories = [
   {
     type: '妖',
-    imageUrl: 'https://i.ibb.co/CKXtrCq/cover-yao.png',
-    description: '具有神通变化之力的精怪'
+    imageUrl: 'https://i.ibb.co/ky626kg/yao2.png',
+    description: ''
   },
   {
     type: '精',
-    imageUrl: 'https://i.ibb.co/QncYXJf/cover-jing.png',
-    description: '天地精华所化之物'
+    imageUrl: 'https://i.ibb.co/myxRDW7/jing2.png',
+    description: ''
   },
   {
     type: '鬼',
-    imageUrl: 'https://i.ibb.co/1Qn4Gsj/cover-gui.png',
-    description: '亡者之魂所化'
+    imageUrl: 'https://i.ibb.co/zhP2Nwb/gui2.png',
+    description: ''
   },
   {
     type: '怪',
-    imageUrl: 'https://i.ibb.co/bmgs6Qh/cover-guai.png',
-    description: '异于常态之物'
+    imageUrl: 'https://i.ibb.co/jf5kCZD/guai2.png',
+    description: ''
   }
 ];
 
