@@ -19,3 +19,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+  font-family: 'WangHanZong';
+  src: url('/fonts/王漢宗中隸書繁.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 添加一个专门的类来使用这个字体 */
+.chinese-font {
+  font-family: 'WangHanZong', sans-serif;
+}
