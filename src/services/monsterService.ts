@@ -101,3 +101,22 @@ export const deleteMonster = async (id: string) => {
     throw error;
   }
 };
+
+export const getAllMonsters = async () => {
+  try {
+    const { data } = await axios.get(`${API_BASE_URL}/monsters`, { 
+      params: { limit: 10000 },
+      validateStatus: (status) => status < 500
+    });
+    return {
+      monsters: data.monsters || [],
+      total: data.total || 0
+    };
+  } catch (error) {
+    console.error('Error fetching all monsters:', error);
+    return {
+      monsters: [],
+      total: 0
+    };
+  }
+};

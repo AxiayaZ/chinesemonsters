@@ -1,12 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { MapPin } from 'lucide-react';
+import { MapPin, Eye } from 'lucide-react';
 import Header from '../components/Header';
-import { getMonsters } from '../services/monsterService';
+import { getAllMonsters } from '../services/monsterService';
 
 interface MonsterLocation {
   _id: string;
-  id: string;
   name: string;
   type: string;
   location: {
@@ -27,21 +26,39 @@ const MapPage: React.FC = () => {
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0 });
   const [monsters, setMonsters] = useState<MonsterLocation[]>([]);
   const clickHandlerRef = useRef<((e: any) => void) | null>(null);
+  const [showAllMarkers, setShowAllMarkers] = useState(false);
+  const [totalCount, setTotalCount] = useState(0);
+  const [displayCount, setDisplayCount] = useState<number>(100);
+
+  const displayOptions = [
+    { value: 100, label: '100个' },
+    { value: 300, label: '300个' },
+    { value: 500, label: '500个' },
+    { value: -1, label: '全部' }
+  ];
 
   // 加载所有妖怪数据
   useEffect(() => {
     const loadAllMonsters = async () => {
       try {
-        const response = await getMonsters();
-        setMonsters(response.monsters.filter(monster => 
+        const response = await getAllMonsters();
+        const monstersWithLocation = response.monsters.filter((monster: MonsterLocation) => 
           monster.location && monster.location.lat && monster.location.lng
-        ));
+        );
+        setTotalCount(monstersWithLocation.length);
+        
+        // 根据选择的数量显示
+        const displayedMonsters = displayCount === -1 
+          ? monstersWithLocation 
+          : monstersWithLocation.slice(0, displayCount);
+
+        setMonsters(displayedMonsters);
       } catch (error) {
         console.error('Failed to load monsters:', error);
       }
     };
     loadAllMonsters();
-  }, []);
+  }, [displayCount]);
 
   // 计算弹窗位置
   const calculatePopupPosition = (markerPosition: any, mapSize: any) => {
@@ -210,6 +227,33 @@ const MapPage: React.FC = () => {
         onSearch={handleSearch}
         searchPlaceholder="搜索妖怪..."
       />
+
+      <div className="absolute top-24 right-4 z-10">
+        <div className="bg-white rounded-lg shadow-lg p-4">
+          <div className="space-y-4">
+            <div className="text-sm text-gray-600">
+              当前显示: {monsters.length} / {totalCount}
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {displayOptions.map(option => (
+                <button
+                  key={option.value}
+                  onClick={() => setDisplayCount(option.value)}
+                  className={`flex items-center gap-2 px-3 py-1.5 rounded-lg transition-colors duration-300
+                    ${displayCount === option.value
+                      ? 'bg-gray-800 text-white' 
+                      : 'bg-gray-100 text-gray-800 hover:bg-gray-200'}`}
+                >
+                  <Eye className="w-4 h-4" />
+                  <span className="text-sm">
+                    {option.label}
+                  </span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="pt-24 h-full">
         <div ref={mapContainer} className="w-full h-full" />

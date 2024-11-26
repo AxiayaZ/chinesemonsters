@@ -32,13 +32,16 @@ router.get('/', async (req, res) => {
       ];
     }
 
+    // 如果请求的 limit 大于 1000，则获取所有数据
+    const shouldGetAll = parseInt(limit) > 1000;
+    
     const allMonsters = await getAllMonsters(query);
     const total = allMonsters.length;
     
-    // 手动处理分页
-    const startIndex = (Number(page) - 1) * Number(limit);
-    const endIndex = startIndex + Number(limit);
-    const monsters = allMonsters.slice(startIndex, endIndex);
+    // 根据是否需要获取所有数据来决定是否分页
+    const monsters = shouldGetAll ? 
+      allMonsters : 
+      allMonsters.slice((Number(page) - 1) * Number(limit), Number(page) * Number(limit));
 
     res.json({
       monsters,
