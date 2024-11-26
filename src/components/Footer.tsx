@@ -58,7 +58,8 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-3 text-white">关于我们</h3>
             <p className="text-gray-400 text-sm leading-relaxed">
               中国妖怪百科致力于收集、整理和展示中国传统文化中的妖怪故事，
-              让更多人了解这些蕴含丰富文化内涵的民间传说。
+              让更多人了解这些蕴含丰富文化内涵的民间传说。<br />
+              本网站所有妖怪信息和分类依据都参考自《中国妖怪故事》 (张云著)，仅供学习和交流使用。
             </p>
           </div>
 
