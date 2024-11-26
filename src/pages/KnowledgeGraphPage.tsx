@@ -18,7 +18,7 @@ const MOCK_BOOKS: Book[] = [
   {
     id: '1',
     title: '山海经',
-    imageUrl: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73',
+    imageUrl: 'https://i.ibb.co/sWJTf8q/shanhaijing.jpg',
     description: '中国古代神话地理著作，记载了众多神异生物',
     era: '战国',
     author: '佚名',
@@ -27,7 +27,7 @@ const MOCK_BOOKS: Book[] = [
   {
     id: '2',
     title: '搜神记',
-    imageUrl: 'https://images.unsplash.com/photo-1516541196182-6bdb0516ed27',
+    imageUrl: 'https://i.ibb.co/8KjM88P/soushenji.png',
     description: '记录魏晋时期的志怪故事',
     era: '东晋',
     author: '干宝',
@@ -36,7 +36,7 @@ const MOCK_BOOKS: Book[] = [
   {
     id: '3',
     title: '聊斋志异',
-    imageUrl: 'https://images.unsplash.com/photo-1533327325824-76bc4e62d560',
+    imageUrl: 'https://i.ibb.co/yBQYhMw/liaozhaizhiyi.jpg',
     description: '清代蒲松龄创作的志怪小说集',
     era: '清代',
     author: '蒲松龄',

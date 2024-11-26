@@ -12,22 +12,22 @@ import ErrorBoundary from './components/ErrorBoundary';
 const categories = [
   {
     type: '妖',
-    imageUrl: 'https://i.ibb.co/ky626kg/yao2.png',
+    imageUrl: 'https://i.ibb.co/Xxfgmk3/3.jpg',
     description: ''
   },
   {
     type: '精',
-    imageUrl: 'https://i.ibb.co/myxRDW7/jing2.png',
+    imageUrl: 'https://i.ibb.co/VvMjqmm/4.jpg',
     description: ''
   },
   {
     type: '鬼',
-    imageUrl: 'https://i.ibb.co/zhP2Nwb/gui2.png',
+    imageUrl: 'https://i.ibb.co/MkvhrfT/1.jpg',
     description: ''
   },
   {
     type: '怪',
-    imageUrl: 'https://i.ibb.co/jf5kCZD/guai2.png',
+    imageUrl: 'https://i.ibb.co/7Jnb34y/2.jpg',
     description: ''
   }
 ];
