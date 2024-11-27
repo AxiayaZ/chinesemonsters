@@ -19,6 +19,10 @@ const CategoryPage: React.FC = () => {
   const [totalPages, setTotalPages] = useState(1);
 
   useEffect(() => {
+    setCurrentPage(1);
+  }, [type]);
+
+  useEffect(() => {
     const fetchMonsters = async () => {
       try {
         setLoading(true);
