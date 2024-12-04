@@ -57,7 +57,7 @@ const Header: React.FC<HeaderProps> = ({
           {/* Logo区域 */}
           <div className="w-40 h-20 flex items-center justify-center ml-4">
             <img 
-              src="https://i.ibb.co/B371b9M/xixi.jpg" 
+              src="https://i.ibb.co/G2FZ12z/icon.jpg" 
               alt="Chinese Monsters Logo" 
               className="h-16 w-auto object-contain rounded-lg"
               onClick={() => navigate('/')}

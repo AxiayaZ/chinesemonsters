@@ -25,6 +25,8 @@ The Chinese Monster Encyclopedia is a digital platform that brings ancient Chine
 - Interactive node exploration
 - Zoom and pan capabilities
 - Detailed information panels
+- Currently includes partial content from "山海经" (Classic of Mountains and Seas)
+  - Note: Knowledge graph data is currently limited to "山海经" content, with plans for future expansion to include other classical texts
 
 ### 4. Monster Details
 - Comprehensive information about each creature
