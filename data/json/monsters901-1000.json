@@ -1,0 +1,2516 @@
+[{
+  "_id": {
+    "$oid": "6742c49f2b69d643a894f1df"
+  },
+  "name": "狨",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/ZLd2bh5/bp28e74p.png",
+  "appearance": "形似猿猴，尾巴极长，尾毛红色。",
+  "distribution": "宝鸡、四川",
+  "abilities": [
+    "领导猿猴",
+    "挑选猎物",
+    "预知天气"
+  ],
+  "description": "狨是一种神秘的生物，据说在山林中，猿猴见到它都会俯首帖耳，不敢直视。狨会选择肥壮的猿猴作为食物。四川的狨鼻孔朝天，能预知天气变化，以避免雨水进入鼻孔致命。",
+  "sources": [
+    {
+      "book": "识小录·卷之三",
+      "content": "狨，猿猴之长，尾长毛红，山林之中，猿猴千百成群，狨至则俯首帖耳，不敢视。"
+    },
+    {
+      "book": "广阳杂记·卷三",
+      "content": "狨，四川多有之，鼻孔反向翻着朝天，见云聚雷鸣，则避之。"
+    }
+  ],
+  "location": {
+    "lat": 31.8612,
+    "lng": 107.3253
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c52b2b69d643a894f1e0"
+  },
+  "name": "柔利人",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/nwfZGcm/d6385973e74561455650d43740ee291a.jpg",
+  "appearance": "一只手一只脚，膝盖反长，脚弯曲朝上。",
+  "distribution": "柔利国",
+  "abilities": [
+    "单手单脚行动",
+    "反关节行走"
+  ],
+  "description": "柔利人是一种奇特的生物，仅一只手和一只脚，膝盖反向生长，脚弯曲朝上，形态怪异。",
+  "sources": [
+    {
+      "book": "山海经·卷八",
+      "content": "柔利国在一目国的东面，那里的人是一只手一只脚，膝盖反长，脚弯曲朝上。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c5462b69d643a894f1e1"
+  },
+  "name": "肉翅虎",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "比虎小，胁下生有双翅，翅膀如同蝙蝠。",
+  "distribution": "石抱山、广西桐谿",
+  "abilities": [
+    "飞行",
+    "食人",
+    "辟鬼"
+  ],
+  "description": "肉翅虎是一种罕见的怪物，体型小于普通虎，但胁下生有类似蝙蝠的双翅，能飞行捕食人类，其皮毛据说能辟邪避鬼。",
+  "sources": [
+    {
+      "book": "居易录·卷十六",
+      "content": "肉翅虎出于石抱山，胁下生有双翅，飞而食人，人难捕之。"
+    },
+    {
+      "book": "粤西偶记",
+      "content": "肉翅虎之皮，传说可以辟鬼。"
+    }
+  ],
+  "location": {
+    "lat": 23.8298,
+    "lng": 108.7881
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c5872b69d643a894f1e2"
+  },
+  "name": "肉球",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "巨大的肉球，无明显肢体特征。",
+  "distribution": "广西镇安府",
+  "abilities": [
+    "跳跃",
+    "隐形"
+  ],
+  "description": "肉球是一种神秘的生物，常在官府衙门出现，形如巨大的肉球，能够跳跃并快速消失不见，其真实性质不明。",
+  "sources": [
+    {
+      "book": "瓠剩·卷八",
+      "content": "清代广西镇安府通判办公时，常见两个大肉脚从屋檐上伸下来，接着有个巨大的肉球滚到案前。"
+    }
+  ],
+  "location": {
+    "lat": 23.3399,
+    "lng": 106.6303
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c59e2b69d643a894f1e3"
+  },
+  "name": "三身人",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/M8pYCTQ/d39daf8c025635a835186cff3ce759b9.jpg",
+  "appearance": "一个脑袋，三个身子。",
+  "distribution": "三身国",
+  "abilities": [
+    "多肢行动",
+    "协作"
+  ],
+  "description": "三身人是一种奇特的生物，拥有一个脑袋和三个身子，其具体生活习性和能力不详，仅见于古籍记载。",
+  "sources": [
+    {
+      "book": "山海经·卷七",
+      "content": "三身国在夏后启所在之地的北面，那里的人都长着一个脑袋、三个身子。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c5dc2b69d643a894f1e5"
+  },
+  "name": "三首人",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/J7Dck0S/d32507cfd97d669c86e1990704fb6971.jpg",
+  "appearance": "一个身子，三个头。",
+  "distribution": "三首国",
+  "abilities": [
+    "多视角观察",
+    "多头协作"
+  ],
+  "description": "三首人是一种神秘的生物，拥有一个身子和三个头，其具体生活习性和能力不详，仅见于古籍记载。",
+  "sources": [
+    {
+      "book": "山海经·卷六",
+      "content": "三首国的人，都是一个身子、三个头。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c5fd2b69d643a894f1e6"
+  },
+  "name": "三足鳖",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/4PJZZTM/f3d0ea0c9357a6aa11c91c6a0e7930d7.jpg",
+  "appearance": "长着叉开的尾巴，三足。",
+  "distribution": "从山",
+  "abilities": [
+    "水生",
+    "治愈疑心病"
+  ],
+  "description": "三足鳖是一种奇特的水生生物，长有三足和叉开的尾巴，据说食用其肉可以治愈疑心病。",
+  "sources": [
+    {
+      "book": "山海经·卷五",
+      "content": "从山上到处是松树和柏树，山下有茂密的竹丛。从水由这座山的山顶上发源，潜流到山下，水中有很多三足鳖，长着叉开的尾巴，吃了它的肉就能使人不患疑心病。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c6162b69d643a894f1e7"
+  },
+  "name": "三足乌",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/9W00260/0de53569d3d38cc9f3095135956b70e7.jpg",
+  "appearance": "三足，大如鸡，红色，头上长着一寸多长的角。",
+  "distribution": "沛国、代郡高柳",
+  "abilities": [
+    "太阳之精",
+    "祥瑞象征"
+  ],
+  "description": "三足乌被认为是太阳之精，象征着阳的奇数特性。历史上有多次三足乌出现的记录，被视为大祥瑞。",
+  "sources": [
+    {
+      "book": "东观汉记校注·卷二",
+      "content": "汉章帝元和二年，三足乌云集沛国，三年，代郡高柳这个地方有乌鸦生下三足乌，大如鸡，红色，头上长着一寸多长的角。"
+    },
+    {
+      "book": "后汉书·志第十",
+      "content": "注引《灵宪》记载三足乌的出现。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c6272b69d643a894f1e8"
+  },
+  "name": "丧门",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "人头蛇身，脑袋上戴着帽子。",
+  "distribution": "开封、北京",
+  "abilities": [
+    "带来不祥",
+    "瘟疫传播"
+  ],
+  "description": "丧门是一种不祥的怪物，人头蛇身，据说其出现会带来灾难和瘟疫。",
+  "sources": [
+    {
+      "book": "明道杂志",
+      "content": "宋代有个叫杨国宝的人，梦见一条蛇，脑袋上戴着帽子。传说蛇头戴冠，名为“丧门”，大不祥。"
+    },
+    {
+      "book": "寄园寄所寄·卷之五",
+      "content": "崇祯十六年春天，北京有个巡捕军士在棋盘街值守，半夜，一个老头叮嘱他们说：“夜半子时，如果有个穿着孝服的女子哭哭啼啼从西边朝东边来，一定不能让她经过，如果经过了，那就会带来祸害。我是此处的土地神，特意来告诉你们。”"
+    }
+  ],
+  "location": {
+    "lat": 39.9042,
+    "lng": 116.4074
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c6422b69d643a894f1e9"
+  },
+  "name": "扫晴娘",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "手提扫帚的女子或娃娃，头上可能长出莲花。",
+  "distribution": "北京、陕西、河南、河北、甘肃、江苏",
+  "abilities": [
+    "止雨",
+    "祈晴"
+  ],
+  "description": "扫晴娘是中国民间祈祷雨止天晴时，挂在屋檐下的剪纸妇人像或者娃娃像，流行于多个地区。",
+  "sources": [
+    {
+      "book": "扫晴妇",
+      "content": "元代李俊民所作《扫晴妇》一诗写道：“卷袖搴裳手持帚，挂向阴空便摇手。”"
+    },
+    {
+      "book": "燕京岁时记",
+      "content": "清代时，每到六月的雨季，如果雨天连绵不晴，北京的妇女就会用纸剪出扫晴娘，贴在门楣上，以祈求它能够扫去阴霾，迎来晴天。"
+    }
+  ],
+  "location": {
+    "lat": 39.9042,
+    "lng": 116.4074
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c6962b69d643a894f1ea"
+  },
+  "name": "沙魇",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "能使人半夜自行打自己，具体形象不明。",
+  "distribution": "湖南益阳州",
+  "abilities": [
+    "使人自伤",
+    "夜行"
+  ],
+  "description": "沙魇是一种在湖南益阳州出现的妖怪，能使人半夜起来自行打自己，需用冷水和汤水唤醒，醒来后会像醉酒般昏沉。",
+  "sources": [
+    {
+      "book": "山居新语",
+      "content": "在湖南益阳州，有的人半夜爬起来自己打自己，凡是遇到这种情况，当地人认为是一种名为沙魇的妖怪作祟。"
+    }
+  ],
+  "location": {
+    "lat": 28.5707,
+    "lng": 112.3648
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c6ba2b69d643a894f1eb"
+  },
+  "name": "山大人",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长得像人，全身长毛，黑色，一丈多高。",
+  "distribution": "福建沙县西北一百二十里剑山",
+  "abilities": [
+    "高大",
+    "长毛"
+  ],
+  "description": "山大人是福建沙县剑山中的一种妖怪，长得像人但全身长毛，黑色，一丈多高，见到人会笑，上唇盖眼，下唇盖胸。",
+  "sources": [
+    {
+      "book": "太平寰宇记·卷之一百",
+      "content": "福建沙县西北一百二十里有座剑山，山中有种妖怪，长得像人，全身长毛，黑色，一丈多高，看到人就会笑。"
+    }
+  ],
+  "location": {
+    "lat": 26.4461,
+    "lng": 117.7986
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c6d52b69d643a894f1ec"
+  },
+  "name": "山犊",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形如关中牛，常与蛇共处。",
+  "distribution": "新昌山洞",
+  "abilities": [
+    "与蛇共处",
+    "夜行"
+  ],
+  "description": "山犊是新昌山洞中的一种怪物，形如关中牛，常与蛇共处一洞，当地人通过摸舌辨识牵回家。",
+  "sources": [
+    {
+      "book": "异物志",
+      "content": "新昌这个地方，山洞里有山犊，长得如同关中的牛，经常和蛇待在同一个山洞。"
+    }
+  ],
+  "location": {
+    "lat": 29.4993,
+    "lng": 119.6255
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c71e2b69d643a894f1ee"
+  },
+  "name": "山膏",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状像小猪，身上红如丹火。",
+  "distribution": "苦山",
+  "abilities": [
+    "喜骂人",
+    "红色"
+  ],
+  "description": "山膏是苦山中的一种野兽，形状像小猪，身上红得如同丹火，喜欢骂人。",
+  "sources": [
+    {
+      "book": "山海经·卷五",
+      "content": "苦山中有一种野兽，名为山膏，形状像普通的小猪，身上红得如同丹火，喜欢骂人。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c7362b69d643a894f1ef"
+  },
+  "name": "山和尚",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "穿着僧人的衣服，光头，青面獴牙，矮胖。",
+  "distribution": "河南、浙江於潜县",
+  "abilities": [
+    "食人脑",
+    "夜行"
+  ],
+  "description": "山和尚是一种妖怪，穿着僧人的衣服，光头，青面獴牙，矮胖，喜欢吃人的脑子，常在山中出没。",
+  "sources": [
+    {
+      "book": "子不语·卷十八",
+      "content": "清代有个李某到河南，碰到大水，爬到山上躲避。水势很大，不断上涨，李某就往更高的地方爬。当时已经日暮，李某看见一个低矮的草房，是种地的山民夜里巡视时居住的地方，里头铺着稻草，放着一个竹子做成的梆子。李某住在里面，半夜时，听到踏水声，爬起来，看见一个又黑又矮的胖和尚划着水往这边游来。"
+    },
+    {
+      "book": "咫闻录·卷四",
+      "content": "浙江於潜县岩峦纵错，有很多怪异的事发生。有个叫谭升的人，住在县城百里外，有天入城探亲，回来时天黑了，就住在路边的一间茅屋里。半夜时，谭升在月光中看到山腰里有个妖怪，穿着僧人的衣服，光着脑袋，青面獴牙，飞奔而下。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c7522b69d643a894f1f0"
+  },
+  "name": "山臊",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "高一尺多，赤裸身体，以捕捉虾蟹为生。",
+  "distribution": "大地的西方深山中",
+  "abilities": [
+    "捕捉虾蟹",
+    "偷盗食盐"
+  ],
+  "description": "山臊是深山中的一种妖怪，高一尺多，赤裸身体，以捕捉虾蟹为生，不怕人，喜欢靠近人的居所，晚上对着火烤虾蟹，看到人不在，就偷盗人家的盐。",
+  "sources": [
+    {
+      "book": "神异经",
+      "content": "大地的西方，深山中有一种妖怪，高一尺多，赤裸身体，以捕捉虾蟹为生。不怕人，喜欢靠近人的居所，晚上对着火烤虾蟹，看到人不在，就偷盗人家的盐。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c7652b69d643a894f1f1"
+  },
+  "name": "山魈",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "独脚，脚后跟长在脚前，手和脚各只有三根指头，雌性喜欢涂抹脂粉。",
+  "distribution": "岭南",
+  "abilities": [
+    "独脚行动",
+    "筑巢"
+  ],
+  "description": "山魈是岭南的一种怪物，独脚，脚后跟长在脚前，手和脚各只有三根指头。雌性的喜欢涂抹脂粉。它们在大树洞里筑巢，用木头制成屏风幔帐之类的东西。",
+  "sources": [
+    {
+      "book": "广异记",
+      "content": "山魈是岭南的一种怪物，独脚，脚后跟长在脚前，手和脚各只有三根指头。雌性的喜欢涂抹脂粉。"
+    }
+  ],
+  "location": {
+    "lat": 23.1292,
+    "lng": 113.2644
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c7782b69d643a894f1f3"
+  },
+  "name": "上方山寺怪",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "如大伞的黑手，具体形象不明。",
+  "distribution": "房山县上方山寺院",
+  "abilities": [
+    "隐形",
+    "攻击"
+  ],
+  "description": "上方山寺怪是上方山寺院中的妖怪，据说有两个无赖在寺院中过夜时遭遇，表现为如大伞的黑手，攻击后消失，导致整个上院被毁。",
+  "sources": [
+    {
+      "book": "寄园寄所寄·卷之五",
+      "content": "房山县上方山有个寺院，寺院分上院和下院，相距不远，上院已经被遗弃，封闭多年。有两个无赖强迫僧人打开，结果没有发现什么异常。"
+    }
+  ],
+  "location": {
+    "lat": 39.7456,
+    "lng": 115.8629
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c7932b69d643a894f1f4"
+  },
+  "name": "奢比尸",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长着野兽的身子、人的面孔、大大的耳朵，耳朵上穿挂着两条青蛇。",
+  "distribution": "战国时期记载",
+  "abilities": [
+    "异兽之身",
+    "蛇耳"
+  ],
+  "description": "奢比尸是一种奇异的怪物，长着野兽的身子、人的面孔、大大的耳朵，耳朵上穿挂着两条青蛇，形象神秘而恐怖。",
+  "sources": [
+    {
+      "book": "山海经·卷九",
+      "content": "奢比尸，长着野兽的身子、人的面孔、大大的耳朵，耳朵上穿挂着两条青蛇。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c7a82b69d643a894f1f5"
+  },
+  "name": "蛇藤",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "状如青藤，无枝叶，内含卵，卵似鸭蛋，一端像蛇的脸。",
+  "distribution": "苏州",
+  "abilities": [
+    "生长迅速",
+    "流血叫"
+  ],
+  "description": "蛇藤是一种奇特的植物，状如青藤但无枝叶，砍伐后会流血并发出叫声，内含一枚卵，似鸭蛋，一端像蛇的脸，十分诡异。",
+  "sources": [
+    {
+      "book": "异苑·卷八",
+      "content": "晋代孝武帝太元十二年，苏州有个人临水而居，一天看到水中出现一个奇怪的东西，状如青藤，但是没有枝叶，没到几天就长得很粗很大。"
+    }
+  ],
+  "location": {
+    "lat": 31.2981,
+    "lng": 120.5853
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c7f92b69d643a894f1f6"
+  },
+  "name": "身中鸟",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "从人体囊肿中飞出的小鸟。",
+  "distribution": "陇西、其他地方",
+  "abilities": [
+    "自我治愈",
+    "飞行"
+  ],
+  "description": "身中鸟是从人体囊肿中飞出的神秘小鸟，象征着疾病和痛苦的释放。",
+  "sources": [
+    {
+      "book": "宣室志",
+      "content": "唐朝有个姓李的书生，家在陇西，他的左乳处长着一个巨大的囊肿，化脓溃烂，十分痛苦。有一天，这个大囊肿破掉了，有一只小鸟从中飞出，很快不见了。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c81b2b69d643a894f1f7"
+  },
+  "name": "深目人",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "总是举起一只手，手上长着一只眼睛。",
+  "distribution": "深目国",
+  "abilities": [
+    "额外的视觉"
+  ],
+  "description": "深目人是一种奇特的生物，他们总是举起一只手，手上长着一只眼睛，这种独特的生理结构使他们拥有额外的视觉能力。",
+  "sources": [
+    {
+      "book": "山海经·卷八",
+      "content": "深目国的人总是举起一只手，手上长着一只眼睛。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c8312b69d643a894f1f8"
+  },
+  "name": "神獒",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "巨大的狗，双目如炬。",
+  "distribution": "北京宣武门外",
+  "abilities": [
+    "夜行",
+    "食人"
+  ],
+  "description": "神獒是一种传说中的巨大狗，双目如炬，常在夜间出现，后面跟着成百上千的狗。如果有人碰到，就会被它吃掉。",
+  "sources": [
+    {
+      "book": "右台仙馆笔记·卷九",
+      "content": "清代时，北京宣武门外传说有神獒，经常夜里出现，后面跟着成百上千的狗。如果有人碰到，就会被它吃掉。"
+    }
+  ],
+  "location": {
+    "lat": 39.8789,
+    "lng": 116.3765
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c86a2b69d643a894f1f9"
+  },
+  "name": "蜃气",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "海市蜃楼，幻化出山、云气、佛塔等景象。",
+  "distribution": "青海湖",
+  "abilities": [
+    "幻化",
+    "迷惑"
+  ],
+  "description": "蜃气是一种自然现象，能在海面上幻化出山、云气、佛塔等景象，令人迷惑，不知其真假。",
+  "sources": [
+    {
+      "book": "夜谭随录·卷一",
+      "content": "山西平遥有个姓陶的商人，贩卖货物去巴里坤，路过青海湖。当时大雨刚刚停下，青海湖上浓雾笼罩，看不清山色。陶某喜欢这景色，就停下来站在一棵树下欣赏。过了一会儿，隐隐看到海中并列出现两座山，中间有一抹云气。"
+    }
+  ],
+  "location": {
+    "lat": 36.6255,
+    "lng": 100.9001
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c8a12b69d643a894f1fa"
+  },
+  "name": "狌狌",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状如同猿猴，长着白色的耳朵，跑的时候四肢着地，走路的时候直立如人。",
+  "distribution": "䧿山",
+  "abilities": [
+    "直立行走",
+    "善于奔跑"
+  ],
+  "description": "狌狌是一种形状如同猿猴的怪兽，长着白色的耳朵，跑的时候四肢着地，走路的时候直立如人，吃它的肉，就会变得善于行走。",
+  "sources": [
+    {
+      "book": "山海经·卷一",
+      "content": "䧿山上有一种怪兽，形状如同猿猴，长着白色的耳朵，跑的时候四肢着地，走路的时候直立如人，名为狌狌，吃它的肉，就会变得善于行走。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c8cb2b69d643a894f1fb"
+  },
+  "name": "圣",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "像人，高一丈，肚子周围九尺，踩着鬼蛇，头戴朱鸟的羽毛，右手拿着青龙，左手拿着白虎。",
+  "distribution": "西南大荒",
+  "abilities": [
+    "知万物",
+    "通鸟兽语",
+    "预知"
+  ],
+  "description": "圣是一种神奇的生物，据说知道山石、河海的多少，了解天下鸟兽的语言，知晓百谷草木的咸苦。如果人看到了，跪拜它，就会变得聪明。",
+  "sources": [
+    {
+      "book": "神异经",
+      "content": "西南大荒中，有妖物像人，高一丈，肚子周围九尺，踩着鬼蛇，头戴朱鸟的羽毛，右手拿着青龙，左手拿着白虎，知道山石有多少，知道河海有水多少，知道天下鸟兽的语言，知道百谷草木的咸苦，名为圣，也叫哲，或者先、无不通。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c91a2b69d643a894f1fd"
+  },
+  "name": "胜遇",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状像野鸡，通身红色。",
+  "distribution": "玉山",
+  "abilities": [
+    "食鱼",
+    "引发水灾"
+  ],
+  "description": "胜遇是一种形状像野鸡但通身红色的禽鸟，能吃鱼类，发出的声音如同鹿在叫，在哪个国家出现就会使哪个国家发生水灾。",
+  "sources": [
+    {
+      "book": "山海经·卷二",
+      "content": "玉山中有一种禽鸟，形状像野鸡却通身是红色，名为胜遇，能吃鱼类，发出的声音如同鹿在叫，在哪个国家出现就会使哪个国家发生水灾。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c92b2b69d643a894f1fe"
+  },
+  "name": "石姑",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "从鸟蛋变成的女子。",
+  "distribution": "山西翼城县龙女村",
+  "abilities": [
+    "变化",
+    "赐福"
+  ],
+  "description": "石姑原是一枚鸟蛋，被张老夫妇捡到后变成一位女子，与他们居住在一起，让他们衣食无忧。后来，女子走入石姑山的石缝中，消失不见。",
+  "sources": [
+    {
+      "book": "山西通志",
+      "content": "山西翼城县北十五里的龙女村有个水潭，传说有对张老夫妇在水潭旁边捡到一枚鸟蛋，拿着回家，变成一位女子。女子和张老夫妇居住在一起，让他们衣食无忧。后来，女子走入石姑山的石缝中，消失不见。"
+    }
+  ],
+  "location": {
+    "lat": 35.7243,
+    "lng": 111.6782
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c94a2b69d643a894f1ff"
+  },
+  "name": "石掬",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长得像猴子，但比猴子小，只有一尺多高，能变大到一丈多高。",
+  "distribution": "湖南道州山中",
+  "abilities": [
+    "变化体型",
+    "食猴脑"
+  ],
+  "description": "石掬是一种长得像猴子但体型较小的怪物，能跳上石台变大，专门吃猴脑，其出现常伴随着大量猴子的聚集和失踪。",
+  "sources": [
+    {
+      "book": "异物志",
+      "content": "从湖南往道州去，途经一座山，山里面有漆树，山上猴子很多，经常出来骚扰人。有个叫爱堂居士的人到这座山游玩，远远看到悬崖上有很多枯松，枝条晃动，走近看，发现都是猴子，数目约有六七万，老少公母都有，叫声凄惨，仿佛在啼哭。过了一会儿，有两个猴子从上面的悬崖过来，冲众猴招手，下面的猴子纷纷起来，扶老携幼，沿着悬崖往上爬，来到一个石台跟前。忽然有大风刮过，石台后面出现一个怪物。这个怪物长得像猴子，但是比猴子小多了，只有一尺多高，猴子们见到，纷纷匍匐在地。这猴子跳上石台，站起来，身体忽然变大，足有一丈多高。过了一会儿，这怪兽冲猴群招了招手，一只猴子来到它的跟前跪倒，怪物就伸出手，将猴子的头皮揭开，津津有味地吃起猴脑。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c9662b69d643a894f200"
+  },
+  "name": "石鱼",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "鱼形，长四寸多，鱼鳞如同真的一样，可变石。",
+  "distribution": "青城县",
+  "abilities": [
+    "变石",
+    "复活"
+  ],
+  "description": "石鱼是一种神奇的鱼类，放在水里就变成正常的鱼，捞出来就变成石头，具有复活的能力，但一旦被破坏就无法再次复活。",
+  "sources": [
+    {
+      "book": "茅亭客话",
+      "content": "宋代青城县有个打鱼的叫李克明，一天钓鱼回来，把竹篓里面的鱼倒进盆里，一条鱼忽然变成了石头，长四寸多，鱼鳞如同真的一样。李克明的妻子很喜欢，就拿出来给儿子玩。儿子把鱼放在盛满水的碗里，鱼就活了。这条鱼放在水里面就变成正常的鱼，捞出来就变成石头，看到的人都觉得惊奇。后来有人把这条石鱼敲断了，鱼就再也没有活过来。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c9b82b69d643a894f201"
+  },
+  "name": "矢魔",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状如同一个大布袋子，臭气熏天。",
+  "distribution": "蒲阴",
+  "abilities": [
+    "散发臭气",
+    "污染衣物"
+  ],
+  "description": "矢魔是一种妖怪，形状如同一个大布袋子，经常晚上出来，臭气熏天。人们闻到臭味，就知道它会过来，赶紧躲避。这个妖怪不会害人，如果躲闪不及，衣服上就会被浇上屎尿，臭不可闻。",
+  "sources": [
+    {
+      "book": "醉茶志怪",
+      "content": "清代时，蒲阴这个地方有妖怪，名为矢魔，形状如同一个大布袋子，经常晚上出来，臭气熏天。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c9d42b69d643a894f202"
+  },
+  "name": "视肉",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状像牛肝，有两只眼睛。",
+  "distribution": "未明确",
+  "abilities": [
+    "再生",
+    "自愈"
+  ],
+  "description": "视肉是一种传说中的怪兽，形状像牛肝，有两只眼睛，割去它的肉吃了后，不长时间就又重新生长出来，完好如故。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "视肉，是传说中的一种怪兽，形状像牛肝，有两只眼睛，割去它的肉吃了后，不长时间就又重新生长出来，完好如故。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742c9ed2b69d643a894f203"
+  },
+  "name": "孰湖",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "马的身子却长着鸟的翅膀，人的面孔却有蛇的尾巴。",
+  "distribution": "嶠峨山",
+  "abilities": [
+    "飞行",
+    "变身"
+  ],
+  "description": "孰湖是一种奇特的野兽，马的身子却长着鸟的翅膀，人的面孔却有蛇的尾巴，很喜欢把人抱着举起。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "嶠峨山中有一种野兽，马的身子却长着鸟的翅膀，人的面孔却有蛇的尾巴，很喜欢把人抱着举起，名为孰湖。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742ca052b69d643a894f204"
+  },
+  "name": "鼠兽",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长四尺，马蹄牛尾，形状如同猿猴，有两个乳房，声音好像婴儿。",
+  "distribution": "武仙县",
+  "abilities": [
+    "繁殖",
+    "变形"
+  ],
+  "description": "鼠兽是一种怪物，长四尺，马蹄牛尾，形状如同猿猴，有两个乳房，声音好像婴儿。一只母鼠兽只有一个孩子。它把尿排泄在地上，就能成为一只幼崽。这种东西出现，会招来天灾。",
+  "sources": [
+    {
+      "book": "太平寰宇记",
+      "content": "武仙县这个地方，有一种怪物名为鼠兽，长四尺，马蹄牛尾，形状如同猿猴，有两个乳房，声音好像婴儿。一只母鼠兽只有一个孩子。它把尿排泄在地上，就能成为一只幼崽。这种东西出现，会招来天灾。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742ca592b69d643a894f205"
+  },
+  "name": "数斯",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状像鹞鹰，却长着人一样的脚。",
+  "distribution": "皋涂山",
+  "abilities": [
+    "治愈",
+    "飞行"
+  ],
+  "description": "数斯是一种禽鸟，形状像鹞鹰，却长着人一样的脚，吃了它的肉就能治愈人脖子上的赘瘤病。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "皋涂山中有一种禽鸟，形状像鹞鹰，却长着人一样的脚，名为数斯，吃了它的肉就能治愈人脖子上的赘瘤病。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742ca772b69d643a894f206"
+  },
+  "name": "水底小儿",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "如同小孩，每两个为一伙，乘坐轻便小车，让黄羊拉着。",
+  "distribution": "江西滥口",
+  "abilities": [
+    "水中生活",
+    "引人入水"
+  ],
+  "description": "水底小儿是传说中的水中生物，形似小孩，常在夜深人静时出现，每两个为一伙，乘坐轻便小车，让黄羊拉着，睁大眼睛向上看，十分可恶的样子。",
+  "sources": [
+    {
+      "book": "太平广记",
+      "content": "东晋时，温崎等人平定了苏峻的叛乱，来到江西的滥口，他试着照了一次水底，果然看见一座寺庙显耀盛大，里面有很多人，又看见不少小孩子，每两个为一伙，乘坐轻便小车，让黄羊拉着，睁大眼睛向上看，十分可恶的样子。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742cb402b69d643a894f207"
+  },
+  "name": "水猴",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长得如同猕猴，能从水中跳到船上。",
+  "distribution": "无锡水域",
+  "abilities": [
+    "水中跳跃",
+    "食肉"
+  ],
+  "description": "水猴是一种水中怪物，长得如同猕猴，能从水中跳到船上，向人索要肉食，接住肉后跳回水中消失。",
+  "sources": [
+    {
+      "book": "睽车志",
+      "content": "宋代时，有个叫陈森的人夜里在无锡住宿，儿子陈充急忙找来大船，去接父亲。夜晚，陈充担心父亲的病情，在船里辗转反侧。三更时分，有人看到有个怪物长得如同猕猴，从水中跳出来落到船上，大船顿时变得快要沉没，船里的人都很害怕，呵斥那怪物。怪物向那些人要肉，有人扔给了它，它接住肉跳进水中消失了。"
+    }
+  ],
+  "location": {
+    "lat": 31.4699,
+    "lng": 120.3119
+  }
+},
+{
+  "_id": {
+    "$oid": "6742cb692b69d643a894f208"
+  },
+  "name": "水虎",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长得如同三四岁的小孩，全身满是坚硬的鳞甲。",
+  "distribution": "汉水",
+  "abilities": [
+    "伪装",
+    "引诱"
+  ],
+  "description": "水虎是一种水中妖怪，长得如同三四岁的小孩，全身满是坚硬的鳞甲，刀枪不入。喜欢在河滩上晒太阳，用膝盖引诱小孩，拖入水中吃掉。",
+  "sources": [
+    {
+      "book": "南部新书",
+      "content": "汉水里面，有一种叫水虎的妖怪，长得如同三四岁的小孩，全身满是坚硬的鳞甲，刀枪不入。七八月间，水虎喜欢在河滩上晒太阳。它的膝盖长得和老虎的膝盖很像，爪子沉在水里，看到河边有小孩，就会把膝盖露出水面引诱，小孩不知道，过来玩弄，就会被它拖入水中吃掉。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742cb872b69d643a894f20a"
+  },
+  "name": "水马",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状与一般的马相似，但前腿上长有花纹，并拖着一条牛尾巴。",
+  "distribution": "求如山",
+  "abilities": [
+    "水中生活",
+    "发出人声"
+  ],
+  "description": "水马是一种水中生物，形状与一般的马相似，但前腿上长有花纹，并拖着一条牛尾巴，发出的声音像人呼喊。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "求如山上蕴藏着丰富的铜，山下有丰富的玉石，但没有花草树木。滑水从这座山发源，水中生长着很多水马，形状与一般的马相似，但前腿上长有花纹，并拖着一条牛尾巴，发出的声音像人呼喊。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742cbb72b69d643a894f20b"
+  },
+  "name": "水脉",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无头无尾，长一百多丈，蠢蠢而动，后全部变成水。",
+  "distribution": "句容河道",
+  "abilities": [
+    "变形",
+    "水源"
+  ],
+  "description": "水脉是一种奇怪的生物，无头无尾，长一百多丈，蠢蠢而动，过了一会儿，全部变成了水。据说水脉消失的地方始终都有水。",
+  "sources": [
+    {
+      "book": "异苑",
+      "content": "三国吴大帝孙权赤乌八年，有个叫陈勋的校尉疏通句容的河道，挖河底的一个破窑时，掘出一个奇怪的东西，没有头，也没有尾巴，长一百多丈，蠢蠢而动，过了一会儿，全部变成了水。有认识的人说这种怪物名为“水脉”。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742cd062b69d643a894f20c"
+  },
+  "name": "四老太",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "女子形象，塑像。",
+  "distribution": "云南大理赵州西门外十八里深潭",
+  "abilities": [
+    "控制天气",
+    "求雨"
+  ],
+  "description": "四老太是云南大理赵州西门外十八里深潭中的一个女子塑像，当地人在干旱时会向其求雨，据说能带来大雨。",
+  "sources": [
+    {
+      "book": "述异记",
+      "content": "清代云南大理赵州西门外十八里，有个深潭，那里塑着一个女子的像，当地人都称之为四老太。每到发生干旱的时候，官府就写下文牒送往城隍庙，然后到四老太跟前祭祀。"
+    }
+  ],
+  "location": {
+    "lat": 25.5348,
+    "lng": 100.2226
+  }
+},
+{
+  "_id": {
+    "$oid": "6742cd202b69d643a894f20d"
+  },
+  "name": "兕",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长相似牛，头上一只角，象征文德。",
+  "distribution": "黄河孟津渡",
+  "abilities": [
+    "水中行动",
+    "翻船"
+  ],
+  "description": "兕是一种长相似牛的独角兽，象征文德，古人常将其形象刻在青铜器上作为装饰。夜间喜欢独自站在山崖绝顶，听泉水的声响，直到天亮禽鸟鸣叫才返回巢穴。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "兕的长相似牛，头上一只角，又叫独角兽，象征文德。古人经常将見的形像刻在青铜器上作为装饰。"
+    },
+    {
+      "book": "夜航船",
+      "content": "商末，姜子牙为西周的司马，带领军队伐纣王，到黄河孟津渡的时候，对手下大声说：'仓兕！'所谓的仓兕，是水中的怪兽，过河的时候一定要快，慢了，仓兕就会把船打翻。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742cd872b69d643a894f20e"
+  },
+  "name": "竦斯",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状像一般的雌野鸡，却长着人的面孔。",
+  "distribution": "灌题山",
+  "abilities": [
+    "人面",
+    "跳跃"
+  ],
+  "description": "竦斯是灌题山中的一种禽鸟，形状像一般的雌野鸡，却长着人的面孔，一看见人就跳跃。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "灌题山中有一种禽鸟，形状像一般的雌野鸡，却长着人的面孔，一看见人就跳跃，名为竦斯。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742cd9e2b69d643a894f20f"
+  },
+  "name": "搜山大王",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "骑着白马、带着弓箭的人。",
+  "distribution": "温州瑞安",
+  "abilities": [
+    "索命",
+    "饶命"
+  ],
+  "description": "搜山大王是一个神秘的存在，据说在深山中行走的人如果遇到一个骑着白马、带着弓箭的人，就是搜山大王，向他求饶可以活命。",
+  "sources": [
+    {
+      "book": "夷坚志",
+      "content": "宋代温州瑞安有个道士叫王居常，后来还俗，去山东做生意，被捉拿，逃脱跑到了开封，晚上梦到有人对他说：'你明天应当死，如果遇到一个骑着白马、带着弓箭的人，就是杀你的人，赶紧叫他搜山大王，求他饶你一命。'"
+    }
+  ],
+  "location": {
+    "lat": 27.9938,
+    "lng": 120.7537
+  }
+},
+{
+  "_id": {
+    "$oid": "6742ce242b69d643a894f210"
+  },
+  "name": "酸与",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状像一般的蛇，却长有四只翅膀、六只眼睛、三只脚。",
+  "distribution": "景山",
+  "abilities": [
+    "多翼",
+    "多眼",
+    "多足"
+  ],
+  "description": "酸与是景山上的一种禽鸟，形状像一般的蛇，却长有四只翅膀、六只眼睛、三只脚，在哪里出现哪里就会发生使人惊恐的事情。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "景山上向南可以望见盐贩泽，向北可以望见少泽，山北阴面多出产赭石，山南阳面多出产玉石。山里有一种禽鸟，形状像一般的蛇，却长有四只翅膀、六只眼睛、三只脚，名为酸与，在哪里出现哪里就会发生使人惊恐的事情。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742d1792b69d643a894f211"
+  },
+  "name": "碎蛇",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "每天爬上树，掉下来摔碎后能迅速聚合成蛇。",
+  "distribution": "云南孟艮",
+  "abilities": [
+    "自愈",
+    "复原"
+  ],
+  "description": "碎蛇是一种神秘的蛇类，每天都会爬上树，掉下来就会摔得粉碎，但很快就能再次聚合成一条蛇，蜿蜒爬走。据说得到这种蛇，治疗跌打损伤、断骨效果很好。",
+  "sources": [
+    {
+      "book": "檐曝杂记",
+      "content": "传说云南孟艮这个地方，有一种怪物叫“碎蛇”，每天都会爬上树，掉下来就会摔得粉碎，不过很快就又会聚合成一条蛇，蜿蜒爬走。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742d1922b69d643a894f212"
+  },
+  "name": "太公",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长得像人，披头散发。",
+  "distribution": "宋代永嘉",
+  "abilities": [
+    "变形",
+    "赐福"
+  ],
+  "description": "太公是一种神秘的妖怪，长得像人，披头散发，在家中出现，能为家人带来所需物品。据说，如果请求太公帮助，他会在夜间送来所求之物。",
+  "sources": [
+    {
+      "book": "异闻总录",
+      "content": "宋代永嘉这个地方，有户姓项的人家，家中闹妖怪。经常有一个东西，长得像人，披头散发，自称太公，在家里出现。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742d21b2b69d643a894f213"
+  },
+  "name": "太社",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "穿着红衣服、戴着头帘的女子，脸上有十只眼睛。",
+  "distribution": "相州、宋代",
+  "abilities": [
+    "变形",
+    "预示未来"
+  ],
+  "description": "太社是一种神秘的妖怪，通常以穿着红衣服、戴着头帘的女子形象出现，脸上有十只眼睛，能够预示未来，特别是对官员的升迁有预示作用。",
+  "sources": [
+    {
+      "book": "异闻总录",
+      "content": "宋代宣和七年，相州有个读书人来京城，接到调任的命令，从封丘门出去赴任，看见一个穿着红衣服、戴着头帘的女子在马前赶路，相距十几步，而且孤零零一人，没有奴仆跟随。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742d23c2b69d643a894f214"
+  },
+  "name": "太岁",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "一块肉，大小不一，有眼睛。",
+  "distribution": "中国各地",
+  "abilities": [
+    "不祥之物",
+    "报复"
+  ],
+  "description": "太岁是一种传说中的不祥之物，通常埋在地下，如果被人挖到，会带来灾难。据说，打太岁几百鞭子可以免除祸患，但也有可能引发更大的灾难。",
+  "sources": [
+    {
+      "book": "广异记",
+      "content": "太岁是中国传说中的不祥之物，挖到太岁会招致灾祸。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6742d2562b69d643a894f215"
+  },
+  "name": "泰逢",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形貌像人，长着虎一样的尾巴，出入时都有闪光。",
+  "distribution": "和山",
+  "abilities": [
+    "控制水源",
+    "闪光"
+  ],
+  "description": "泰逢是和山的主宰，形貌像人，长着虎一样的尾巴，出入时都有闪光。和山是黄河中的九条水源所汇聚的地方，泰逢主管此地。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "和山上不生长花草树木，到处是瑶、碧一类的美玉，确实是黄河中的九条水源所汇聚的地方。这座山盘旋回转了五层，有九条水从这里发源，然后汇合起来向北流入黄河，水中有很多苍玉。泰逢主管这座山，它的形貌像人，却长着虎一样的尾巴，出入时都有闪光。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6743061c2b69d643a894f216"
+  },
+  "name": "饕餮",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "有头无身，形象多样，有记载为全身长毛，猪头，狼贪，不吃五谷杂粮，强壮者食老弱。",
+  "distribution": "大地西南方",
+  "abilities": [
+    "吞噬",
+    "威慑",
+    "变形"
+  ],
+  "description": "中国古代四大凶兽之一，象征贪婪。有多种形象描述，常见为有头无身，贪吃到连自己身体都吃掉的怪物。",
+  "sources": [
+    {
+      "book": "吕氏春秋",
+      "content": "饕餮，四凶之一，有头无身，贪吃到食己身。"
+    },
+    {
+      "book": "神异经",
+      "content": "饕餮，生存在大地西南方，全身长毛，猪头，狼贪。"
+    }
+  ],
+  "location": {
+    "lat": 31.2304,
+    "lng": 121.4737
+  }
+},
+{
+  "_id": {
+    "$oid": "6743062f2b69d643a894f217"
+  },
+  "name": "梼杌",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "体格如虎，毛如狗，人面，虎足，獠牙，尾长一丈八尺。",
+  "distribution": "西荒",
+  "abilities": [
+    "霸权",
+    "勇猛",
+    "不屈"
+  ],
+  "description": "中国古代四大凶兽之一，形象狰狞，称霸西方，难以驯服。",
+  "sources": [
+    {
+      "book": "史记",
+      "content": "梼杌，四凶之一，生长在西荒，形状如虎，毛如狗。"
+    },
+    {
+      "book": "神异经",
+      "content": "梼杌，人面，虎足，獠牙，尾长一丈八尺，在西方称霸。"
+    }
+  ],
+  "location": {
+    "lat": 34.2647,
+    "lng": 108.9398
+  }
+},
+{
+  "_id": {
+    "$oid": "6743064f2b69d643a894f218"
+  },
+  "name": "嚏出",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状如屋脊瓦狗，指头大小，能动，相互吞噬，最终体型增大。",
+  "distribution": "徐州",
+  "abilities": [
+    "变形",
+    "附身",
+    "肉瘤化"
+  ],
+  "description": "由人打喷嚏而出的小怪物，能互相吞噬成长，最终附身于人，形成肉瘤。",
+  "sources": [
+    {
+      "book": "聊斋志异",
+      "content": "徐州梁彦患鼻塞，打喷嚏而出小怪物，互相吞噬，最终附身。"
+    }
+  ],
+  "location": {
+    "lat": 34.2625,
+    "lng": 117.1456
+  }
+},
+{
+  "_id": {
+    "$oid": "674306662b69d643a894f219"
+  },
+  "name": "天朝神",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无形，以声音作祟，自称为天朝神。",
+  "distribution": "淮海",
+  "abilities": [
+    "声音作祟",
+    "隐形"
+  ],
+  "description": "迷惑人的妖怪，以声音作祟，自称天朝神，被朱砂所书的“天朝神”三字驱逐。",
+  "sources": [
+    {
+      "book": "北梦琐言",
+      "content": "淮海朱氏女被妖怪作祟，自称天朝神，朱砂书其名而退。"
+    }
+  ],
+  "location": {
+    "lat": 33.6499,
+    "lng": 116.978
+  }
+},
+{
+  "_id": {
+    "$oid": "6743067c2b69d643a894f21a"
+  },
+  "name": "天狗",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状如野猫，白首，叫声似猫，或如大流星，形如狗，坠时火光冲天。",
+  "distribution": "阴山",
+  "abilities": [
+    "辟邪",
+    "流星化",
+    "食月"
+  ],
+  "description": "中国出名的妖怪，出现预兆刀兵之灾，也有流星的形象，食月食小孩的传说。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "天狗，形如野猫，白首，声如猫猫，可辟邪。"
+    },
+    {
+      "book": "汉书",
+      "content": "天狗，状如大流星，形如狗，坠时火光破军杀将。"
+    }
+  ],
+  "location": {
+    "lat": 40.0739,
+    "lng": 113.2828
+  }
+},
+{
+  "_id": {
+    "$oid": "674306a62b69d643a894f21b"
+  },
+  "name": "天鸡",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "居于桃都山上，形如鸡，冠如火，啼声如钟。",
+  "distribution": "东南方桃都山",
+  "abilities": [
+    "晨鸣",
+    "引领鸡鸣"
+  ],
+  "description": "居于桃都山上的神鸟，其鸣叫引领天下鸡鸣，象征着日出和新的一天的开始。",
+  "sources": [
+    {
+      "book": "神异经",
+      "content": "天鸡居桃都山，冠如火，啼声如钟，天下鸡随之鸣。"
+    }
+  ],
+  "location": {
+    "lat": 34,
+    "lng": 114
+  }
+},
+{
+  "_id": {
+    "$oid": "674306b82b69d643a894f21c"
+  },
+  "name": "天马",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形如白狗，黑首，见人则飞。",
+  "distribution": "马成山",
+  "abilities": [
+    "飞行",
+    "隐匿"
+  ],
+  "description": "马成山特有的神秘生物，形似白狗，头部为黑色，见人即飞，难以捕捉。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "马成之山有兽，如白狗，其文如马，见人则飞。"
+    }
+  ],
+  "location": {
+    "lat": 35,
+    "lng": 105
+  }
+},
+{
+  "_id": {
+    "$oid": "674306c92b69d643a894f21d"
+  },
+  "name": "天魔",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "头髻如屋大，目如电光，云雾缭绕。",
+  "distribution": "洛阳阳翟山",
+  "abilities": [
+    "附身",
+    "迷惑"
+  ],
+  "description": "犯天条被贬人间的魔怪，附身于人，难以驱逐，最终自行离去。",
+  "sources": [
+    {
+      "book": "广异记",
+      "content": "天魔，头髻如屋大，目如电光，云雾中消失。"
+    }
+  ],
+  "location": {
+    "lat": 34.6,
+    "lng": 112.45
+  }
+},
+{
+  "_id": {
+    "$oid": "674306e32b69d643a894f21e"
+  },
+  "name": "天吴",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "八首人面，八足八尾，背青黄。",
+  "distribution": "朝阳谷",
+  "abilities": [
+    "水控",
+    "风召"
+  ],
+  "description": "传说中的水伯，掌管水域，形象怪异，具有控制水和风的能力。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "朝阳之谷，有神曰天吴，八首人面，八足八尾，背青黄。"
+    }
+  ],
+  "location": {
+    "lat": 36,
+    "lng": 120
+  }
+},
+{
+  "_id": {
+    "$oid": "674306f82b69d643a894f21f"
+  },
+  "name": "天坠草船",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "菱草扎成的小船，轻盈如羽，自行飞坠。",
+  "distribution": "松江城西",
+  "abilities": [
+    "飞行",
+    "预示"
+  ],
+  "description": "空中飞行的草船，坠入人家，预示家中将有不幸，是死亡的预兆。",
+  "sources": [
+    {
+      "book": "志怪录",
+      "content": "天坠草船，自东飞西，坠于董仲俯家，不久董仲俯死。"
+    }
+  ],
+  "location": {
+    "lat": 31,
+    "lng": 121
+  }
+},
+{
+  "_id": {
+    "$oid": "6743070f2b69d643a894f220"
+  },
+  "name": "鯈鱼",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状如鸡，红色羽毛，三尾六足四目，叫声似鹊。",
+  "distribution": "彭水带山",
+  "abilities": [
+    "无忧无虑",
+    "异形"
+  ],
+  "description": "形状奇异的鱼类，吃了它的肉能让人无忧无虑。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "彭水多鯈鱼，其状如鸡，赤羽，三尾六足四目，其鸣如鹊。"
+    }
+  ],
+  "location": {
+    "lat": 30.65,
+    "lng": 104.0667
+  }
+},
+{
+  "_id": {
+    "$oid": "674307262b69d643a894f221"
+  },
+  "name": "铁塔神",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "铁铸神像，能奔走流汗。",
+  "distribution": "辽代蔚州城",
+  "abilities": [
+    "预知",
+    "流汗",
+    "换魂"
+  ],
+  "description": "城中佛寺内的铁像，能预知灾难，流汗示警，甚至能换魂救人。",
+  "sources": [
+    {
+      "book": "夷坚志",
+      "content": "蔚州铁塔神，能奔走流汗，预知灾难。"
+    }
+  ],
+  "location": {
+    "lat": 39,
+    "lng": 114.5
+  }
+},
+{
+  "_id": {
+    "$oid": "674307382b69d643a894f222"
+  },
+  "name": "狪狪",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似猪，体内有珠。",
+  "distribution": "泰山",
+  "abilities": [
+    "珠体",
+    "异兽"
+  ],
+  "description": "泰山特有的异兽，形似猪，体内含有宝珠。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "泰山多狪狪，其状如猪，体内有珠。"
+    }
+  ],
+  "location": {
+    "lat": 36.2,
+    "lng": 117.1
+  }
+},
+{
+  "_id": {
+    "$oid": "674307482b69d643a894f223"
+  },
+  "name": "瞳人",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "小瞳人，能从鼻孔出入，合居眼眶。",
+  "distribution": "长安",
+  "abilities": [
+    "合居",
+    "重瞳"
+  ],
+  "description": "能从人鼻孔出入的小瞳人，最终合居于眼眶，使人获得超常视力。",
+  "sources": [
+    {
+      "book": "聊斋志异",
+      "content": "长安方栋，目有小瞳人出入，最终合居一目，视力超常。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6743075d2b69d643a894f224"
+  },
+  "name": "秃尾巴老李",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "巨蛇形态，盘梁，全身长鳞，头生双角，无尾。",
+  "distribution": "山东文登县柘阳山",
+  "abilities": [
+    "降雨",
+    "迁坟"
+  ],
+  "description": "龙母庙传说中的龙，无尾，能为母亲迁坟，出现则大丰收。",
+  "sources": [
+    {
+      "book": "文登县志",
+      "content": "柘阳山下郭氏妻生一物如巨蛇，盘梁，全身长鳞，头生双角，后称秃尾巴老李。"
+    }
+  ],
+  "location": {
+    "lat": 37.2,
+    "lng": 122.05
+  }
+},
+{
+  "_id": {
+    "$oid": "674307732b69d643a894f225"
+  },
+  "name": "荼首",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "如鹿，双头，以香草为食，行走如飞。",
+  "distribution": "边远少数民族地区",
+  "abilities": [
+    "双头",
+    "食香草"
+  ],
+  "description": "双头鹿形态的怪物，以香草为食，行走如飞，鸣声特异。",
+  "sources": [
+    {
+      "book": "赤雅",
+      "content": "荼首如鹿，双头，食香草，行走如飞，鸣声'蔡茂蔡茂'。"
+    }
+  ],
+  "location": {
+    "lat": 24,
+    "lng": 102.7
+  }
+},
+{
+  "_id": {
+    "$oid": "674307852b69d643a894f226"
+  },
+  "name": "土地主",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "庙中灵验之神，能化为青鸟。",
+  "distribution": "襄阳郡汉江边西村",
+  "abilities": [
+    "化鸟",
+    "灵验"
+  ],
+  "description": "庙中供奉的土地主，不信鬼神者烧庙后被化为青鸟的土地主所杀。",
+  "sources": [
+    {
+      "book": "太平广记",
+      "content": "襄阳西村庙中土地主，化为青鸟，杀不信鬼神者。"
+    }
+  ],
+  "location": {
+    "lat": 30,
+    "lng": 112.1
+  }
+},
+{
+  "_id": {
+    "$oid": "674307a42b69d643a894f227"
+  },
+  "name": "土龙",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "头像驴，身体能大能小，土中而生。",
+  "distribution": "湖北江陵",
+  "abilities": [
+    "土中生",
+    "变形"
+  ],
+  "description": "土中而生的怪物，头像驴，身体能大能小，最终消失不见。",
+  "sources": [
+    {
+      "book": "太平广记",
+      "content": "江陵赵氏土中生一怪物，头像驴，身体能大能小，最终消失。"
+    }
+  ],
+  "location": {
+    "lat": 30.35,
+    "lng": 112.24
+  }
+},
+{
+  "_id": {
+    "$oid": "674307b82b69d643a894f228"
+  },
+  "name": "土蝼",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状如羊，四角，能吃人。",
+  "distribution": "昆仑山",
+  "abilities": [
+    "食人",
+    "四角"
+  ],
+  "description": "昆仑山中的食人怪物，形状如羊但有四角。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "昆仑山有兽如羊，四角，名曰土蝼，能吃人。"
+    }
+  ],
+  "location": {
+    "lat": 36,
+    "lng": 80
+  }
+},
+{
+  "_id": {
+    "$oid": "674307d22b69d643a894f229"
+  },
+  "name": "土蛲",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状如同鲤鱼，灰黄色，有两只耳朵耸立在脑后。",
+  "distribution": "山石井坎之间",
+  "abilities": [
+    "偷水",
+    "吐云"
+  ],
+  "description": "土蛲这种怪物，形状如同鲤鱼，灰黄色，生长在山石井坎之间，有两只耳朵耸立在脑后。土蛲善于偷水，虽然生活在高山顶上，也能招水。传说凡是洪水暴发的地方，都会有这种怪物存在，天快要下大雨的时候，有人能看见它吐出云气。",
+  "sources": [
+    {
+      "book": "续通志",
+      "content": "土蛲，形如鲤鱼，灰黄色，两耳耸立，能偷水，吐云气。"
+    }
+  ],
+  "location": {
+    "lat": 35,
+    "lng": 105
+  }
+},
+{
+  "_id": {
+    "$oid": "6743085d2b69d643a894f22a"
+  },
+  "name": "土肉",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "白色，形状像蚕，有几丈长，十几围粗，能蠕动。",
+  "distribution": "地洞中",
+  "abilities": [
+    "肉质鲜美",
+    "再生"
+  ],
+  "description": "将领陶璜在地洞中挖出的怪物，白色，形状像蚕，有好几丈长十几围粗，还不断地蠕动。",
+  "sources": [
+    {
+      "book": "临海异物志",
+      "content": "土肉，白色，形状像蚕，有好几丈长十几围粗，还不断地蠕动。"
+    }
+  ],
+  "location": {
+    "lat": 30,
+    "lng": 120
+  }
+},
+{
+  "_id": {
+    "$oid": "674308752b69d643a894f22b"
+  },
+  "name": "吐火兽",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "遍体赤红色，形状如同巨狗。",
+  "distribution": "上虞西华村",
+  "abilities": [
+    "吐火",
+    "战斗"
+  ],
+  "description": "在晴空中被青色巨龙追逐的怪兽，遍体赤红色，形状如同巨狗，能吐火与龙战斗。",
+  "sources": [
+    {
+      "book": "瓠剩续编",
+      "content": "吐火兽，赤红色，形状如巨狗，能吐火与龙斗。"
+    }
+  ],
+  "location": {
+    "lat": 30,
+    "lng": 121
+  }
+},
+{
+  "_id": {
+    "$oid": "6743088b2b69d643a894f22c"
+  },
+  "name": "彖",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "像犀牛，角比犀牛角小，耳大如掌，双目含笑。",
+  "distribution": "广东、广西",
+  "abilities": [
+    "预知吉凶",
+    "吉祥"
+  ],
+  "description": "能知道吉凶的瑞兽，耳大如掌，双目含笑，生长在广东、广西，看到的人会发生吉祥的事。",
+  "sources": [
+    {
+      "book": "丹铅续录",
+      "content": "彖，如犀牛，角小，耳大如掌，双目含笑，能预知吉凶。"
+    }
+  ],
+  "location": {
+    "lat": 23,
+    "lng": 113
+  }
+},
+{
+  "_id": {
+    "$oid": "674308a82b69d643a894f22d"
+  },
+  "name": "橐非巴",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状像猫头鹰，有人面孔，只有一只脚。",
+  "distribution": "羚次山",
+  "abilities": [
+    "避雷",
+    "冬出夏伏"
+  ],
+  "description": "形状像猫头鹰，有人面孔，只有一只脚，冬天出现夏天蛰伏，羽毛能避雷。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "橐非巴，如猫头鹰，人面，一足，冬出夏伏，羽毛能避雷。"
+    }
+  ],
+  "location": {
+    "lat": 25,
+    "lng": 104
+  }
+},
+{
+  "_id": {
+    "$oid": "674308b92b69d643a894f22e"
+  },
+  "name": "鼍",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "美丽女子，实为大鼍，能变船为树段。",
+  "distribution": "鄱阳、建康",
+  "abilities": [
+    "变形",
+    "兴风致雨"
+  ],
+  "description": "晋代时，鄱阳人张福遇见的美丽女子，实为大鼍，能变船为树段，建康大夏营严寡妇的情人华督也是此怪。",
+  "sources": [
+    {
+      "book": "博物志",
+      "content": "鼍，能变美女，船为树段，兴风致雨。"
+    }
+  ],
+  "location": {
+    "lat": 29,
+    "lng": 119
+  }
+},
+{
+  "_id": {
+    "$oid": "674308cd2b69d643a894f22f"
+  },
+  "name": "宛渠民",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "身高十丈，乘螺舟，知天地初开事。",
+  "distribution": "宛渠国",
+  "abilities": [
+    "日游万里",
+    "摄虚而行"
+  ],
+  "description": "秦始皇时出现的宛渠民，乘螺舟，身高十丈，知道天地初开时候的事情，能日游万里。",
+  "sources": [
+    {
+      "book": "拾遗记",
+      "content": "宛渠民，乘螺舟，身高十丈，知天地初开事，日游万里。"
+    }
+  ],
+  "location": {
+    "lat": 34,
+    "lng": 108
+  }
+},
+{
+  "_id": {
+    "$oid": "674308e02b69d643a894f230"
+  },
+  "name": "蜼",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "如豹，常抬头望天，用尾遮鼻。",
+  "distribution": "又高又深的大山之中",
+  "abilities": [
+    "温暖舒适",
+    "避雨"
+  ],
+  "description": "如豹，常抬头望天，用尾遮鼻，用其皮做褥子，十分温暖舒适。",
+  "sources": [
+    {
+      "book": "岭外代答",
+      "content": "蜼，如豹，望天，用尾遮鼻，皮做褥子温暖舒适。"
+    }
+  ],
+  "location": {
+    "lat": 26,
+    "lng": 106
+  }
+},
+{
+  "_id": {
+    "$oid": "674308f22b69d643a894f231"
+  },
+  "name": "喂枣小儿",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "高四尺的小孩，快速消失。",
+  "distribution": "太原",
+  "abilities": [
+    "赐食",
+    "救命"
+  ],
+  "description": "太原王仲德年少时，藏草丛中，三天未食，一小孩赐以干枣，食后力气恢复。",
+  "sources": [
+    {
+      "book": "幽明录",
+      "content": "喂枣小儿，高四尺，赐干枣予王仲德，食后力气恢复。"
+    }
+  ],
+  "location": {
+    "lat": 37.8,
+    "lng": 112.55
+  }
+},
+{
+  "_id": {
+    "$oid": "6743090c2b69d643a894f232"
+  },
+  "name": "文文",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状像蜜蜂，分叉的尾巴和倒转的舌头。",
+  "distribution": "明水放皋山",
+  "abilities": [
+    "呼叫",
+    "飞行"
+  ],
+  "description": "形状像蜜蜂，长着分叉的尾巴和倒转的舌头，擅长呼叫。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "文文，如蜜蜂，分叉尾，倒舌，善呼叫。"
+    }
+  ],
+  "location": {
+    "lat": 34,
+    "lng": 114
+  }
+},
+{
+  "_id": {
+    "$oid": "674309252b69d643a894f233"
+  },
+  "name": "文鳐鱼",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状如鲤鱼，有鱼身和鸟翅，灰绿色斑纹，白首红嘴。",
+  "distribution": "观水泰器山至流沙",
+  "abilities": [
+    "夜飞",
+    "鸣声如鸾鸡",
+    "治病"
+  ],
+  "description": "观水中的奇特鱼类，形状如鲤鱼但有鱼身和鸟翅，浑身灰绿色斑纹，白脑袋红嘴巴，夜间飞行，其声如鸾鸡，食其肉可治癫狂病，出现则五谷丰登。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "文鳐鱼，如鲤鱼，鱼身鸟翅，夜飞，声如鸾鸡，肉可治癫狂。"
+    },
+    {
+      "book": "古今图书集成",
+      "content": "文鳐鱼，夜飞触纶，赤岭山鱼梁，鱼飞不过化为石。"
+    }
+  ],
+  "location": {
+    "lat": 36,
+    "lng": 103
+  }
+},
+{
+  "_id": {
+    "$oid": "674309412b69d643a894f234"
+  },
+  "name": "闻磷",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状如猪，黄身白头白尾。",
+  "distribution": "杳山",
+  "abilities": [
+    "预兆大风"
+  ],
+  "description": "杳山东三百五十里山中兽，形状如猪，黄身白头白尾，出现则天下大风。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "闻磷，如猪，黄身白头白尾，出则大风。"
+    }
+  ],
+  "location": {
+    "lat": 35,
+    "lng": 115
+  }
+},
+{
+  "_id": {
+    "$oid": "674309552b69d643a894f235"
+  },
+  "name": "无肠人",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "身体高大，腹中无肠。",
+  "distribution": "无肠国",
+  "abilities": [
+    "无需肠脏"
+  ],
+  "description": "无肠国的人，身体高大而腹中无肠。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "无肠人，身长而无肠。"
+    }
+  ],
+  "location": {
+    "lat": 30,
+    "lng": 120
+  }
+},
+{
+  "_id": {
+    "$oid": "674309672b69d643a894f236"
+  },
+  "name": "无路之人",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "高两千里，两脚间一千里，腰围一千六百里。",
+  "distribution": "西北海外",
+  "abilities": [
+    "长生",
+    "游荡"
+  ],
+  "description": "不吃五谷，喝甘露，游荡于山海间，不侵害百姓，寿命极长。",
+  "sources": [
+    {
+      "book": "神异经",
+      "content": "无路之人，高两千里，不食五谷，饮甘露，游荡山海。"
+    }
+  ],
+  "location": {
+    "lat": 40,
+    "lng": 90
+  }
+},
+{
+  "_id": {
+    "$oid": "6743097b2b69d643a894f237"
+  },
+  "name": "无启民/录人/细人",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无启民心脏不烂，录人膝盖不烂，细人肝脏不烂。",
+  "distribution": "各地洞穴",
+  "abilities": [
+    "死后复生"
+  ],
+  "description": "无启民、录人、细人，死后心脏、膝盖、肝脏不烂，百年后复生。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "无启民、录人、细人，死后不烂，百年复生。"
+    }
+  ],
+  "location": {
+    "lat": 35,
+    "lng": 117
+  }
+},
+{
+  "_id": {
+    "$oid": "674309922b69d643a894f238"
+  },
+  "name": "无手/无颈",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无手者手缺失，无颈者肩上肉枷无颈。",
+  "distribution": "南北朝时期",
+  "abilities": [
+    "因果报应"
+  ],
+  "description": "杨思达家兵断人手腕，生无手子；狱卒凶暴，生无颈子。",
+  "sources": [
+    {
+      "book": "冤魂志",
+      "content": "断人手腕者生无手子，凶暴狱卒生无颈子。"
+    }
+  ],
+  "location": {
+    "lat": 34,
+    "lng": 108
+  }
+},
+{
+  "_id": {
+    "$oid": "674309a52b69d643a894f239"
+  },
+  "name": "无损之兽",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "如鹿，猪头，禳牙尖利。",
+  "distribution": "南方",
+  "abilities": [
+    "肉自生",
+    "辟邪"
+  ],
+  "description": "南方怪兽，如鹿猪头，禳牙尖利，肉自生，可做界调料。",
+  "sources": [
+    {
+      "book": "神异经",
+      "content": "无损之兽，如鹿猪头，肉自生，可辟邪。"
+    }
+  ],
+  "location": {
+    "lat": 25,
+    "lng": 110
+  }
+},
+{
+  "_id": {
+    "$oid": "674309b92b69d643a894f23a"
+  },
+  "name": "五道将军",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "身高一丈多，全身黑毛。",
+  "distribution": "北齐",
+  "abilities": [
+    "不祥之兆"
+  ],
+  "description": "北齐崔季舒家出现的不祥怪物，导致家中出现怪异，最终被杀。",
+  "sources": [
+    {
+      "book": "太平广记",
+      "content": "五道将军，全身黑毛，家中怪异，不祥之兆。"
+    }
+  ],
+  "location": {
+    "lat": 36,
+    "lng": 115
+  }
+},
+{
+  "_id": {
+    "$oid": "674309ce2b69d643a894f23b"
+  },
+  "name": "希有",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "大鸟，面向南坐，张翅覆盖东王公和西王母。",
+  "distribution": "昆仑山",
+  "abilities": [
+    "天柱守护"
+  ],
+  "description": "昆仑山天柱上的大鸟，张翅覆盖东王公和西王母，背上无羽之地是西王母与东王公相会之处。",
+  "sources": [
+    {
+      "book": "神异经",
+      "content": "希有，大鸟，面向南坐，张翅覆盖东王公和西王母。"
+    }
+  ],
+  "location": {
+    "lat": 35,
+    "lng": 93
+  }
+},
+{
+  "_id": {
+    "$oid": "674309e42b69d643a894f23c"
+  },
+  "name": "犀渠",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "如牛，全身青黑色，声如婴儿，能吃人。",
+  "distribution": "厘山",
+  "abilities": [
+    "食人"
+  ],
+  "description": "厘山中的野兽，如牛，全身青黑色，声如婴儿，能吃人。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "犀渠，如牛，青黑色，声如婴儿，能吃人。"
+    }
+  ],
+  "location": {
+    "lat": 37,
+    "lng": 107
+  }
+},
+{
+  "_id": {
+    "$oid": "674309fe2b69d643a894f23d"
+  },
+  "name": "犀犬",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "一公一母小狗，眼睛尚未睁开，身形和平常的狗一样。",
+  "distribution": "吴郡娄县",
+  "abilities": [
+    "带来好运",
+    "预示财富"
+  ],
+  "description": "晋代元康年间，吴郡娄县怀瑶家的地下能听到小狗叫声，挖出一公一母两只小狗，老人称其为犀犬，得到它们的家庭将会富裕兴旺。",
+  "sources": [
+    {
+      "book": "搜神记",
+      "content": "犀犬，地下出现，一公一母，未睁眼，形如常狗，预示家庭富裕。"
+    }
+  ],
+  "location": {
+    "lat": 31,
+    "lng": 120.5
+  }
+},
+{
+  "_id": {
+    "$oid": "67430a342b69d643a894f23e"
+  },
+  "name": "谿边",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状如狗。",
+  "distribution": "天帝山",
+  "abilities": [
+    "避邪"
+  ],
+  "description": "天帝山上的野兽，形状如狗，人坐卧时铺垫其皮可避妖邪毒气。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "谿边，如狗，皮可避妖邪毒气。"
+    }
+  ],
+  "location": {
+    "lat": 38,
+    "lng": 98
+  }
+},
+{
+  "_id": {
+    "$oid": "67430a482b69d643a894f23f"
+  },
+  "name": "蹊鼠",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状如老鼠，可长至千斤重。",
+  "distribution": "北方冰原",
+  "abilities": [
+    "巨大化",
+    "耐寒"
+  ],
+  "description": "生活在冰下土壤中的巨鼠，以草木和肉为食，毛长八尺，肉可治疗热病。",
+  "sources": [
+    {
+      "book": "神异经",
+      "content": "蹊鼠，如鼠，可长至千斤，毛长八尺，肉治热病。"
+    }
+  ],
+  "location": {
+    "lat": 48,
+    "lng": 125
+  }
+},
+{
+  "_id": {
+    "$oid": "67430a5a2b69d643a894f240"
+  },
+  "name": "鳛鳛鱼",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状如鹊，有十只翅膀。",
+  "distribution": "瞞水涿光山",
+  "abilities": [
+    "辟火",
+    "治病"
+  ],
+  "description": "瞞水中的鱼，形状如鹊，有十只翅膀，鳞甲全长在羽翅的尖端，食其肉能治黄疸病。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "鳛鳛鱼，如鹊，十翼，食之治黄疸。"
+    }
+  ],
+  "location": {
+    "lat": 37,
+    "lng": 106
+  }
+},
+{
+  "_id": {
+    "$oid": "67430a6c2b69d643a894f241"
+  },
+  "name": "县神",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "猪身人首。",
+  "distribution": "建州浦城县",
+  "abilities": [
+    "避画"
+  ],
+  "description": "浦城县山中的怪兽，长着猪的身体、人的脑袋，不喜欢被画，因此躲避。",
+  "sources": [
+    {
+      "book": "珍珠船",
+      "content": "县神，猪身人首，不喜画，故躲避。"
+    }
+  ],
+  "location": {
+    "lat": 27,
+    "lng": 118.5
+  }
+},
+{
+  "_id": {
+    "$oid": "67430a812b69d643a894f242"
+  },
+  "name": "项面",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "脖子上长着一张脸。",
+  "distribution": "东征沃沮",
+  "abilities": [
+    "异面"
+  ],
+  "description": "海边岸上的怪物，脖子上长着一张脸，被逮住后不语不食，最终饿死。",
+  "sources": [
+    {
+      "book": "异苑",
+      "content": "项面，颈上生面，不语不食，饿死。"
+    }
+  ],
+  "location": {
+    "lat": 42,
+    "lng": 130
+  }
+},
+{
+  "_id": {
+    "$oid": "67430a952b69d643a894f243"
+  },
+  "name": "枭獍",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "马驹，额头多一目，鼻嘴如龙，全身火红。",
+  "distribution": "济州",
+  "abilities": [
+    "食母",
+    "凶暴"
+  ],
+  "description": "生下来就能吃掉生母的怪物，额多一目，鼻嘴如龙，全身火红，一天吃掉母马。",
+  "sources": [
+    {
+      "book": "述异记",
+      "content": "枭獍，马驹，额多一目，全身火红，食母。"
+    }
+  ],
+  "location": {
+    "lat": 36,
+    "lng": 117
+  }
+},
+{
+  "_id": {
+    "$oid": "67430aab2b69d643a894f245"
+  },
+  "name": "枭阳人",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长唇黑身，脚跟在前脚尖在后。",
+  "distribution": "枭阳国",
+  "abilities": [
+    "笑面"
+  ],
+  "description": "枭阳国的人，长唇黑身，脚跟在前脚尖在后，见人则笑，手持竹筒。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "枭阳人，长唇黑身，脚跟在前，见人笑。"
+    }
+  ],
+  "location": {
+    "lat": 25,
+    "lng": 111
+  }
+},
+{
+  "_id": {
+    "$oid": "67430abc2b69d643a894f246"
+  },
+  "name": "消面虫",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长二寸多，全身青色，如蛙。",
+  "distribution": "吴郡",
+  "abilities": [
+    "食面",
+    "宝气"
+  ],
+  "description": "吴郡陆颛因消面虫而致富，此虫食面，天地中和之气凝结，能引宝。",
+  "sources": [
+    {
+      "book": "宣室志",
+      "content": "消面虫，青色如蛙，食面，引宝。"
+    }
+  ],
+  "location": {
+    "lat": 31,
+    "lng": 120.5
+  }
+},
+{
+  "_id": {
+    "$oid": "67430ad52b69d643a894f247"
+  },
+  "name": "鵁",
+  "type": "怪",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "群居群飞，尾如雌野鸡。",
+  "distribution": "蔓联山",
+  "abilities": [
+    "治风痹"
+  ],
+  "description": "蔓联山中的禽鸟，群居群飞，尾如雌野鸡，食其肉能治风痹病。",
+  "sources": [
+    {
+      "book": "山海经",
+      "content": "鵁，群居群飞，尾如雌野鸡，食之治风痹。"
+    }
+  ],
+  "location": {
+    "lat": 30,
+    "lng": 110
+  }
+}]

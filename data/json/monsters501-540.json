@@ -1,0 +1,1117 @@
+[{
+  "_id": {
+    "$oid": "6746133e84ba4007ebab2bb7"
+  },
+  "name": "食风鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食风鬼是地狱中的一种鬼，常十分饥渴，但只能喝西北风，因前世见僧人来乞食，非但不给，反而作弄一番。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "食风鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746134884ba4007ebab2bb8"
+  },
+  "name": "食火鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食火鬼是地狱中的一种鬼，饥渴时所食所饮立即化为烈火，烧得痛苦嚎叫。前世曾断人食粮，令人饿死。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "食火鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746135284ba4007ebab2bb9"
+  },
+  "name": "食矍鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食矍鬼是地狱中的一种鬼，有人用鲜花进行祭祀时，此鬼便于此时食花, 虽身常饥渴，但也不能吃其他东西。因前世用偷盗装饰佛像的“华鬟”（鲜花编制成串的装饰物）来打扮自己。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "食矍鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746135e84ba4007ebab2bba"
+  },
+  "name": "食梦兽",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "人间"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食梦兽，也叫伯奇，是一种喜欢在人熟睡时，偷吃人做的噩梦的鬼怪。伯奇是周宣王辅臣尹吉甫和前妻生下的孩子。后来尹吉甫娶了后妻，也生下了孩子，后妻就向尹吉甫说伯奇的坏话。伯奇很孝顺，不愿意去辩白，就跳进了江里。后来，尹吉甫知道伯奇是冤枉的，就射杀了后妻。食梦兽，就是伯奇的冤魂所化。",
+  "sources": [
+    {
+      "book": "后汉书•志第五",
+      "content": "食梦兽，鬼也。"
+    },
+    {
+      "book": "酉阳杂俎•前集卷八",
+      "content": "食梦兽，鬼也。"
+    },
+    {
+      "book": "古今图书集成•历象汇编•庶征典",
+      "content": "食梦兽，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 34.7833,
+    "lng": 113.2333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746136a84ba4007ebab2bbb"
+  },
+  "name": "食气鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食气鬼是地狱中的一种鬼，常感到饥渴，但不能吃喝。前世总是自己独吃独喝美食，不顾妻子儿女。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "食气鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746137584ba4007ebab2bbc"
+  },
+  "name": "食精气鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食精气鬼是靠吃人的精气为生的厉鬼，前世为军官或士兵，战斗时与亲友相约，互相救护，实际上眼看他人苦战而亡也不救护，反依靠他人的勇气掩护才逃得性命。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "食精气鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746137f84ba4007ebab2bbd"
+  },
+  "name": "食肉鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "奸诈而且相貌丑陋",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食肉鬼是地狱中的一种鬼，此鬼奸诈而且相貌丑陋，为人憎恶。只能吃供祭的杂肉，不能吃别的东西。前世为屠夫，将动物肢解切碎而称重售卖，并常常缺斤短两，或挂羊头卖狗肉。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "食肉鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746138984ba4007ebab2bbe"
+  },
+  "name": "食尸鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "披头散发，看不见脸",
+  "distribution": [
+    "南康县"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "南北朝元嘉年间，南康县有个人叫区敬之，和儿子一起乘船出远门。傍晚时停船靠岸，来到一个人迹罕至的地方，在一所房子里歇息，半夜区敬之突然发病猝死。儿子点着一堆火，守着尸体，忽然听到有哭声，有人喊着:“阿舅！阿舅！”儿子又惊慌又疑惑，抬起头，看见那人已经走到跟前。对方披头散发，看不见脸，说是前来吊唁。儿子十分恐惧，就假装离开去找柴火，并暗暗偷窥。之前那东西坐在区敬之的尸体旁边大哭，用自己的脸覆盖住尸体的脸，尸体的脸部立刻裂剥露骨，很快尸体就变成了一具白骨，皮肉都没了。",
+  "sources": [
+    {
+      "book": "述异记",
+      "content": "食尸鬼，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 27.0667,
+    "lng": 114.9333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746139484ba4007ebab2bbf"
+  },
+  "name": "食水鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食水鬼是地狱中的一种鬼，心中焦渴异常，拼命喝水也不能缓解。前世曾是以烈酒为水骗人上当，或不持斋戒的人。",
+  "sources": [
+    {
+      "book": "法苑珠林-卷第六",
+      "content": "食水鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "674613a184ba4007ebab2bc0"
+  },
+  "name": "食炭鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食炭鬼是地狱中的一种鬼，常不自觉地吞进火炭，烧得半死。其生前曾主管刑狱，虐待犯人，让他们忍饥挨饿。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "食炭鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746142384ba4007ebab2bc2"
+  },
+  "name": "食吐鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食吐鬼是地狱中的一种鬼，吃喝后会立即吐出。这大多是妇人的果报，生前其夫乐善好施，劝妇人施舍钱财，但妇人吝惜，积财不施。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "食吐鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746142d84ba4007ebab2bc3"
+  },
+  "name": "食唾鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食唾鬼是地狱中的一种鬼，常感饥渴，又时常被扔入汤锅烧煮，只能食人的唾液和脏东西。因前世以不干净食物打发乞食僧人所致。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "食唾鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746143884ba4007ebab2bc4"
+  },
+  "name": "食香鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食香鬼是地狱中的一种鬼，以香的烟气为食。前世曾以劣质香当作优质香卖，赚取高额利润。",
+  "sources": [
+    {
+      "book": "法苑珠林-卷第六",
+      "content": "食香鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746144284ba4007ebab2bc5"
+  },
+  "name": "食小儿鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食小儿鬼是常吃婴幼儿的厉鬼。前世曾假作咒术，骗人财物，并无缘无故地虐杀猪羊。死后先下地狱，服满刑期，又堕入鬼道。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "食小儿鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746144d84ba4007ebab2bc6"
+  },
+  "name": "食血鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食血鬼是地狱中的一种鬼，只能于祭祀时，吃些带血的祭品。因前世宰杀牲畜自己吃肉，不给妻子儿女吃。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "食血鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746145784ba4007ebab2bc7"
+  },
+  "name": "守桥鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "广西",
+    "湖南",
+    "贵州"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "守桥鬼，流传于广西、湖南、贵州等地的山区。民间认为，凡是建木结构的风雨桥或者石桥，附近村寨必有人去世后化为守桥鬼。守桥鬼为善鬼，守护桥梁。",
+  "sources": [
+    {
+      "book": "中国鬼文化大辞典",
+      "content": "守桥鬼，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 25.2833,
+    "lng": 110.2833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746146284ba4007ebab2bc8"
+  },
+  "name": "梳女",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "美丽的女子",
+  "distribution": [
+    "苏州"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "唐代有个叫范俶的人，在苏州开酒馆。一天晚上，有个女子从门前经过，长得十分美丽。范俶就让那个女子住下来，女子刚开始不肯，后来就答应了。范俶点亮蜡烛，见女子用头发盖住脸，面对黑暗而坐。范俶抱住她，晚上和她幽会。天还没亮，女子说自己丢了梳子，离去了。离开之前，在范俶的手臂上咬了一口。天亮之后，范俶在窗前发现了一把纸做的梳子，心里很惊慌，不久，范俶身体疼痛红肿，过了六七天就死了。",
+  "sources": [
+    {
+      "book": "广异记",
+      "content": "梳女，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 31.3,
+    "lng": 120.6
+  }
+},
+{
+  "_id": {
+    "$oid": "6746146d84ba4007ebab2bc9"
+  },
+  "name": "树下住鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "树下住鬼，住在树中，饱受热寒之苦。本来是前人种树，后人乘凉，是积阴德的事，但此类鬼前世偏心怀恶意，盗伐众人乘凉的大树而换取钱财。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "树下住鬼，地狱中的一种鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746147684ba4007ebab2bca"
+  },
+  "name": "水鬼帚",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "破箸帚",
+  "distribution": [
+    "黄泥沟"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "清代，有个米客到嘉兴贩米，经过黄泥沟，因为里面淤泥太深，就骑着水牛过去。刚走到沟中间，有一只黑手从泥里伸出来，抓住了他的脚。米客把脚缩回来，那个黑手就去扯牛的腿，让牛无法动弹。米客很害怕，叫路上的行人来拉牛，牛也不起来。没办法，用火把烧牛的尾巴，牛忍受不了疼痛，使尽全力从泥里跑出来，肚子下有个破箸帚裹着，又腥又臭。米客用木棍击打笆帚，管帚发出啾啾的响声，滴下的都是黑色的血。大家取来柴火把那个扫帚烧掉了，附近臭了几个月。从此之后，黄泥沟再也没有淹死过人。想来，那笆帚就是水鬼所化吧。",
+  "sources": [
+    {
+      "book": "子不语•卷二",
+      "content": "水鬼帚，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 30.75,
+    "lng": 120.75
+  }
+},
+{
+  "_id": {
+    "$oid": "6746148184ba4007ebab2bcb"
+  },
+  "name": "水莽鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "桃花江"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "水莽，是一种毒草，藤蔓如同葛，开出的花紫色，像扁豆花，人如果误食立刻就会死亡，而且死后会成为水莽鬼。相传，水莽鬼不能轮回，必须有再毒死的人代替它才行。所以楚地桃花江一带，水莽鬼很多，经常出来蛊惑人吃下水莽。如果有人被水莽鬼骗吃下了水莽，知道鬼的姓名，只要找到这个鬼生前的旧衣服，放进水里面煮，然后喝下煮过的水，就能痊愈。",
+  "sources": [
+    {
+      "book": "聊斋志异•卷二",
+      "content": "水莽鬼，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 29.7167,
+    "lng": 113.65
+  }
+},
+{
+  "_id": {
+    "$oid": "6746155b84ba4007ebab2bcc"
+  },
+  "name": "死人头",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "死人头，两只眼睛还能动",
+  "distribution": [
+    "新野"
+  ],
+  "abilities": [
+    "未知"
+  ],
+  "description": "死人头是新野地区的一种鬼怪，据说会在夜间出现，令人害怕。",
+  "sources": [
+    {
+      "book": "幽明录•卷二",
+      "content": "新野有个叫庾谨的人，母亲得了重病，兄弟三个人都在跟前服侍。忽然听到母亲的床头有狗争斗的声音，家里人赶紧去看，没看到狗，发现一个死人头在地上，有血，而且两只眼睛还能动。"
+    }
+  ],
+  "location": {
+    "lat": 32.5245,
+    "lng": 112.4153
+  }
+},
+{
+  "_id": {
+    "$oid": "6746156584ba4007ebab2bcd"
+  },
+  "name": "死煞",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "妇人，戴着面纱，光着脚",
+  "distribution": [
+    "唐代青龙寺"
+  ],
+  "abilities": [
+    "化人",
+    "蛊惑"
+  ],
+  "description": "死煞是唐代青龙寺的一种鬼怪，据说会化身为妇人，蛊惑人心。",
+  "sources": [
+    {
+      "book": "太平广记•卷第三百三十",
+      "content": "唐代青龙寺有个禅师叫仪光，修为极其高深。开元十五年时，有个施主的妻子死了，请仪光到他家举行法事。仪光住在这位施主家几天，举行了盛大的法事。当时有种风俗——家里如果有人死了，都要向巫师询问死煞出现的时日，到了死煞出现的时候，家里人都会出去躲避。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6746157284ba4007ebab2bce"
+  },
+  "name": "四目肉",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "一团肉，四个方向都有眼睛",
+  "distribution": [
+    "唐朝大历年间"
+  ],
+  "abilities": [
+    "放光"
+  ],
+  "description": "四目肉是唐朝大历年间的一种鬼怪，据说是一团肉，四个方向都有眼睛，能够放光。",
+  "sources": [
+    {
+      "book": "太平广记•卷第三百六十三",
+      "content": "唐朝大历年间，有个叫韦滂的人，膂力过人，胆子也大，经常走夜路，丝毫不害怕。韦滂擅长骑马射猎，常常把弓箭带在身上，不仅猎取飞鸟走兽煮烤而食，就连蛇、蝎、蚯蚓、蛻螂、蟻姑之类，也不放过。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6746157d84ba4007ebab2bcf"
+  },
+  "name": "伺便鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "浑身毛发常常自燃",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "食旁人排出的秽气"
+  ],
+  "description": "伺便鬼是地狱中的一种鬼怪，据说浑身毛发常常自燃，以食旁人排出的秽气而存活。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "伺便鬼是地狱中的一种鬼，浑身毛发常常自燃，以食旁人排出的秽气而存活。皆因前世诈骗钱财，不修福业。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6746158984ba4007ebab2bd0"
+  },
+  "name": "伺婴儿便鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "未知",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "食婴儿大小便"
+  ],
+  "description": "伺婴儿便鬼是地狱中的一种鬼怪，据说以食婴儿大小便为生，而且常加害婴儿。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "伺婴儿便鬼是地狱中的一种鬼，以食婴儿大小便为生，而且常加害婴儿。前世曾杀害婴儿，性情暴躁。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6746159584ba4007ebab2bd1"
+  },
+  "name": "肃霜之神",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "光脑袋就有好几尺长",
+  "distribution": [
+    "河南郡"
+  ],
+  "abilities": [
+    "发威时可以抵挡住千人之力"
+  ],
+  "description": "肃霜之神是河南郡的一种鬼怪，据说光脑袋就有好几尺长，能够发威时可以抵挡住千人之力。",
+  "sources": [
+    {
+      "book": "幽明录•卷五",
+      "content": "河南郡有个叫阳起的人，字圣卿，小时候患疟疾，在土神庙祭祀时得到了 一部书，书名叫《谴劾百鬼法》。后来他做了日南郡的太守。一日，他的母亲在厕所里看见一个鬼，光脑袋就有好几尺长。母亲回来后告诉了阳起，阳起说：“这是肃霜之神呵。”"
+    }
+  ],
+  "location": {
+    "lat": 34.7833,
+    "lng": 113.6667
+  }
+},
+{
+  "_id": {
+    "$oid": "674615a084ba4007ebab2bd2"
+  },
+  "name": "讨债鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "未知",
+  "distribution": [
+    "清代常州"
+  ],
+  "abilities": [
+    "讨债"
+  ],
+  "description": "讨债鬼是清代常州的一种鬼怪，据说会讨债。",
+  "sources": [
+    {
+      "book": "履园丛话•丛话十五",
+      "content": "清代常州有个学究，靠在私塾里教书为生。学究有个儿子，三岁时，妻子就死掉了。家中没有其他人，学究就带着儿子在私塾里养育。等到儿子四五岁时，就教他识字读书。十五六岁时，儿子已经四书五经背得滚瓜烂熟。"
+    }
+  ],
+  "location": {
+    "lat": 31.7833,
+    "lng": 119.9667
+  }
+},
+{
+  "_id": {
+    "$oid": "674615ab84ba4007ebab2bd3"
+  },
+  "name": "挑生鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "未知",
+  "distribution": [
+    "清代广东东部"
+  ],
+  "abilities": [
+    "改变货物的轻重"
+  ],
+  "description": "挑生鬼是清代广东东部的一种鬼怪，据说能够改变货物的轻重。",
+  "sources": [
+    {
+      "book": "岭外代答•卷十",
+      "content": "清代广东东部许多山区的县邑，当地人精通下蛊，蛊鬼中的挑生鬼，能够改变货物的轻重，它钻入货物就能让货物的重量增加，跑出来就会让货物的重量减轻，以此来坑害货商，为主人谋取利益。"
+    }
+  ],
+  "location": {
+    "lat": 23.1333,
+    "lng": 113.2667
+  }
+},
+{
+  "_id": {
+    "$oid": "674615b684ba4007ebab2bd4"
+  },
+  "name": "铁臼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "未知",
+  "distribution": [
+    "东海"
+  ],
+  "abilities": [
+    "未知"
+  ],
+  "description": "铁臼是东海的一种鬼怪，据说会在夜间出现，令人害怕。",
+  "sources": [
+    {
+      "book": "冤魂志",
+      "content": "东海人徐甲，前妻许氏，生一男孩，取名铁臼。不久许氏就死了。徐甲又娶了陈氏，陈氏凶狠残暴得很，总想杀前妻的孩子。"
+    }
+  ],
+  "location": {
+    "lat": 35.6667,
+    "lng": 119.5333
+  }
+},
+{
+  "_id": {
+    "$oid": "674615c284ba4007ebab2bd5"
+  },
+  "name": "偷吃鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "穿着白布裤",
+  "distribution": [
+    "晋代"
+  ],
+  "abilities": [
+    "偷吃"
+  ],
+  "description": "偷吃鬼是晋代的一种鬼怪，据说爱偷吃东西，虽然不害人，但也很讨厌。",
+  "sources": [
+    {
+      "book": "续搜神记-卷六",
+      "content": "有个叫刘他的人，有天忽然有个鬼来到家里，那鬼和人一样，穿着白布裤。从那以后，几天就来一次，也不隐形，还不走。这鬼爱偷吃东西，虽然不害人，但也很讨厌，刘他又不敢骂他，只能默默忍受。"
+    }
+  ],
+  "location": {
+    "lat": 34.7833,
+    "lng": 113.6667
+  }
+},
+{
+  "_id": {
+    "$oid": "674616ec84ba4007ebab2bd7"
+  },
+  "name": "偷儿鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "没有具体描述",
+  "distribution": [
+    "唐代东京洛阳安宜坊"
+  ],
+  "abilities": [
+    "偷盗",
+    "隐身"
+  ],
+  "description": "唐代开元年间，东京洛阳安宜坊有个书生，夜里关门整理书籍，忽然看见门缝里露出个脑袋。书生呵问对方是什么人，对方回答说：“我是鬼，想和你一起玩玩。”鬼邀请书生出门，书生跟着他出去了。",
+  "sources": [
+    {
+      "book": "广异记",
+      "content": "戴孚《广异记》"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "674616f984ba4007ebab2bd8"
+  },
+  "name": "土伯",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "手上拿着九条绳子，头上长着尖锐的角，隆背血手，飞快地追逐着人，三只眼，老虎头，身如牛",
+  "distribution": [
+    "幽都"
+  ],
+  "abilities": [
+    "统治幽都",
+    "追逐人类"
+  ],
+  "description": "土伯是传说中阴间幽都的统治者。幽都位于阴森恐怖的幽冥世界，《山海经》曾记载：北海之内，有一座山，叫幽都山。",
+  "sources": [
+    {
+      "book": "楚辞•招魂",
+      "content": "屈原等《楚辞•招魂》"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6746170484ba4007ebab2bd9"
+  },
+  "name": "兔鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "没有具体描述",
+  "distribution": [
+    "长安"
+  ],
+  "abilities": [
+    "隐身",
+    "诱惑"
+  ],
+  "description": "司农卿杨迈年轻的时候喜欢打猎，有一次，在长安放鹰狩猎，远远看见草丛中有一只兔子跳跃前行。",
+  "sources": [
+    {
+      "book": "稽神录•卷二",
+      "content": "徐铉《稽神录•卷二》"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6746171084ba4007ebab2bda"
+  },
+  "name": "瓦溺靈",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "三寸高的小黑人",
+  "distribution": [
+    "清代广州甜水巷"
+  ],
+  "abilities": [
+    "附身",
+    "作祟"
+  ],
+  "description": "清代广州甜水巷有个旗人姓丁，一天在集市上买了个尿壶，带回来放在床旁边。",
+  "sources": [
+    {
+      "book": "瓠剩续编•卷四",
+      "content": "钮琢《瓠剩续编•卷四》"
+    }
+  ],
+  "location": {
+    "lat": 23.1256,
+    "lng": 113.2806
+  }
+},
+{
+  "_id": {
+    "$oid": "6746172684ba4007ebab2bdb"
+  },
+  "name": "亡人衣",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "衣服",
+  "distribution": [
+    "西晋"
+  ],
+  "abilities": [
+    "附身",
+    "作祟"
+  ],
+  "description": "衣服是人的贴身之物，古代传说人死之后，尤其是有怨念的，灵魂就会附在衣服上作祟。",
+  "sources": [
+    {
+      "book": "幽明录•卷六",
+      "content": "刘义庆《幽明录•卷六》"
+    },
+    {
+      "book": "醉茶志怪•卷二",
+      "content": "李庆辰《醉茶志怪•卷二》"
+    },
+    {
+      "book": "阅微草堂笔记•卷六",
+      "content": "纪旳《阅微草堂笔记•卷六》"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6746173384ba4007ebab2bdc"
+  },
+  "name": "烟魅",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "没有具体描述",
+  "distribution": [
+    "上古"
+  ],
+  "abilities": [
+    "吃死人的肝脏",
+    "诱惑"
+  ],
+  "description": "魅魅是一种很有名的鬼，在中国的传统文化中，有时成了鬼的代名词。",
+  "sources": [
+    {
+      "book": "搜神记•卷十六",
+      "content": "干宝《搜神记•卷十六》"
+    },
+    {
+      "book": "述异志",
+      "content": "任昉《述异志》"
+    },
+    {
+      "book": "酉阳杂俎•前集卷十三",
+      "content": "段成式《酉阳杂俎•前集卷十三》"
+    },
+    {
+      "book": "坦斋通编",
+      "content": "邢凯《坦斋通编》"
+    },
+    {
+      "book": "岭外代答•卷十",
+      "content": "周去非《岭外代答•卷十》"
+    },
+    {
+      "book": "续子不语•卷七",
+      "content": "袁枚《续子不语•卷七》"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6746174084ba4007ebab2bdd"
+  },
+  "name": "瘟鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "没有具体描述",
+  "distribution": [
+    "天府"
+  ],
+  "abilities": [
+    "传播瘟疫",
+    "作祟"
+  ],
+  "description": "古人认为，瘟疫是鬼怪传播而生。天府中有瘟部，其中有瘟神和行瘟之鬼。",
+  "sources": [
+    {
+      "book": "夷坚志•夷坚乙志•卷第五",
+      "content": "洪迈《夷坚志•夷坚乙志•卷第五》"
+    },
+    {
+      "book": "子不语•卷七",
+      "content": "袁枚《子不语•卷七》"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6746174f84ba4007ebab2bde"
+  },
+  "name": "无常鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "穿着白衣白裤的巨人",
+  "distribution": [
+    "清代易郡"
+  ],
+  "abilities": [
+    "作祟",
+    "诱惑"
+  ],
+  "description": "清代易郡有个人叫吴可久，一次晚上走在道路上，远远地看见前方有一道白光，飘飘忽忽。",
+  "sources": [
+    {
+      "book": "萤窗异草•初编卷四",
+      "content": "长白浩歌子《萤窗异草•初编卷四》"
+    },
+    {
+      "book": "履园丛话-丛话十五",
+      "content": "钱泳《履园丛话-丛话十五》"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6746176584ba4007ebab2bdf"
+  },
+  "name": "无颊鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "没有下巴",
+  "distribution": [
+    "宋代白石村"
+  ],
+  "abilities": [
+    "作祟",
+    "诱惑"
+  ],
+  "description": "宋代白石村有个村民，为十里外的一户人家织布，晚上背着织布机回家，当时月华朗照，有个人前来，对这个村民说：“我胆子很小，听说这里经常有鬼出来，能不能跟你一起走？ ”",
+  "sources": [
+    {
+      "book": "夷坚志-夷坚乙志•卷第八",
+      "content": "洪迈《夷坚志-夷坚乙志•卷第八》"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6746177084ba4007ebab2be0"
+  },
+  "name": "无头鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "没有头",
+  "distribution": [
+    "豫章"
+  ],
+  "abilities": [
+    "作祟",
+    "诱惑"
+  ],
+  "description": "豫章太守贾雍有神奇的法术，一次出州讨伐贼寇时被杀死。",
+  "sources": [
+    {
+      "book": "幽明录•卷一",
+      "content": "刘义庆《幽明录•卷一》"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+}]

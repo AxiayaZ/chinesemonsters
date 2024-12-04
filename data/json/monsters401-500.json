@@ -1,0 +1,2735 @@
+[{
+  "_id": {
+    "$oid": "6745f90684ba4007ebab2b52"
+  },
+  "name": "红袖",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/KKBs0vf/image.png",
+  "appearance": "红色的衣袖，遮住了灯笼",
+  "distribution": [
+    "清代台布家"
+  ],
+  "abilities": [
+    "蛊惑",
+    "隐身"
+  ],
+  "description": "清代台布上厕所时，听到外面传来窸窸窣窣的声响，看到一个红色的衣袖伸了进来",
+  "sources": [
+    {
+      "book": "夜谭随录·卷四",
+      "content": "红袖，台布见之"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745f91484ba4007ebab2b53"
+  },
+  "name": "虎傕",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/bK23fP0/generate-a.jpg",
+  "appearance": "虎傕，长得像一个七八岁的小男孩，光着身子轻手轻脚地行走",
+  "distribution": [
+    "唐朝渝州"
+  ],
+  "abilities": [
+    "化身",
+    "隐身"
+  ],
+  "description": "唐朝开元年间，渝州多次发生老虎吃人的事件",
+  "sources": [
+    {
+      "book": "广异记",
+      "content": "虎低，渝州人见之"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745f92284ba4007ebab2b54"
+  },
+  "name": "虎鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "妇女骑着老虎",
+  "distribution": [
+    "五代陈褒家"
+  ],
+  "abilities": [
+    "御虎",
+    "蛊惑"
+  ],
+  "description": "五代时，陈褒隐居在一个草庐之中，窗户外面就是旷野",
+  "sources": [
+    {
+      "book": "稽神录·补遗",
+      "content": "虎鬼，陈褒见之"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745f93084ba4007ebab2b55"
+  },
+  "name": "护界五郎",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "五个鬼前来索命",
+  "distribution": [
+    "宋代扬州"
+  ],
+  "abilities": [
+    "御鬼",
+    "预知"
+  ],
+  "description": "宋代扬州有个僧人去江州，傍晚时路过一个村子",
+  "sources": [
+    {
+      "book": "夷坚志·夷坚志三补",
+      "content": "护界五郎，僧人见之"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745f93c84ba4007ebab2b56"
+  },
+  "name": "花魄",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "美女，五寸多高，赤裸无毛，通体洁白如玉",
+  "distribution": [
+    "清代婺源"
+  ],
+  "abilities": [
+    "蛊惑",
+    "隐身"
+  ],
+  "description": "清代婺源谢某，在张公山读书",
+  "sources": [
+    {
+      "book": "子不语·卷二十四",
+      "content": "花魄，谢某见之"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745f94884ba4007ebab2b57"
+  },
+  "name": "化成寺鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "棺材里面的鬼掀开棺盖，也伸出脑袋来",
+  "distribution": [
+    "宋代湖口县"
+  ],
+  "abilities": [
+    "御鬼",
+    "预知"
+  ],
+  "description": "宋代湖口县化成寺里闹鬼一事",
+  "sources": [
+    {
+      "book": "夷坚志·夷坚甲志·卷第十六",
+      "content": "化成寺鬼，沈持要见之"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745f95384ba4007ebab2b58"
+  },
+  "name": "画皮",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "十六七岁的美貌女子",
+  "distribution": [
+    "太原"
+  ],
+  "abilities": [
+    "蛊惑",
+    "隐身"
+  ],
+  "description": "太原王生早上出行，遇见一个女郎",
+  "sources": [
+    {
+      "book": "聊斋志异·卷一",
+      "content": "画皮，王生见之"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745f95f84ba4007ebab2b59"
+  },
+  "name": "黄大王",
+  "type": "神",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "山西人，明朝时出生于农家",
+  "distribution": [
+    "黄河"
+  ],
+  "abilities": [
+    "御水",
+    "预知"
+  ],
+  "description": "黄大王，是黄河之主",
+  "sources": [
+    {
+      "book": "未找到明确的文献来源",
+      "content": "黄大王，黄河之主"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fa1b84ba4007ebab2b5a"
+  },
+  "name": "黄父鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "身高变化莫测，穿一身黄衣服，手臂和脑门上都有黄色，相貌端正，风度翩翩",
+  "distribution": [
+    "南朝宋的黄州地区"
+  ],
+  "abilities": [
+    "隐身",
+    "变化无常",
+    "以鬼为饭"
+  ],
+  "description": "黄父鬼穿一身黄衣服，闯入人的家里张开嘴笑，很快这家人就一定会得瘟疫。这种鬼身高变化莫测，百姓家里的篱笆有多高，他就会有多高",
+  "sources": [
+    {
+      "book": "汉代东方朔《神异经•东南荒经》",
+      "content": "黄父鬼，身高变化莫测"
+    },
+    {
+      "book": "宋代的《太平广记•卷第三百二十五》（引《述异记》）",
+      "content": "黄父鬼，以鬼为饭，喝露水，也叫尺廓、食邪、赤黄父"
+    }
+  ],
+  "location": {
+    "lat": 30.5333,
+    "lng": 114.3333
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fa2884ba4007ebab2b5b"
+  },
+  "name": "黄魔神",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "头发赤红如火，瞳孔呈现出碧青色",
+  "distribution": [
+    "湖北拂归县归州镇西边二里地"
+  ],
+  "abilities": [
+    "保护船只安全渡过险滩",
+    "预知"
+  ],
+  "description": "黄魔神将保护你安全渡过这处险滩。自此之后，人们就管这片险滩叫黄魔滩了",
+  "sources": [
+    {
+      "book": "宋代乐史《太平寰宇记-卷之一百四十八》",
+      "content": "黄魔神，将保护你安全渡过这处险滩"
+    },
+    {
+      "book": "宋代范成大《吴船录•卷下》",
+      "content": "黄魔神，头发赤红如火，瞳孔呈现出碧青色"
+    }
+  ],
+  "location": {
+    "lat": 30.6333,
+    "lng": 111.2333
+  }
+},
+{
+  "_id": {
+    "$oid": "6745faf084ba4007ebab2b5c"
+  },
+  "name": "火烧食鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似人，身着破烂衣衫，面目狰狞",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "吞噬",
+    "燃烧"
+  ],
+  "description": "火烧食鬼是地狱中的一种鬼，生前极吝啬贪婪，乃至从僧人口中夺食，死后先下地狱，出地狱后转生鬼道，常被大火炉烧身",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "火烧食鬼是地狱中的一种鬼，生前极吝啬贪婪，乃至从僧人口中夺食，死后先下地狱，出地狱后转生鬼道，常被大火炉烧身"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fafb84ba4007ebab2b5d"
+  },
+  "name": "镀汤鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似人，身着油腻衣衫，面目可憎",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "杀生",
+    "污染"
+  ],
+  "description": "镀汤鬼是地狱中的一种鬼，该下油锅或开水中煮，因为它们前世曾以杀生为生，包括刽子手和屠夫之类；还有的是因为生前有人托他们寄存财物，他们见财起意，拒不归还",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "镀汤鬼是地狱中的一种鬼，该下油锅或开水中煮，因为它们前世曾以杀生为生，包括刽子手和屠夫之类；还有的是因为生前有人托他们寄存财物，他们见财起意，拒不归还"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fb0b84ba4007ebab2b5e"
+  },
+  "name": "疾行鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似僧人，身着破烂僧衣，面目枯槁",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "疾行",
+    "化缘"
+  ],
+  "description": "疾行鬼是地狱中的一种鬼，平时总以肮脏的东西为食物，吃进以后，突然全身燃着，烧得死去活来",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "疾行鬼是地狱中的一种鬼，平时总以肮脏的东西为食物，吃进以后，突然全身燃着，烧得死去活来"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fb1784ba4007ebab2b5f"
+  },
+  "name": "家鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似老头，身着黄色衣服，面目慈祥",
+  "distribution": [
+    "东阳"
+  ],
+  "abilities": [
+    "预知",
+    "吉凶"
+  ],
+  "description": "晋代元兴年间，东阳太守朱牙之有个姓董的小妾，有一天，有个穿着黄色衣服、戴着帽子的老头从小妾的床底下钻出来，和小妾关系很好，有什么吉凶，往往会提前告诉小妾",
+  "sources": [
+    {
+      "book": "异苑•卷六",
+      "content": "晋代元兴年间，东阳太守朱牙之有个姓董的小妾，有一天，有个穿着黄色衣服、戴着帽子的老头从小妾的床底下钻出来，和小妾关系很好，有什么吉凶，往往会提前告诉小妾"
+    }
+  ],
+  "location": {
+    "lat": 29.0833,
+    "lng": 120.0833
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fb2384ba4007ebab2b60"
+  },
+  "name": "煎饼鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似和尚，身着破烂僧衣，面目可憎",
+  "distribution": [
+    "衢州"
+  ],
+  "abilities": [
+    "化缘",
+    "污染"
+  ],
+  "description": "传说夜里做煎饼，就会招来鬼魂",
+  "sources": [
+    {
+      "book": "北梦琐言•逸文卷第二、逸文补遗",
+      "content": "传说夜里做煎饼，就会招来鬼魂"
+    }
+  ],
+  "location": {
+    "lat": 28.9667,
+    "lng": 118.3667
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fb2f84ba4007ebab2b61"
+  },
+  "name": "剪衣鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似妇女，身着破烂衣衫，面目可憎",
+  "distribution": [
+    "合肥"
+  ],
+  "abilities": [
+    "剪衣",
+    "污染"
+  ],
+  "description": "宋代时，光州定城有个主簿姓富，任职期满带着家人回家，途经合肥，因为有朋友在，就停下来歇息几日，住在佛寺里",
+  "sources": [
+    {
+      "book": "睽车志•卷三",
+      "content": "宋代时，光州定城有个主簿姓富，任职期满带着家人回家，途经合肥，因为有朋友在，就停下来歇息几日，住在佛寺里"
+    }
+  ],
+  "location": {
+    "lat": 31.8667,
+    "lng": 117.2833
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fb3b84ba4007ebab2b62"
+  },
+  "name": "剪烛鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似妇女，身着白色孝服，面目可憎",
+  "distribution": [
+    "清代"
+  ],
+  "abilities": [
+    "剪烛",
+    "污染"
+  ],
+  "description": "清代有个姓宋的人，是当地的富豪",
+  "sources": [
+    {
+      "book": "醉茶志怪•卷二",
+      "content": "清代有个姓宋的人，是当地的富豪"
+    }
+  ],
+  "location": {
+    "lat": 39.9167,
+    "lng": 116.3833
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fb4984ba4007ebab2b63"
+  },
+  "name": "聲",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似人，身着白色孝服，面目可憎",
+  "distribution": [
+    "唐代"
+  ],
+  "abilities": [
+    "污染",
+    "蛊惑"
+  ],
+  "description": "古人认为，人死了，就会变成鬼，但是鬼也是会死的，鬼死了，就会变成聲",
+  "sources": [
+    {
+      "book": "酉阳杂俎•续集卷四",
+      "content": "古人认为，人死了，就会变成鬼，但是鬼也是会死的，鬼死了，就会变成聲"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fb5584ba4007ebab2b64"
+  },
+  "name": "江低",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似妇女，身着白色孝服，面目可憎",
+  "distribution": [
+    "江河"
+  ],
+  "abilities": [
+    "呼唤",
+    "蛊惑"
+  ],
+  "description": "江河里往往会有一种名为江依的水鬼，喜欢呼唤人的名字，答应的人必会被淹死",
+  "sources": [
+    {
+      "book": "北梦琐言•逸文卷第三",
+      "content": "江河里往往会有一种名为江依的水鬼，喜欢呼唤人的名字，答应的人必会被淹死"
+    }
+  ],
+  "location": {
+    "lat": 30.6333,
+    "lng": 114.6333
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fb5f84ba4007ebab2b65"
+  },
+  "name": "僵尸",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似人，身着破烂衣衫，面目枯槁",
+  "distribution": [
+    "陕西"
+  ],
+  "abilities": [
+    "蛊惑",
+    "污染"
+  ],
+  "description": "陕西黄土极厚，往往往下挖三五丈还见不到泉水",
+  "sources": [
+    {
+      "book": "子不语•卷二、卷五",
+      "content": "陕西黄土极厚，往往往下挖三五丈还见不到泉水"
+    }
+  ],
+  "location": {
+    "lat": 34.4333,
+    "lng": 109.2333
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fc8284ba4007ebab2b66"
+  },
+  "name": "交道鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "常遭飞来的神锯肢解，死而复生。饥渴不得食，只有在十字路口祭祀时，才能吃些祭品。",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "复生",
+    "祭品依赖"
+  ],
+  "description": "交道鬼是地狱中的一种鬼，常遭飞来的神锯肢解，死而复生。其前世拦路抢劫，夺取路人随身携带的财物口粮。",
+  "sources": [
+    {
+      "book": "法苑珠林·卷第六",
+      "content": "交道鬼，其状如人，而死而复生，饥渴不得食，唯祭品可以食之。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fcb484ba4007ebab2b67"
+  },
+  "name": "结竹村鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "能变化成杉木，破旧的杉木。",
+  "distribution": [
+    "结竹村"
+  ],
+  "abilities": [
+    "变化",
+    "迷惑"
+  ],
+  "description": "结竹村鬼是宋代弋阳县结竹村的一种鬼，能变化成杉木，迷惑人。其前世不详。",
+  "sources": [
+    {
+      "book": "夷坚志·夷坚乙志·卷第十四",
+      "content": "结竹村有鬼，能变化成杉木，破旧的杉木也。"
+    }
+  ],
+  "location": {
+    "lat": 28.2333,
+    "lng": 117.0333
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fcc084ba4007ebab2b68"
+  },
+  "name": "借尸鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "道士用灯笼照尸体，发现妇人、老头、小孩以及瘦弱的尸体都没兴趣，手提起来扔了，如同扔一片叶子那样随意。",
+  "distribution": [
+    "元代"
+  ],
+  "abilities": [
+    "借尸还魂"
+  ],
+  "description": "借尸鬼是元代末年的一种鬼，道士用灯笼照尸体，发现妇人、老头、小孩以及瘦弱的尸体都没兴趣，手提起来扔了，如同扔一片叶子那样随意。",
+  "sources": [
+    {
+      "book": "志怪录·卷二",
+      "content": "借尸鬼，其状如人，而道士用灯笼照尸体，妇人、老头、小孩以及瘦弱的尸体都没兴趣，手提起来扔了，如同扔一片叶子那样随意。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fcca84ba4007ebab2b69"
+  },
+  "name": "精媚鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "专与坐禅人捣乱，破坏精进修行。专迷惑禅定者，它或变美貌少女，以色相动摇禅定者心意；或变成老弱病残之人，声色凄苦，使之产生，怜悯之意；或化作狰狞恐怖的形象，使之心生畏惧。",
+  "distribution": [
+    "寺庙"
+  ],
+  "abilities": [
+    "迷惑",
+    "破坏"
+  ],
+  "description": "精媚鬼是专与坐禅人捣乱，破坏精进修行的一种鬼。其前世不详。",
+  "sources": [
+    {
+      "book": "释禅波罗蜜次第法门·卷第四",
+      "content": "精媚鬼，其状如人，而专与坐禅人捣乱，破坏精进修行。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fcd584ba4007ebab2b6a"
+  },
+  "name": "精卫",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形状像一般的乌鸦，却长着花脑袋、白嘴巴、红足爪。",
+  "distribution": [
+    "发鸠山"
+  ],
+  "abilities": [
+    "填海"
+  ],
+  "description": "精卫是炎帝的小女儿，名叫女娃。女娃到东海游玩，淹死在东海里，就变成了精卫鸟，常常衔着西山的树枝和石子，用来填塞东海。",
+  "sources": [
+    {
+      "book": "山海经·卷三",
+      "content": "精卫，其状如乌鸦，而长着花脑袋、白嘴巴、红足爪。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fce184ba4007ebab2b6b"
+  },
+  "name": "镜姬",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "美人，容貌绝代。",
+  "distribution": [
+    "沈家"
+  ],
+  "abilities": [
+    "歌舞"
+  ],
+  "description": "镜姬是五代时朱全忠宠爱的小妾，后来死于乱军之中，遇到仙师，用我的血铸造这面镜子，我的灵魂附身其中。听说郎君你风雅无比，愿意做你的小妾。",
+  "sources": [
+    {
+      "book": "萤窗异草·二编卷二",
+      "content": "镜姬，其状如美人，而容貌绝代。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fcee84ba4007ebab2b6c"
+  },
+  "name": "酒鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "披头散发的鬼。",
+  "distribution": [
+    "师父家"
+  ],
+  "abilities": [
+    "嗜酒"
+  ],
+  "description": "酒鬼是让人嗜酒的一种鬼。清代有个人在师父家求学，晚上还没睡觉，忽然听到窗户外面有人说话，打开窗户，看见一个披头散发的鬼站在师父门外面，自称是酒鬼，和门神聊天。",
+  "sources": [
+    {
+      "book": "集异新抄·卷之四",
+      "content": "酒鬼，其状如人，而披头散发。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fcf984ba4007ebab2b6d"
+  },
+  "name": "君",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "单身汉的亡灵所变。",
+  "distribution": [
+    "水族"
+  ],
+  "abilities": [
+    "保牲口"
+  ],
+  "description": "君是单身汉的亡灵所变的一种鬼，为水族群众口中流传的一种鬼。其前世不详。",
+  "sources": [
+    {
+      "book": "中国鬼文化大辞典",
+      "content": "君，其状如人，而单身汉的亡灵所变。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fd0584ba4007ebab2b6e"
+  },
+  "name": "考场鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "老书吏。",
+  "distribution": [
+    "考场"
+  ],
+  "abilities": [
+    "换试卷"
+  ],
+  "description": "考场鬼是老书吏的一种鬼，能换试卷。其前世不详。",
+  "sources": [
+    {
+      "book": "太平广记·卷第三百四十五",
+      "content": "考场鬼，其状如老书吏，而能换试卷。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fd0f84ba4007ebab2b6f"
+  },
+  "name": "空心鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "穿着红色的袍子，戴着乌纱帽，方脸，满脸胡子。这个人旁边还有两个随从，尖嘴猴腮，矮小猥琐，穿着青色的衣服，听其使唤。",
+  "distribution": [
+    "周家"
+  ],
+  "abilities": [
+    "害人"
+  ],
+  "description": "空心鬼是清代杭州的一种鬼，穿着红色的袍子，戴着乌纱帽，方脸，满脸胡子。这个人旁边还有两个随从，尖嘴猴腮，矮小猥琐，穿着青色的衣服，听其使唤。",
+  "sources": [
+    {
+      "book": "子不语·卷五",
+      "content": "空心鬼，其状如人，而穿着红色的袍子，戴着乌纱帽，方脸，满脸胡子。"
+    }
+  ],
+  "location": {
+    "lat": 0,
+    "lng": 0
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fde584ba4007ebab2b70"
+  },
+  "name": "骷髅",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "骷髅的外形特征为白骨，空洞的眼窝，张开的嘴巴，通常穿着破烂的衣服。",
+  "distribution": [
+    "荒山野岭",
+    "墓地"
+  ],
+  "abilities": [
+    "附身",
+    "蛊惑",
+    "烧身"
+  ],
+  "description": "骷髅是一种死后灵魂未散的鬼怪，通常出现在荒山野岭或墓地。它的出现常常预示着灾难或不幸。骷髅的能力包括附身、蛊惑和烧身，能够对人类造成伤害。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第四十六",
+      "content": "南朝宋泰始年间，有个叫张乙的人，因为被鞭打了一顿，生了疥疮，十分痛苦..."
+    },
+    {
+      "book": "醉茶志怪•卷二",
+      "content": "清代时，有个人赶集回来，遇到暴雨，看到路边有个古墓，就躲在碑楼下避雨..."
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fdf184ba4007ebab2b71"
+  },
+  "name": "旷野鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "旷野鬼的外形特征为枯瘦，面黄肌瘦，穿着破烂的衣服。",
+  "distribution": [
+    "旷野",
+    "荒山"
+  ],
+  "abilities": [
+    "饥渴",
+    "烧身"
+  ],
+  "description": "旷野鬼是一种死后灵魂未散的鬼怪，通常出现在旷野或荒山。它的出现常常预示着饥渴或灾难。旷野鬼的能力包括饥渴和烧身，能够对人类造成伤害。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "旷野鬼是地狱中的一种鬼，常患饥渴，被天火烧身..."
+    }
+  ],
+  "location": {
+    "lat": 35.2655,
+    "lng": 109.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fdfd84ba4007ebab2b72"
+  },
+  "name": "蓝鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "蓝鬼的外形特征为蓝色面容，蓝色衣服，高大威猛。",
+  "distribution": [
+    "天津",
+    "山东"
+  ],
+  "abilities": [
+    "吹气",
+    "附身"
+  ],
+  "description": "蓝鬼是一种死后灵魂未散的鬼怪，通常出现在天津或山东。它的出现常常预示着灾难或不幸。蓝鬼的能力包括吹气和附身，能够对人类造成伤害。",
+  "sources": [
+    {
+      "book": "醉茶志怪•卷一",
+      "content": "清代时，有个山东人刘某寄居在天津，夜里躺着抽烟，忽然觉得冷风阵阵..."
+    }
+  ],
+  "location": {
+    "lat": 39.0855,
+    "lng": 117.1958
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fe0984ba4007ebab2b73"
+  },
+  "name": "老吊爷",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "老吊爷的外形特征为高大，白须，穿着长袍。",
+  "distribution": [
+    "河南",
+    "开封"
+  ],
+  "abilities": [
+    "预知",
+    "附身"
+  ],
+  "description": "老吊爷是一种死后灵魂未散的鬼怪，通常出现在河南或开封。它的出现常常预示着灾难或不幸。老吊爷的能力包括预知和附身，能够对人类造成伤害。",
+  "sources": [
+    {
+      "book": "右台仙馆笔记•卷六",
+      "content": "河南开封城有所谓的“老吊爷”，原本就是个吊死鬼..."
+    }
+  ],
+  "location": {
+    "lat": 34.7655,
+    "lng": 114.3958
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fe1a84ba4007ebab2b74"
+  },
+  "name": "雷鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "雷鬼的外形特征为黑色，猪脸，角长五六尺，肉质的翅膀一丈多长。",
+  "distribution": [
+    "广陵郡",
+    "茅山界"
+  ],
+  "abilities": [
+    "飞行",
+    "附身"
+  ],
+  "description": "雷鬼是一种死后灵魂未散的鬼怪，通常出现在广陵郡或茅山界。它的出现常常预示着灾难或不幸。雷鬼的能力包括飞行和附身，能够对人类造成伤害。",
+  "sources": [
+    {
+      "book": "宣室志•卷七",
+      "content": "唐代有个御史叫杨询美，住在广陵郡，他的几个儿子都很年幼..."
+    },
+    {
+      "book": "录异记•卷之九",
+      "content": "唐代润州府延陵县有个叫茅山界的地方，元和年间的一个春天..."
+    }
+  ],
+  "location": {
+    "lat": 32.5655,
+    "lng": 119.3958
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fe2684ba4007ebab2b75"
+  },
+  "name": "棱睁鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "棱睁鬼的外形特征为高大，白须，穿着长袍。",
+  "distribution": [
+    "湖北",
+    "福州"
+  ],
+  "abilities": [
+    "杀人",
+    "附身"
+  ],
+  "description": "棱睁鬼是一种死后灵魂未散的鬼怪，通常出现在湖北或福州。它的出现常常预示着灾难或不幸。棱睁鬼的能力包括杀人和附身，能够对人类造成伤害。",
+  "sources": [
+    {
+      "book": "夷坚志•夷坚三志•壬卷第四",
+      "content": "杀人祭祀鬼这种事，湖北最多，祭祀的对象叫“棱睁鬼”..."
+    }
+  ],
+  "location": {
+    "lat": 30.5655,
+    "lng": 114.3958
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fe3284ba4007ebab2b76"
+  },
+  "name": "黎丘",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "黎丘的外形特征为高大，黑色，穿着破烂的衣服。",
+  "distribution": [
+    "安徽",
+    "舒州"
+  ],
+  "abilities": [
+    "变化",
+    "附身"
+  ],
+  "description": "黎丘是一种死后灵魂未散的鬼怪，通常出现在安徽或舒州。它的出现常常预示着灾难或不幸。黎丘的能力包括变化和附身，能够对人类造成伤害。",
+  "sources": [
+    {
+      "book": "稽神录•卷二",
+      "content": "安徽望江县令李某，任满后住在舒州。他有两个儿子，十分聪明..."
+    }
+  ],
+  "location": {
+    "lat": 31.5655,
+    "lng": 116.3958
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fe3d84ba4007ebab2b77"
+  },
+  "name": "炼形鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "炼形鬼的外形特征为老太太，柔脆的肌肉，虚松的皮肤。",
+  "distribution": [
+    "清代",
+    "科尔沁汗王达尔"
+  ],
+  "abilities": [
+    "炼化",
+    "附身"
+  ],
+  "description": "炼形鬼是一种死后灵魂未散的鬼怪，通常出现在清代或科尔沁汗王达尔。它的出现常常预示着灾难或不幸。炼形鬼的能力包括炼化和附身，能够对人类造成伤害。",
+  "sources": [
+    {
+      "book": "阅微草堂笔记•卷二十三",
+      "content": "清代科尔沁汗王达尔有个仆人，有次在路边捡到两个皮口袋..."
+    }
+  ],
+  "location": {
+    "lat": 43.5655,
+    "lng": 122.3958
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fe4884ba4007ebab2b78"
+  },
+  "name": "灵哥灵姐",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "灵哥灵姐的外形特征为男女天灵盖，四十九个磨成粉。",
+  "distribution": [
+    "明清时期",
+    "极为流行"
+  ],
+  "abilities": [
+    "拘魂",
+    "附身"
+  ],
+  "description": "灵哥灵姐是一种死后灵魂未散的鬼怪，通常出现在明清时期。它的出现常常预示着灾难或不幸。灵哥灵姐的能力包括拘魂和附身，能够对人类造成伤害。",
+  "sources": [
+    {
+      "book": "五杂俎•卷六",
+      "content": "灵哥灵姐是明清时期极为流行的一种鬼怪..."
+    },
+    {
+      "book": "语怪四编",
+      "content": "有人会将人杀死，拘其魂魄，称为灵哥灵姐..."
+    }
+  ],
+  "location": {
+    "lat": 35.5655,
+    "lng": 115.3958
+  }
+},
+{
+  "_id": {
+    "$oid": "6745fe5284ba4007ebab2b79"
+  },
+  "name": "灵侯",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "灵侯的外形特征为高大，白须，穿着长袍。",
+  "distribution": [
+    "南平国",
+    "姑孰"
+  ],
+  "abilities": [
+    "预知",
+    "附身"
+  ],
+  "description": "灵侯是一种死后灵魂未散的鬼怪，通常出现在南平国或姑孰。它的出现常常预示着灾难或不幸。灵侯的能力包括预知和附身，能够对人类造成伤害。",
+  "sources": [
+    {
+      "book": "异苑•卷六",
+      "content": "南平国有士兵在姑孰这个地方，被鬼附身..."
+    }
+  ],
+  "location": {
+    "lat": 28.5655,
+    "lng": 115.3958
+  }
+},
+{
+  "_id": {
+    "$oid": "6746000a84ba4007ebab2b7a"
+  },
+  "name": "流尸",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "尸体，浮在水面上，可能有明显的腐烂迹象",
+  "distribution": [
+    "长沙",
+    "湖南"
+  ],
+  "abilities": [
+    "水中活动",
+    "腐烂",
+    "致病"
+  ],
+  "description": "流尸是指浮在水面上的尸体，可能是由于溺水、谋杀或其他原因死亡的。它的出现通常预示着不祥的事件或疾病的爆发。据说，流尸的鬼魂会在水中活动，可能会感染水源，导致疾病的传播。",
+  "sources": [
+    {
+      "book": "睽车志•卷五",
+      "content": "宋代有个叫魏良佐的人，从长沙返回老家，距离老家还有十几里的时候，天黑了，就在岸边停船休息。晚上月华似水，船上的人都睡着了，魏良佐听到船尾有声音，担心是盗贼，就爬起来查看，只见有个人手里拖着一截木头，想爬上船。魏良佐举起船篙打，那人扔掉木头破口大骂，声音恐怖而奇怪。魏良佐这才发现对方是鬼，赶紧开船逃离。那东西跟着船，穷追不放，一边追一边骂。河水很深，到了中间，那人露出了上半身，魏良佐才发现竟然是一具流尸，一直跟了两三里才离开。回到家不久，魏良佐就病死了。"
+    }
+  ],
+  "location": {
+    "lat": 28.1941,
+    "lng": 112.9677
+  }
+},
+{
+  "_id": {
+    "$oid": "6746001a84ba4007ebab2b7b"
+  },
+  "name": "碧谷鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "三十多岁的男子，扎着双髻",
+  "distribution": [
+    "漳浦",
+    "龙溪县"
+  ],
+  "abilities": [
+    "隐身",
+    "干活"
+  ],
+  "description": "碧谷鬼是指一个三十多岁的男子，扎着双髻，能够隐身。据说，它会在仓库里干活，帮助主人打理谷物。它的出现通常预示着丰收和好运。",
+  "sources": [
+    {
+      "book": "稽神录•卷三",
+      "content": "宋代有个漳浦人叫林昌业，博览群书，研究术数，性格高雅，七十多岁隐居在龙溪县关额山，家中有数顷良田，本想舂谷为米，载到集市上卖，还没干活，就有一个三十多岁扎着双髻的男子前来拜访。林昌业问他是什么人，他只是微笑，不回答。林昌业知道他是鬼，就让家人给他端来酒菜，这人吃饱就离开了。第二天，忽然听到仓库里传来碧谷声。林昌业去看，发现是昨天的那个鬼取来稻谷舂米，林昌业问他怎么无缘无故干活，他笑而不答。干完活，给他吃饭，虽然只有粗茶淡饭，但鬼吃得很香。如此过了一个多月，鬼舂米五十多石，拜辞而去，就再也没有来过。"
+    }
+  ],
+  "location": {
+    "lat": 24.6733,
+    "lng": 117.7853
+  }
+},
+{
+  "_id": {
+    "$oid": "6746002c84ba4007ebab2b7c"
+  },
+  "name": "掠剩大夫",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "穿着绿袍的官人",
+  "distribution": [
+    "扬州"
+  ],
+  "abilities": [
+    "管理",
+    "惩罚"
+  ],
+  "description": "掠剩大夫是指一个穿着绿袍的官人，负责管理扬州的鬼魂。据说，它会惩罚那些懈怠的鬼魂，并且有权有势。",
+  "sources": [
+    {
+      "book": "夷坚志•夷坚丙志•卷第十",
+      "content": "宋代扬州节度推官沈某，为人刚直，死后，官府派遣十几个人护送他的灵柩回老家。道路旁边的行人，看到一个穿着绿袍的官人坐在棺材上，手里拿着一根木棒左看看右看看，如果护送的人懈怠了，这人就拿木棒打他们的脑袋。护送的这些人看不见这个绿袍官人，只觉得脑袋疼得要命。后来棺材送到老家，沈某的鬼魂告诉家人：“我如今成为掠剩大夫，有权有势，不要挂念我了。”"
+    }
+  ],
+  "location": {
+    "lat": 32.3973,
+    "lng": 119.4333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746003684ba4007ebab2b7d"
+  },
+  "name": "掠剩鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "商贩的鬼魂",
+  "distribution": [
+    "扬州"
+  ],
+  "abilities": [
+    "计算",
+    "掠夺"
+  ],
+  "description": "掠剩鬼是指商贩的鬼魂，负责计算和掠夺商贩的利润。据说，它会把超过固定数目的利润掠夺为己有。",
+  "sources": [
+    {
+      "book": "稽神录•卷三",
+      "content": "广陵法云寺有个和尚叫璃楚，曾和中山县的商人章某是好友，后来章某死了，琨楚为他设斋念经超度亡灵。几个月后，璃楚突然在街上遇见了章某。当时瑁楚还没吃饭，章某就请他进了饭馆，买了几个烧饼。两个人吃饭时，璃楚问道：“你已经死了，怎么能出现在这里呢？”章某说：“是的。我因为生前一点儿不大的罪而受到阴府惩罚，发配我到扬州当掠剩鬼。”璃楚很奇怪，就问他什么叫“掠剩”。鬼说：“凡是商贩，他们的利润都有一个固定的数目，超过了这个数目就是不该得的，就叫’剩余'，我就可把这些剩余的钱物掠为己有。现在派在人间和我一样的很多。”"
+    }
+  ],
+  "location": {
+    "lat": 32.3973,
+    "lng": 119.4333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746004184ba4007ebab2b7e"
+  },
+  "name": "罗刹",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "恶鬼，吃人血肉",
+  "distribution": [
+    "渤海郡"
+  ],
+  "abilities": [
+    "钻天遁地",
+    "速度极快"
+  ],
+  "description": "罗刹是指一种恶鬼，吃人血肉，擅长钻天遁地，速度极快。据说，它会害人，甚至吃人。",
+  "sources": [
+    {
+      "book": "宣验记",
+      "content": "晋代咸宁年间，渤海郡有个叫张融的人，儿媳生了个男孩。这孩子起初一切正常，到七岁时就聪明过人。有一次张融带孙子去射箭，箭射出后叫人去把箭拾回来，那人走得太慢，半天才把箭拾回来。这时张融的小孙子说：“我去给爷爷拾回来。”张融刚把箭射出去，那孩子就起跑，竟和箭跑得一样快，和箭同时到达靶棚，转眼间就把箭拿回来了，全座人都大为惊异。从射箭场回来第二天，孩子忽然暴病而死。将要出殡前，张融请来些和尚烧香，这时有一个和尚对张融说：“请快快把你孙子装殓埋掉吧，他是个罗刹，会吃你们家人的。”张融看见取箭的事已经怀疑孙子不是人类，这时立刻盖上棺材，果然听见里面折腾撞击的声音，家人都很害怕，抬出去埋掉了。后来那罗刹又几次现形，张融请人做了法事，它才没再出现。"
+    }
+  ],
+  "location": {
+    "lat": 37.4833,
+    "lng": 122.1333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746004c84ba4007ebab2b7f"
+  },
+  "name": "罗刹鸟",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "大鸟，全身灰黑，爪子、嘴巴雪白",
+  "distribution": [
+    "北京"
+  ],
+  "abilities": [
+    "变化",
+    "吃人眼睛"
+  ],
+  "description": "罗刹鸟是指一种大鸟，全身灰黑，爪子、嘴巴雪白。据说，它会变化成人形，吃人眼睛。",
+  "sources": [
+    {
+      "book": "子不语•卷二",
+      "content": "清代雍正年间，北京内城有户人家为儿子娶媳妇，对方也是豪门大户，住在沙河。新娘上了轿，迎亲队伍经过一座古坟时，突然一阵大风从坟里面出来绕着花轿飞卷，飞沙走石，迎亲的人一个个东倒西歪。风停之后，众人这才重新上路。很快，到了新郎家，轿子停在大厅上，迎亲的人从花轿里扶出新娘子，不料又从里面出来一个，衣服妆容和第一个一模一样，根本看不出哪一个是真的，哪一个是假的。扶到屋里，一家人无可奈何，只能让新郎站中间，两个新娘一左一右拜天地。新郎觉得自己一下子娶了两个妻子，高兴得不得了，当天晚上，美滋滋地左拥右抱入洞房。劳累了一天，家里人刚睡下，忽然听到洞房里传来惨叫声，大家赶紧前去，发现满地是血，新郎、新娘倒在血泊中，另外一个新娘消失无踪。家里人打着灯笼寻找，发现梁上落着一只大鸟，全身灰黑，爪子、嘴巴却雪白。众人纷纷抽出刀剑、长矛、弓箭要杀死那鸟，鸟却张开翅膀发出恐怖的声音，目光如同燃烧的青色磷火，灼灼放光，冲出房门，飞走了。众人费力救醒新郎和新娘，新郎说：“当时，我正要解衣就寝，忽然左边的新娘挥了挥袖子，我的两只眼睛就被掏了出去，痛得昏倒，不知道它怎么变成了鸟。”再问新娘，新娘说：“丈夫惨叫时，那鸟也来啄掉了我的双眼，我也昏倒了。”后来，夫妻二人都治好了，感情很好，但都瞎了眼，真是可悲。"
+    }
+  ],
+  "location": {
+    "lat": 39.9042,
+    "lng": 116.4074
+  }
+},
+{
+  "_id": {
+    "$oid": "6746005784ba4007ebab2b80"
+  },
+  "name": "驴鬼闵",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长得像一头青色的毛驴",
+  "distribution": [
+    "唐代"
+  ],
+  "abilities": [
+    "隐身",
+    "干活"
+  ],
+  "description": "驴鬼闵是指一个长得像一头青色的毛驴的鬼魂。据说，它会隐身，帮助主人干活。",
+  "sources": [
+    {
+      "book": "酉阳杂俎-续集卷三",
+      "content": "唐代时，有个农民向僧人献上供养，求僧人传授给他修行的密宗咒语。僧人随口说：“驴。”这个农民回到家中，一天到晚念着：“驴，驴，驴……”就这样过了几年，有一次站在水边，忽然看到自己的背上，趴着一个鬼，长得像一头青色的毛驴。自此之后，凡是有被鬼怪侵犯的人，只要找到他，立刻解决难题。后来，农民知道僧人当初是戏弄自己，念的这个咒也不灵了。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6746006184ba4007ebab2b81"
+  },
+  "name": "绿郎",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "车中之鬼，又叫天绿郎、驸马",
+  "distribution": [
+    "广州"
+  ],
+  "abilities": [
+    "侵犯",
+    "害人"
+  ],
+  "description": "绿郎是指车中之鬼，又叫天绿郎、驸马。据说，它会侵犯广州的女子，甚至害人。",
+  "sources": [
+    {
+      "book": "广东新语•卷六",
+      "content": "清代广州当地的女子成年时，有不少人因为被绿郎这种鬼怪侵犯而死掉，即便是茅山的法师前来驱除，也没有多少效果。所谓的绿郎，传说是车中之鬼，又叫天绿郎、驸马。"
+    }
+  ],
+  "location": {
+    "lat": 23.1291,
+    "lng": 113.2644
+  }
+},
+{
+  "_id": {
+    "$oid": "6746006c84ba4007ebab2b82"
+  },
+  "name": "红娘",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "未知",
+  "distribution": [
+    "广州"
+  ],
+  "abilities": [
+    "侵犯",
+    "害人"
+  ],
+  "description": "红娘是指一种未知的鬼魂。据说，它会侵犯广州的男子，甚至害人。",
+  "sources": [
+    {
+      "book": "广东新语•卷六",
+      "content": "清代广州当地的男子没结婚的，也有很多人因为犯了红娘这种鬼怪而丢掉性命，所以当地人有“女忌绿郎，男忌红娘”的谚语。"
+    }
+  ],
+  "location": {
+    "lat": 23.1291,
+    "lng": 113.2644
+  }
+},
+{
+  "_id": {
+    "$oid": "6746013484ba4007ebab2b83"
+  },
+  "name": "绿毛鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "高七八尺，长着人的脸，双目深黑有光大如核桃，脖子以下，长满了绿毛",
+  "distribution": [
+    "湖州",
+    "山西芮城县"
+  ],
+  "abilities": [
+    "隐身",
+    "害人"
+  ],
+  "description": "绿毛鬼是指一种高七八尺，长着人的脸，双目深黑有光大如核桃，脖子以下，长满了绿毛的鬼魂。据说，它会隐身，害人。传说绿毛鬼出现在湖州和山西芮城县等地，尤其是在春秋季节的祭祀期间。",
+  "sources": [
+    {
+      "book": "子不语•卷十",
+      "content": "清代乾隆六年，湖州有个叫董畅庵的到山西芮城县当幕僚。县里面有个庙，供奉刘关张三个神像。寺门用铁锁常年锁上，只有春秋举行祭祀的时候，才会打开。传言，庙里有妖怪，就连僧人也不敢住。一天，有个陕西贩羊的商人，带着一千多只羊经过庙前，忽然羊群四散奔逃..."
+    }
+  ],
+  "location": {
+    "lat": 30.8655,
+    "lng": 120.0958
+  }
+},
+{
+  "_id": {
+    "$oid": "6746026b84ba4007ebab2b84"
+  },
+  "name": "马陂大王",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "江南"
+  ],
+  "abilities": [
+    "勾引文人墨客",
+    "使人神魂颠倒"
+  ],
+  "description": "元明时期，江南有很多祠堂，供奉一种名为马陂大王的鬼，这种鬼生前是死于斗殴的人，死后怒气不消变身成厉鬼。小偷经常去祭祀，如果祭祀丰厚，就能偷盗成功。",
+  "sources": [
+    {
+      "book": "说郛•卷一九",
+      "content": "马陂大王，元明时期，江南有很多祠堂，供奉一种名为马陂大王的鬼..."
+    }
+  ],
+  "location": {
+    "lat": 31.2304,
+    "lng": 120.4736
+  }
+},
+{
+  "_id": {
+    "$oid": "6746027584ba4007ebab2b85"
+  },
+  "name": "买棺鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "苏州"
+  ],
+  "abilities": [
+    "使人迷醉失心",
+    "令人相打格杀"
+  ],
+  "description": "明代成化年间，苏州瘟疫横行，乡村更是厉害。五濃泾这个地方，有一户人家七口人死得干干净净，没人收尸下葬。有一天，有个人来到棺材铺买了七口棺材...",
+  "sources": [
+    {
+      "book": "志怪录•卷一",
+      "content": "买棺鬼，明代成化年间，苏州瘟疫横行..."
+    }
+  ],
+  "location": {
+    "lat": 31.2997,
+    "lng": 120.5853
+  }
+},
+{
+  "_id": {
+    "$oid": "6746027f84ba4007ebab2b86"
+  },
+  "name": "卖花娘子",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "鄂州"
+  ],
+  "abilities": [
+    "使人神魂颠倒",
+    "勾引文人墨客"
+  ],
+  "description": "鄂州有个人，本来是个农家子弟，后来当了官，想娶豪族的女儿，就让人杀了自己的妻子，把尸体丢在江边，连妻子的婢女都没幸免...",
+  "sources": [
+    {
+      "book": "稽神录•再补",
+      "content": "卖花娘子，鄂州有个人，本来是个农家子弟..."
+    }
+  ],
+  "location": {
+    "lat": 30.3833,
+    "lng": 114.2833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746028984ba4007ebab2b87"
+  },
+  "name": "猫鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "身上长满了长长的又黑又密的毛，爪子和獴牙无比尖利",
+  "distribution": [
+    "隋朝"
+  ],
+  "abilities": [
+    "杀人",
+    "将被害者家里的财物暗中移到养猫鬼的人家"
+  ],
+  "description": "隋朝的独孤陀，字黎邪。隋文帝时，他是延州刺史。 独孤陀这个人，喜欢旁门左道。他外祖父家姓高，以前供奉猫鬼，已经害死了他的舅父郭沙罗...",
+  "sources": [
+    {
+      "book": "北史•卷六十一",
+      "content": "猫鬼，隋朝的独孤陀，字黎邪..."
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6746029384ba4007ebab2b88"
+  },
+  "name": "毛鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "唐朝"
+  ],
+  "abilities": [
+    "吃人心",
+    "抓少女少男"
+  ],
+  "description": "唐朝建中二年，江淮一带谣传有厉鬼从湖南来。有的人说是毛鬼，而且这种鬼变化无常...",
+  "sources": [
+    {
+      "book": "太平广记•卷第三百三十九",
+      "content": "毛鬼，唐朝建中二年，江淮一带谣传有厉鬼从湖南来..."
+    }
+  ],
+  "location": {
+    "lat": 32.0607,
+    "lng": 118.7781
+  }
+},
+{
+  "_id": {
+    "$oid": "6746029d84ba4007ebab2b89"
+  },
+  "name": "毛家姑妈",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "湖北"
+  ],
+  "abilities": [
+    "害死长得洁白端庄的男女"
+  ],
+  "description": "湖北咸宁这地方，一个村里有户姓毛的人家，家里有个女儿，没有出嫁就和人私通，父母生气就杀了她，将她的尸体埋在野地里，不久就成了僵尸...",
+  "sources": [
+    {
+      "book": "右台仙馆笔记-卷五",
+      "content": "毛家姑妈，湖北咸宁这地方，一个村里有户姓毛的人家..."
+    }
+  ],
+  "location": {
+    "lat": 29.8773,
+    "lng": 114.2983
+  }
+},
+{
+  "_id": {
+    "$oid": "674602a784ba4007ebab2b8a"
+  },
+  "name": "毛老人",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "南京"
+  ],
+  "abilities": [
+    "驱赶老鼠"
+  ],
+  "description": "南京有个玄武湖，明朝的时候，在湖中建立黄册库，收藏全国的户口黄册，严令禁止烟火...",
+  "sources": [
+    {
+      "book": "夜航船•卷十八",
+      "content": "毛老人，南京有个玄武湖，明朝的时候..."
+    }
+  ],
+  "location": {
+    "lat": 32.0607,
+    "lng": 118.7781
+  }
+},
+{
+  "_id": {
+    "$oid": "674602b184ba4007ebab2b8b"
+  },
+  "name": "冒失鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "蓬头鬼，有一丈多高，藏在牌楼上的石绣球里面，拿着纸钱当飞镖",
+  "distribution": [
+    "杭州"
+  ],
+  "abilities": [
+    "用纸钱打人家的脑袋"
+  ],
+  "description": "杭州三元坊石牌楼旁边，住着一个老太婆叫沈氏，她就能看到鬼...",
+  "sources": [
+    {
+      "book": "子不语•卷八",
+      "content": "冒失鬼，杭州三元坊石牌楼旁边..."
+    }
+  ],
+  "location": {
+    "lat": 30.2741,
+    "lng": 120.1551
+  }
+},
+{
+  "_id": {
+    "$oid": "674602c784ba4007ebab2b8d"
+  },
+  "name": "美人首",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "挽着凤髻，美丽无比，随即伸过一条手臂来，洁白如玉",
+  "distribution": [
+    "京城"
+  ],
+  "abilities": [
+    "害死人"
+  ],
+  "description": "有几个商人一同寓居在京城一家房舍中。房舍和邻屋相连，中间隔着一层木板壁，板上有个松节脱落了，洞穴像杯子大小...",
+  "sources": [
+    {
+      "book": "聊斋志异•卷六",
+      "content": "美人首，有几个商人一同寓居在京城一家房舍中..."
+    }
+  ],
+  "location": {
+    "lat": 39.9042,
+    "lng": 116.4074
+  }
+},
+{
+  "_id": {
+    "$oid": "674602d384ba4007ebab2b8e"
+  },
+  "name": "迷途鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "四五百个穿着红色衣服、高两丈的人飞奔而来",
+  "distribution": [
+    "苏州"
+  ],
+  "abilities": [
+    "围住人",
+    "使人筋疲力尽"
+  ],
+  "description": "苏州有个人姓顾，住在乡村。有一天早晨离开家，走了十几里地，忽然听到西北有声响，抬起头，看见四五百个穿着红色衣服、高两丈的人飞奔而来...",
+  "sources": [
+    {
+      "book": "幽明录•卷五",
+      "content": "迷途鬼，苏州有个人姓顾，住在乡村..."
+    }
+  ],
+  "location": {
+    "lat": 31.2997,
+    "lng": 120.5853
+  }
+},
+{
+  "_id": {
+    "$oid": "67460d6784ba4007ebab2b8f"
+  },
+  "name": "面然",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "面燃，或者饿鬼王，是地狱中的饿鬼之王，传说是观音菩萨所化。",
+  "distribution": [
+    "四川嘉定州乌尤山"
+  ],
+  "abilities": [
+    "镇服"
+  ],
+  "description": "面然，也叫面燃，或者饿鬼王，是地狱中的饿鬼之王，传说是观音菩萨所化。四川嘉定州乌尤山上有乌尤寺，相传观音菩萨到这个地方，见有很多鬼哀嚎，就变成了鬼王，名为面燃，镇服它们。",
+  "sources": [
+    {
+      "book": "清代陈祥裔《蜀都碎事•卷之二》",
+      "content": "面然，也叫面燃，或者饿鬼王，是地狱中的饿鬼之王，传说是观音菩萨所化。"
+    }
+  ],
+  "location": {
+    "lat": 29.5453,
+    "lng": 103.4453
+  }
+},
+{
+  "_id": {
+    "$oid": "67460d7a84ba4007ebab2b90"
+  },
+  "name": "庙鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "又胖又黑、其貌不扬的妇人",
+  "distribution": [
+    "新城"
+  ],
+  "abilities": [
+    "蛊惑"
+  ],
+  "description": "新城秀才王启后，有一天看见一个又胖又黑、其貌不扬的妇人走进屋里，嬉笑着靠近他坐到床上，样子很放荡。王秀才赶她，妇人却赖着不走。从此，王秀才不论坐着躺着，总看见那妇人在跟前。",
+  "sources": [
+    {
+      "book": "清代蒲松龄《聊斋志异•卷二》",
+      "content": "庙鬼，新城秀才王启后，有一天看见一个又胖又黑、其貌不扬的妇人走进屋里，嬉笑着靠近他坐到床上，样子很放荡。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "67460d8684ba4007ebab2b91"
+  },
+  "name": "磨刀小儿",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "全身赤裸，拿着一把五六寸长的刀",
+  "distribution": [
+    "徐家门前"
+  ],
+  "abilities": [
+    "杀人"
+  ],
+  "description": "有个叫徐元礼的人，女儿即将出嫁，徐元礼的叔祖父和同母异父的兄长孔正阳一•起去拜访o 两个人在路上看到有个小孩，全身赤裸，拿着一把五六寸长的刀，坐在一截土墙上磨刀，然后，这个小孩又跳到徐家门前的桑树下磨刀。",
+  "sources": [
+    {
+      "book": "晋代祖台之《志怪》",
+      "content": "磨刀小儿，全身赤裸，拿着一把五六寸长的刀，坐在一截土墙上磨刀。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "67460d9284ba4007ebab2b92"
+  },
+  "name": "魔罗身鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "能伤人性命",
+  "distribution": [
+    "魔中"
+  ],
+  "abilities": [
+    "夺命"
+  ],
+  "description": "魔罗身鬼又称杀身恶鬼，此鬼应属于魔中之死魔，能伤人性命。《大智度论》卷六十八说：“魔，秦言能夺命者。唯死魔实能夺命，余者亦能作夺命因缘，亦夺智慧命，是故名杀者。”",
+  "sources": [
+    {
+      "book": "唐代释道世《法苑珠林•卷第六》",
+      "content": "魔罗身鬼，又称杀身恶鬼，此鬼应属于魔中之死魔，能伤人性命。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "67460d9c84ba4007ebab2b93"
+  },
+  "name": "木鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "桃木人",
+  "distribution": [
+    "洛阳阜财里"
+  ],
+  "abilities": [
+    "化身"
+  ],
+  "description": "北魏时，洛阳阜财里有座开善寺，原来是京城人韦英的住宅。韦英很早就死了，他的妻子梁氏没有办理丧事就改嫁了，接纳黄河西的向子集为丈夫。虽说她已改嫁，但仍然居住在韦英的房宅里。韦英得知梁氏改嫁，在一天白天, 带领几个人，骑着马赶回来，在院门外高喊：“阿梁，你忘了我啦！”向子集惊慌害怕，拉开弓用箭射韦英。韦英中箭倒地，变成了桃木人，骑的马变成了茅草马，跟随的几个人也都是蒲草扎的。",
+  "sources": [
+    {
+      "book": "南北朝杨街之《洛阳伽蓝记•卷第四》",
+      "content": "木鬼，桃木人，骑的马变成了茅草马，跟随的几个人也都是蒲草扎的。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "67460da784ba4007ebab2b94"
+  },
+  "name": "泥魅",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长得如同小孩，高二尺多，通体红色",
+  "distribution": [
+    "七里海边"
+  ],
+  "abilities": [
+    "用湿泥砸人"
+  ],
+  "description": "清代七里海边有水鬼，名为泥魅，长得如同小孩，高二尺多，通体红色，经常用湿泥砸人，被打中的就会生病。这种鬼怕金铁，听到金铁交鸣的声音，就会跑掉。",
+  "sources": [
+    {
+      "book": "清代李庆辰《醉茶志怪•卷二》",
+      "content": "泥魅，长得如同小孩，高二尺多，通体红色，经常用湿泥砸人。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "67460db284ba4007ebab2b95"
+  },
+  "name": "溺死鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "淹死于水中之人死后所化",
+  "distribution": [
+    "泽州"
+  ],
+  "abilities": [
+    "害人"
+  ],
+  "description": "溺死鬼，乃淹死于水中之人死后所化。这种鬼只有找到代替者，才能脱生。 宋代泽州有个裁缝，有一天正在干活，忽然看到有个人从河边过来，一边走一边笑：“明天有人来接替我了！”裁缝就问：“谁来接替你呀？ ",
+  "sources": [
+    {
+      "book": "金代元好问《续夷坚志•卷二》",
+      "content": "溺死鬼，乃淹死于水中之人死后所化。这种鬼只有找到代替者，才能脱生。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "67460dbe84ba4007ebab2b96"
+  },
+  "name": "捻胎鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "传说人在投胎前的模样",
+  "distribution": [
+    "阴间"
+  ],
+  "abilities": [
+    "捏人"
+  ],
+  "description": "南宋有个人叫周必大，长得十分丑陋，参加科举考试前，做了一个梦，梦见来到阴间，看见判官正在拷打一个捻胎鬼，指着周必大对鬼说：“这个人以后能当宰相，只是相貌这么丑陋，怎么办？ ”捻胎鬼就请判官答应自己为周必大做“帝王须”，判官答应了。",
+  "sources": [
+    {
+      "book": "元代《湖海新闻夷坚续志•前集卷二》",
+      "content": "捻胎鬼，传说人在投胎前的模样，能捏人。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "67460dcc84ba4007ebab2b97"
+  },
+  "name": "孽僧",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "和尚",
+  "distribution": [
+    "顺邑"
+  ],
+  "abilities": [
+    "害人"
+  ],
+  "description": "清代顺邑有个姓李的书生，闲游野寺，看见篱笆上挂着一个大葫芦，又圆又白十分可爱，就摘下来塞入怀里。 半路上书生小便，不小心葫芦掉在地上，摔出一个缝隙，里头有个东西，像是个鸡蛋。",
+  "sources": [
+    {
+      "book": "清代李庆辰《醉茶志怪•卷二》",
+      "content": "孽僧，和尚，害人。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "67460ddc84ba4007ebab2b98"
+  },
+  "name": "狞瞪神",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "鬼",
+  "distribution": [
+    "京城"
+  ],
+  "abilities": [
+    "害人"
+  ],
+  "description": "宋代政和年间，京城有几十个少年，成群结队，为非作歹，经常三五年就会抓住一个美少年，将其放入油锅烹炸，用来祭祀他们供奉的鬼。那鬼名为狞瞪神。",
+  "sources": [
+    {
+      "book": "宋代洪迈《夷坚志•夷坚丁志•卷第十》",
+      "content": "狞瞪神，鬼，害人。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "67460f3184ba4007ebab2b99"
+  },
+  "name": "牛鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似公牛，硕大，状如公牛，抬头看着人",
+  "distribution": [
+    "山海关以东"
+  ],
+  "abilities": [
+    "化人",
+    "蛊惑",
+    "御火",
+    "预知"
+  ],
+  "description": "清代解鉴《益智录•卷之四》记载，山海关以东，有个深山庄，庄里农民都养牛，耕完地，就把它们赶到深山放牧。村里雇了一个人看守。群牛在山，最怕老虎出来。每一次，只要老虎出现，牛群里面总会有一头牛出来和老虎打架，即便如此，也不能胜过老虎，需要放牛的人去驱赶。有一天，放牛的这人赶牛进山，忽然窜出来一只大老虎，牧人大叫道：“老虎来了！”话音刚落，一头公牛跑出来，直奔老虎而去。 那头公牛和老虎搏斗，老虎虽然爪牙锋利，但牛的特角和蹄子也十分厉害，打了许久，不分胜负，老虎就跑了。公牛停下来赶紧吃草，牧人知道公牛饿了，害怕老虎等一会儿再来，就赶紧拿麦荻喂它。公牛吃饱了，老虎果然又来，公牛精神抖擞，再次和老虎搏斗，竟然把老虎打败了。 牧人大喜过望，自此之后，进山就跟着公牛，只要有老虎出现，公牛就能把对方赶走。后来，牧人就把这件事告诉了主人，说这牛厉害，希望他再买一头牛代替公牛耕田，主人就同意了。 牧人一天在山里放牛，梦见这头公牛说：“快点儿醒来！我之前因为吃了灵芝，所以有点儿能耐，今天晚上我就要死了。我死后，你把我的两只牛角收好，以后有大用处。如果你以后在山上遇到麻烦，就喊'牛鬼'数声，我一定出来救你。”牧人醒来，发现是个梦，以为不可信，早晨起来，发现牛果然死了。按照规矩，牛死在山上，必须剥掉皮给主人，这样主人才会相信牛真的死了。牧人认为这头牛很灵异，就收了它的两只牛角埋了。牛的主人听说牛死了，又没看到牛皮，以为牧人骗他，就将牧人辞退了。 牧人丢掉工作，就进山采人参。一天，牧人和几个同伴在树下歇息，牧人爬到树上乘凉，忽然来了几只老虎，将同伴都咬死了。牧人吓得够呛，本来想下树，又怕老虎再来，想起曾经做过的那个梦，就大喊了几声“牛鬼”，喊完，只见从东面来了一个人，身躯硕大，状如公牛，抬头看着牧人,说:“你赶紧下来，有我在，保你安全。” 牧人下树，这人说:“跟我来！“这人带着牧人来到一个院落，房舍坚实牢固。牧人很奇怪，心想：“这肯定就是我叫的牛鬼了。”就问对方的姓名，那人说：“你不要问了。” 过了一会儿，那人拿出酒肉供牧人吃喝。吃饱喝足，那人说：“你来山里，是采人参的吧，有个地方人参很多，你跟着我去采。”说罢，倒地变成了公牛。牧人骑着公牛来到一个地方，果然挖出数百斤人参。",
+  "sources": [
+    {
+      "book": "益智录•卷之四",
+      "content": "山海关以东，有个深山庄，庄里农民都养牛，耕完地，就把它们赶到深山放牧。村里雇了一个人看守。群牛在山，最怕老虎出来。每一次，只要老虎出现，牛群里面总会有一头牛出来和老虎打架，即便如此，也不能胜过老虎，需要放牛的人去驱赶。"
+    }
+  ],
+  "location": {
+    "lat": 40.0769,
+    "lng": 119.5211
+  }
+},
+{
+  "_id": {
+    "$oid": "67460f3e84ba4007ebab2b9a"
+  },
+  "name": "牛僵尸",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "形似母牛，双目闪闪，如同活着一般",
+  "distribution": [
+    "江宁铜井村"
+  ],
+  "abilities": [
+    "化人",
+    "蛊惑",
+    "御火",
+    "预知"
+  ],
+  "description": "清代袁枚《子不语•卷十四》记载，清代江宁铜井村有个人养了一头母牛，十几年生下二十八头牛犊，让主人赚了不少钱。母牛老了，不能再耕地，有宰牛的前来购买，主人不忍心，让仆人好生喂养，牛死之后，将牛埋了起来。 一天晚上，听到门外有撞击的声音，而且一连几天都是如此，刚开始没多想，但过了一个多月，动静越来越大，还能听到牛的吼声和蹄声。于是，全村的人都怀疑是这头牛在作怪。大家来到埋葬牛的地方挖开地面，只见牛的尸体并没有腐烂，双目闪闪，如同活着一般，四个蹄子之间夹着稻苗，好像是夜里曾经破土而出过。牛的主人大怒，拿来刀砍断了牛的四蹄，剖开牛的肚子，并且用粪便之类的脏东西灌进去，重新埋上。 过了一段时间，再挖开査看，发现牛已经腐烂了。怪事再也没发生过。",
+  "sources": [
+    {
+      "book": "子不语•卷十四",
+      "content": "清代江宁铜井村有个人养了一头母牛，十几年生下二十八头牛犊，让主人赚了不少钱。母牛老了，不能再耕地，有宰牛的前来购买，主人不忍心，让仆人好生喂养，牛死之后，将牛埋了起来。"
+    }
+  ],
+  "location": {
+    "lat": 32.0617,
+    "lng": 118.7783
+  }
+},
+{
+  "_id": {
+    "$oid": "67460f4b84ba4007ebab2b9b"
+  },
+  "name": "牛头阿旁",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "牛头人身，手持铁叉",
+  "distribution": [
+    "南北朝"
+  ],
+  "abilities": [
+    "化人",
+    "蛊惑",
+    "御火",
+    "预知"
+  ],
+  "description": "唐代释道世《法苑珠林•卷第八十三》记载，南北朝时，有个人叫何澹之，官拜刘宋的大司农，向来不相信佛法，做出了很多残害生灵的事。 永初年间，何澹之得了重病，看见一个大鬼，长得又高又壮，牛头人身，手持铁叉，昼夜看着他。何澹之十分恐惧，请人作法，依然如故。后来，何澹之让人请来和尚慧义，并将事情告诉了慧义，慧义说:“这个大鬼，是牛头阿旁。它之所以出现，是因为你做了很多恶事。如果你诚心信佛，忏悔自己的罪过，这个鬼就会自动消失。”何澹之不信，过了不久就死了。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第八十三",
+      "content": "南北朝时，有个人叫何澹之，官拜刘宋的大司农，向来不相信佛法，做出了很多残害生灵的事。"
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "67460f5584ba4007ebab2b9c"
+  },
+  "name": "牛疫鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "壮汉，穿着五彩的盔甲，戴着红色的头盔",
+  "distribution": [
+    "余干村"
+  ],
+  "abilities": [
+    "化人",
+    "蛊惑",
+    "御火",
+    "预知"
+  ],
+  "description": "宋代洪迈《夷坚志-夷坚丙志•卷第十一》记载，宋代绍兴六年，有个叫余干村的村庄，有户人家姓张，一天晚上家里人都睡觉了，在牛圈里的牧童忽然听到有人敲门，爬起来看，发现有几百个壮汉，都穿着五彩的盔甲，戴着红色的头盔，冲进牛圈就不见了。 第二天，牛圈里的五十头牛全死了。人们都说那些壮汉其实就是牛疫鬼。",
+  "sources": [
+    {
+      "book": "夷坚志-夷坚丙志•卷第十一",
+      "content": "宋代绍兴六年，有个叫余干村的村庄，有户人家姓张，一天晚上家里人都睡觉了，在牛圈里的牧童忽然听到有人敲门，爬起来看，发现有几百个壮汉，都穿着五彩的盔甲，戴着红色的头盔，冲进牛圈就不见了。"
+    }
+  ],
+  "location": {
+    "lat": 28.8667,
+    "lng": 115.4833
+  }
+},
+{
+  "_id": {
+    "$oid": "67460f7a84ba4007ebab2b9d"
+  },
+  "name": "疟鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "小孩，皮肤白皙，衣服鞋袜都是深青色",
+  "distribution": [
+    "太平府"
+  ],
+  "abilities": [
+    "化人",
+    "蛊惑",
+    "御火",
+    "预知"
+  ],
+  "description": "清代袁枚《子不语•卷七》、清代李庆辰《醉茶志怪•卷三》记载，疟，指的是一种按时发冷发热的急性传染病，在古代，一旦沾染，死亡概率极大，古人常常认为是有疟鬼在作怪。 清代有个叫陈齐东的人，年轻时和张某寄居在太平府的关帝庙里。张某染上了疟疾，陈齐东和他住在一起，午后疲倦，躺在床上休息，看到屋外站着一个小孩，皮肤白皙，衣服鞋袜都是深青色，探头看着张某。陈齐东刚开始以为是庙里的人，也就没有过问。过了一会儿，张某疟疾就发作了。等疟疾停歇，那小孩就离开了。又一天，忽然听到张某大叫，痛苦地吐痰，那个小孩站在窗前，手舞足蹈，十分得意。陈齐东知道这就是疟鬼，上前扑倒了它。接触到它的时候，感觉手上十分寒冷。小孩逃了出去，发出簌簌的声响，陈齐东一直追到院子中，它才消失。 过了不久，张某痊愈，但是陈齐东的手上却出现了黑气，如同烟熏火燎一般，好几天才消失。",
+  "sources": [
+    {
+      "book": "子不语•卷七",
+      "content": "疟，指的是一种按时发冷发热的急性传染病，在古代，一旦沾染，死亡概率极大，古人常常认为是有疟鬼在作怪。"
+    }
+  ],
+  "location": {
+    "lat": 30.2667,
+    "lng": 119.2833
+  }
+},
+{
+  "_id": {
+    "$oid": "67460fed84ba4007ebab2b9e"
+  },
+  "name": "女尸",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "瑶草",
+  "distribution": [
+    "姑媼山"
+  ],
+  "abilities": [
+    "魅惑人"
+  ],
+  "description": "战国《山海经•卷五》记载，天帝有个女儿死了，名曰女尸，变成了姑媼山上的瑶草，吃了可以魅惑人。",
+  "sources": [
+    {
+      "book": "山海经•卷五",
+      "content": "战国《山海经•卷五》记载..."
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "67460ff884ba4007ebab2b9f"
+  },
+  "name": "喷水妪",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "老婆子，身材短小而且驼背，一头白发如同扫帚一般",
+  "distribution": [
+    "莱阳"
+  ],
+  "abilities": [
+    "喷水"
+  ],
+  "description": "清代蒲松龄《聊斋志异-卷一》记载，莱阳人宋玉叔在任四川按察使时，租的宅院十分荒凉。一天夜里两个丫鬟陪宋玉叔的老母亲住在客厅里，突然听到院子里有一阵阵噗噗的喷水声，如同裁缝在喷衣服一般。",
+  "sources": [
+    {
+      "book": "聊斋志异-卷一",
+      "content": "清代蒲松龄《聊斋志异-卷一》记载..."
+    }
+  ],
+  "location": {
+    "lat": 37.1833,
+    "lng": 120.6333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746100384ba4007ebab2ba0"
+  },
+  "name": "披麻煞",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "戴着麻冠，穿着麻鞋，手里拿着桐杖",
+  "distribution": [
+    "安徽新安"
+  ],
+  "abilities": [
+    "作祟"
+  ],
+  "description": "清代袁枚《子不语•卷三》记载，清代安徽新安有个姓曹的老太太，孙子当了官，和一个女子订婚，马上要娶亲。老太太命人大扫除，收拾新房留给新娘住，新房距离老太太的房间有十几步。",
+  "sources": [
+    {
+      "book": "子不语•卷三",
+      "content": "清代袁枚《子不语•卷三》记载..."
+    }
+  ],
+  "location": {
+    "lat": 30.5333,
+    "lng": 117.2833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746100f84ba4007ebab2ba1"
+  },
+  "name": "婆女",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "釜甑鬼",
+  "distribution": [
+    "釜甑"
+  ],
+  "abilities": [
+    "作祟"
+  ],
+  "description": "明代徐应秋《玉芝堂谈荟•卷十三》记载，釜甑鬼，名为婆女，凡是遇到釜甑鸣叫，喊婆女的名字，就不会发生祸事。",
+  "sources": [
+    {
+      "book": "玉芝堂谈荟•卷十三",
+      "content": "明代徐应秋《玉芝堂谈荟•卷十三》记载..."
+    }
+  ],
+  "location": {
+    "lat": 34.2655,
+    "lng": 108.9508
+  }
+},
+{
+  "_id": {
+    "$oid": "6746101b84ba4007ebab2ba2"
+  },
+  "name": "七爷八爷",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "七爷名为谢必安，八爷名为范无救",
+  "distribution": [
+    "台湾"
+  ],
+  "abilities": [
+    "捉拿不法鬼魂"
+  ],
+  "description": "当代栾保群《中国神怪大辞典》（引《台湾之寺庙与神明》）记载，七爷八爷，是我国台湾地区盛传的一种鬼，又叫长爷短爷，当地人习惯以谢范二将军或者大爷二爷称呼。",
+  "sources": [
+    {
+      "book": "中国神怪大辞典",
+      "content": "当代栾保群《中国神怪大辞典》（引《台湾之寺庙与神明》）记载..."
+    }
+  ],
+  "location": {
+    "lat": 23.5,
+    "lng": 121.5
+  }
+},
+{
+  "_id": {
+    "$oid": "674610f284ba4007ebab2ba3"
+  },
+  "name": "齐女",
+  "type": "妖",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "蝉",
+  "distribution": [
+    "古代齐国"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "齐女是古代齐国的王后愤懑而死，死后尸体变成了蝉。传说她在高树上愤怒地鸣叫，所以古人称呼蝉为齐女。",
+  "sources": [
+    {
+      "book": "古今注•卷下",
+      "content": "齐女，蝉也。齐王后愤懑而死，死后尸体变成了蝉。"
+    }
+  ],
+  "location": {
+    "lat": 36.0833,
+    "lng": 120.3333
+  }
+},
+{
+  "_id": {
+    "$oid": "674610fc84ba4007ebab2ba4"
+  },
+  "name": "奇相",
+  "type": "妖",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "龙的身体，长着马头",
+  "distribution": [
+    "长江"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "奇相是长江之主，传说上古时期，震蒙氏的女儿偷盗黄帝的玄珠，沉江而死，死后化为奇相。",
+  "sources": [
+    {
+      "book": "括地志•卷四",
+      "content": "奇相，长江之主也。"
+    },
+    {
+      "book": "蜀典•卷二",
+      "content": "奇相，马头龙身。"
+    }
+  ],
+  "location": {
+    "lat": 30.2333,
+    "lng": 120.2333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746110884ba4007ebab2ba5"
+  },
+  "name": "墙女",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "小女孩",
+  "distribution": [
+    "汾州城"
+  ],
+  "abilities": [
+    "预知"
+  ],
+  "description": "墙女是隋朝末年，修筑汾州城时，城墙的西南角总是出问题，早晨建成晚上就倒塌，一连四五次都是这样。城中有个小女孩，年龄十二三岁，告诉家里人说:“如果不把我筑入城中，此城最终便难以合拢。”",
+  "sources": [
+    {
+      "book": "太平广记•卷第三百七十四",
+      "content": "墙女，汾州城西南角女鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 37.7333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746111484ba4007ebab2ba6"
+  },
+  "name": "窃婴鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "穿着青色衣服的女子",
+  "distribution": [
+    "吴郡"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "窃婴鬼是吴郡有个姓任的书生，能够看到鬼。一天，任某和一个姓杨的书生还有三四个同伴，乘船去虎丘寺游玩，在船上谈及鬼神之事，杨某怀疑任某的能力。",
+  "sources": [
+    {
+      "book": "宣室志•卷四",
+      "content": "窃婴鬼，吴郡女鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 31.2833,
+    "lng": 120.5833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746112084ba4007ebab2ba7"
+  },
+  "name": "钦鴉",
+  "type": "妖",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "大翳，形状像普通的雕鹰却长有黑色的斑纹和白色的脑袋、红色的嘴巴和老虎一样的爪子",
+  "distribution": [
+    "钟山"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "钦鴉是钟山有一种大翳，传说它是钦镇所化，曾经和钟山山神的儿子鼓联手在昆仑山南面杀死天神葆江。",
+  "sources": [
+    {
+      "book": "山海经•卷二",
+      "content": "钦鴉，大翳也。"
+    }
+  ],
+  "location": {
+    "lat": 34.2333,
+    "lng": 108.9333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746112c84ba4007ebab2ba8"
+  },
+  "name": "琴鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "高一丈多，穿黑衣服，腰扎皮带",
+  "distribution": [
+    "嵇康家"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "琴鬼是嵇康有一次在灯下弹琴。忽然有个鬼进了屋子，高一丈多，穿黑衣服，腰扎皮带。",
+  "sources": [
+    {
+      "book": "灵鬼志",
+      "content": "琴鬼，嵇康家鬼也。"
+    },
+    {
+      "book": "幽明录•卷四",
+      "content": "琴鬼，嵇康家鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 34.7833,
+    "lng": 113.2333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746113784ba4007ebab2ba9"
+  },
+  "name": "取宝鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "似人非人，似兽非兽，高不足三尺",
+  "distribution": [
+    "海南"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "取宝鬼是海南有种鬼，似人非人，似兽非兽，高不足三尺，能听懂人的话。",
+  "sources": [
+    {
+      "book": "耳新•卷之六",
+      "content": "取宝鬼，海南鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 19.2333,
+    "lng": 109.5333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746114384ba4007ebab2baa"
+  },
+  "name": "犬鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "狗",
+  "distribution": [
+    "平江城"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "犬鬼是宋代平江城有个屠夫张小二。绍兴八年，张小二去十五里地之外的黄燎柳家买狗，那狗见到张小二，似乎十分欢喜，径直走过去。",
+  "sources": [
+    {
+      "book": "夷坚志-夷坚甲志•卷第七",
+      "content": "犬鬼，平江城鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 31.7833,
+    "lng": 120.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746114f84ba4007ebab2bab"
+  },
+  "name": "人面疮",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "左胳膊上长了一个人面疮",
+  "distribution": [
+    "江左"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "人面疮是江左有个商人，左胳膊上长了一个人面疮，虽然长了疮，但并不痛苦。",
+  "sources": [
+    {
+      "book": "五杂俎•卷十一",
+      "content": "人面疮，江左鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 32.0833,
+    "lng": 118.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746115a84ba4007ebab2bac"
+  },
+  "name": "杀",
+  "type": "鸟",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "全身青色，有五尺多高",
+  "distribution": [
+    "隰川"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "杀是传说人死后的几天，会有一种鸟从棺椁之中飞出，这种鸟名为杀。",
+  "sources": [
+    {
+      "book": "宣室志•补遗",
+      "content": "杀，鸟也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746123a84ba4007ebab2bad"
+  },
+  "name": "山鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "妇女，胸口长着几寸长的青毛，寒冷如冰",
+  "distribution": [
+    "四川山道"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "山鬼是四川山道上的鬼魂，传说有个小吏在日暮时分遇见一个妇女，拎着水罐站在溪流边，小吏调戏妇女，发现她胸口长着几寸长的青毛，寒冷如冰。",
+  "sources": [
+    {
+      "book": "睽车志•卷四",
+      "content": "山鬼，四川山道上的鬼魂也。"
+    }
+  ],
+  "location": {
+    "lat": 30.6667,
+    "lng": 104.0667
+  }
+},
+{
+  "_id": {
+    "$oid": "6746124584ba4007ebab2bae"
+  },
+  "name": "善爽鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地下"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "善爽鬼是生前有善行的鬼魂，或者当官清正廉洁，或者生前有功，可以改世更生，也可以成为地下的主宰。",
+  "sources": [
+    {
+      "book": "酉阳杂俎•前集卷二",
+      "content": "善爽鬼，生前有善行的鬼魂也。"
+    }
+  ],
+  "location": {
+    "lat": 34.7833,
+    "lng": 113.2333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746125084ba4007ebab2baf"
+  },
+  "name": "伤魂",
+  "type": "鸟",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "长得像鸡，羽毛的颜色如同凤凰",
+  "distribution": [
+    "常山郡"
+  ],
+  "abilities": [
+    "飞行",
+    "鸣叫"
+  ],
+  "description": "伤魂是晋惠帝时期，常山郡献上的鸟，传说是黄帝杀蚩尤时，有个老虎误咬了一个女子，七天还没有咽气，黄帝很哀伤，最后就重棺石椁将她安葬，有鸟落在坟上，叫着：“伤魂，伤魂！”",
+  "sources": [
+    {
+      "book": "拾遗记",
+      "content": "伤魂，鸟也。"
+    }
+  ],
+  "location": {
+    "lat": 37.7333,
+    "lng": 114.6333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746125e84ba4007ebab2bb0"
+  },
+  "name": "上床鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "颜色漆黑，身形肥胖",
+  "distribution": [
+    "民宅"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "上床鬼是清代有一对夫妻，妻子夜里睡觉喜欢说梦话，一天晚上，丈夫实在忍受不了，怒气冲冲地离开了家。妻子知道丈夫出去了，也不问，埋头继续睡觉，恍惚间觉得有人进了屋子，上了床。",
+  "sources": [
+    {
+      "book": "耳食录-卷二",
+      "content": "上床鬼，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 32.0833,
+    "lng": 118.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746126884ba4007ebab2bb1"
+  },
+  "name": "设网鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "野地"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "设网鬼是有一个小孩，带着几个伙伴，在野地里放牛，忽然看见一个鬼在草地上到处设网，似乎是想用网捉人。",
+  "sources": [
+    {
+      "book": "幽明录•卷四",
+      "content": "设网鬼，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746127384ba4007ebab2bb2"
+  },
+  "name": "社公",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "乡里"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "社公是古代以二十五家为一社，所以社是乡里组织的最小单位，社公，就是掌管一社的鬼怪，也被视作神，与土地公公类似。",
+  "sources": [
+    {
+      "book": "搜神记•卷十五",
+      "content": "社公，鬼也。"
+    },
+    {
+      "book": "演繁露续集•卷六",
+      "content": "社公，掌管一社的鬼怪也。"
+    },
+    {
+      "book": "烟屿楼笔记•卷一",
+      "content": "社公，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 34.7833,
+    "lng": 113.2333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746128384ba4007ebab2bb3"
+  },
+  "name": "摄人鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "山中"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "摄人鬼是明代上虞有个八十多岁的老太婆，夏天风雨大作之后，突然消失了。儿子寻找七八天也没结果，后来还是一个樵夫在山顶上看到老太婆坐在荆棘之中，才叫儿子将她带回家里。",
+  "sources": [
+    {
+      "book": "留青日札•第二十八卷",
+      "content": "摄人鬼，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 29.8833,
+    "lng": 120.3833
+  }
+},
+{
+  "_id": {
+    "$oid": "6746128f84ba4007ebab2bb4"
+  },
+  "name": "神像鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "蛇，有好几丈长",
+  "distribution": [
+    "宫亭庙"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "神像鬼是南康郡有座宫亭庙，有个神像非常灵验。东晋孝武帝在位时，有一个僧人来到庙前，庙里的神像看见他，露出了眼睛。",
+  "sources": [
+    {
+      "book": "幽明录•卷五",
+      "content": "神像鬼，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 27.0667,
+    "lng": 114.9333
+  }
+},
+{
+  "_id": {
+    "$oid": "6746129a84ba4007ebab2bb5"
+  },
+  "name": "食毒鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食毒鬼是地狱中的一种恶鬼，先堕入地狱道，刑满后转生鬼道，饥饿时只能吃一种毒火，受烧身之痛。",
+  "sources": [
+    {
+      "book": "法苑珠林-卷第六",
+      "content": "食毒鬼，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+},
+{
+  "_id": {
+    "$oid": "674612a684ba4007ebab2bb6"
+  },
+  "name": "食法鬼",
+  "type": "鬼",
+  "imageUrl": "https://i.ibb.co/5FBpJtf/monster-default.png",
+  "appearance": "无具体描述",
+  "distribution": [
+    "地狱"
+  ],
+  "abilities": [
+    "化形",
+    "蛊惑"
+  ],
+  "description": "食法鬼是地狱中的一种鬼，常年饥渴不堪，瘦得皮包骨，只有靠听僧人说法解些许饥渴，维持精气不散。",
+  "sources": [
+    {
+      "book": "法苑珠林•卷第六",
+      "content": "食法鬼，鬼也。"
+    }
+  ],
+  "location": {
+    "lat": 35.2333,
+    "lng": 111.7833
+  }
+}]
