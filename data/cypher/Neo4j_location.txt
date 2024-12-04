@@ -1,0 +1,1223 @@
+// 创建地点节点：龙侯之山
+CREATE (location:Location {
+  name: "龙侯之山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：淮河
+CREATE (location:Location {
+  name: "淮河",
+  region: "中国",
+  latitude: 32.0,
+  longitude: 117.3
+});
+
+// 创建地点节点：发鸠山
+CREATE (location:Location {
+  name: "发鸠山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 112.5
+});
+
+// 创建地点节点：姑媼山
+CREATE (location:Location {
+  name: "姑媼山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 105.0
+});
+
+// 创建地点节点：长江
+CREATE (location:Location {
+  name: "长江",
+  region: "中国",
+  latitude: 31.0,
+  longitude: 121.5
+});
+
+// 创建地点节点：钟山
+CREATE (location:Location {
+  name: "钟山",
+  region: "中国",
+  latitude: 40.0,
+  longitude: 116.4
+});
+
+// 创建地点节点：土伯山
+CREATE (location:Location {
+  name: "土伯山",
+  region: "中国",
+  latitude: 39.9,
+  longitude: 116.4
+});
+
+// 创建地点节点：三危山
+CREATE (location:Location {
+  name: "三危山",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 92.9
+});
+
+// 创建地点节点：巴蛇洞
+CREATE (location:Location {
+  name: "巴蛇洞",
+  region: "中国",
+  latitude: 30.6,
+  longitude: 110.3
+});
+
+// 创建地点节点：女烝山
+CREATE (location:Location {
+  name: "女烝山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 105.0
+});
+
+// 创建地点节点：章莪山
+CREATE (location:Location {
+  name: "章莪山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：姑逢山
+CREATE (location:Location {
+  name: "姑逢山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 112.5
+});
+
+// 创建地点节点：巫咸国
+CREATE (location:Location {
+  name: "巫咸国",
+  region: "中国",
+  latitude: 30.0,
+  longitude: 120.0
+});
+
+// 创建地点节点：基山
+CREATE (location:Location {
+  name: "基山",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 92.9
+});
+
+// 创建地点节点：中曲山
+CREATE (location:Location {
+  name: "中曲山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：不死民国
+CREATE (location:Location {
+  name: "不死民国",
+  region: "中国",
+  latitude: 26.0,
+  longitude: 105.0
+});
+
+// 创建地点节点：长臂国
+CREATE (location:Location {
+  name: "长臂国",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 105.0
+});
+
+// 创建地点节点：基山
+CREATE (location:Location {
+  name: "基山",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 92.9
+});
+
+// 创建地点节点：大咸山
+CREATE (location:Location {
+  name: "大咸山",
+  region: "中国",
+  latitude: 37.5,
+  longitude: 112.5
+});
+
+// 创建地点节点：长右山
+CREATE (location:Location {
+  name: "长右山",
+  region: "中国",
+  latitude: 30.5,
+  longitude: 103.5
+});
+
+// 创建地点节点：乘黄
+CREATE (location:Location {
+  name: "乘黄",
+  region: "中国",
+  latitude: 35.5,
+  longitude: 114.5
+});
+
+// 创建地点节点：三危山
+CREATE (location:Location {
+  name: "三危山",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 92.9
+});
+
+// 创建地点节点：青丘山
+CREATE (location:Location {
+  name: "青丘山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 120.0
+});
+
+// 创建地点节点：东海
+CREATE (location:Location {
+  name: "东海",
+  region: "中国",
+  latitude: 28.0,
+  longitude: 123.5
+});
+
+// 创建地点节点：崇明岛
+CREATE (location:Location {
+  name: "崇明岛",
+  region: "中国",
+  latitude: 31.6,
+  longitude: 121.4
+});
+
+// 创建地点节点：敖岸之山
+CREATE (location:Location {
+  name: "敖岸之山",
+  region: "中国",
+  latitude: 37.5,
+  longitude: 112.5
+});
+
+// 创建地点节点：鹿台山
+CREATE (location:Location {
+  name: "鹿台山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 112.5
+});
+
+// 创建地点节点：跂踵山
+CREATE (location:Location {
+  name: "跂踵山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 105.0
+});
+
+// 创建地点节点：深泽
+CREATE (location:Location {
+  name: "深泽",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 115.0
+});
+
+// 创建地点节点：北号山
+CREATE (location:Location {
+  name: "北号山",
+  region: "中国",
+  latitude: 41.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：鹿吴山
+CREATE (location:Location {
+  name: "鹿吴山",
+  region: "中国",
+  latitude: 31.0,
+  longitude: 121.0
+});
+
+// 创建地点节点：钟山
+CREATE (location:Location {
+  name: "钟山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：昆仑山
+CREATE (location:Location {
+  name: "昆仑山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 93.0
+});
+
+// 创建地点节点：东海之外
+CREATE (location:Location {
+  name: "东海之外",
+  region: "中国",
+  latitude: 25.0,
+  longitude: 125.0
+});
+
+// 创建地点节点：翠山
+CREATE (location:Location {
+  name: "翠山",
+  region: "中国",
+  latitude: 30.0,
+  longitude: 103.0
+});
+
+// 创建地点节点：亶爰山
+CREATE (location:Location {
+  name: "亶爰山",
+  region: "中国",
+  latitude: 33.0,
+  longitude: 108.0
+});
+
+// 创建地点节点：敖岸山
+CREATE (location:Location {
+  name: "敖岸山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 114.5
+});
+
+// 创建地点节点：祷过山
+CREATE (location:Location {
+  name: "祷过山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 110.0
+});
+
+// 创建地点节点：阳山
+CREATE (location:Location {
+  name: "阳山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：玉山
+CREATE (location:Location {
+  name: "玉山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 103.8
+});
+
+// 创建地点节点：空桑山
+CREATE (location:Location {
+  name: "空桑山",
+  region: "中国",
+  latitude: 35.5,
+  longitude: 112.8
+});
+
+// 创建地点节点：泰戏山
+CREATE (location:Location {
+  name: "泰戏山",
+  region: "中国",
+  latitude: 39.0,
+  longitude: 113.3
+});
+
+// 创建地点节点：涿光山
+CREATE (location:Location {
+  name: "涿光山",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 114.5
+});
+
+// 创建地点节点：昆吾山
+CREATE (location:Location {
+  name: "昆吾山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：凫丽山
+CREATE (location:Location {
+  name: "凫丽山",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 111.0
+});
+
+// 创建地点节点：崦嵫山
+CREATE (location:Location {
+  name: "崦嵫山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 105.0
+});
+
+// 创建地点节点：皋涂山
+CREATE (location:Location {
+  name: "皋涂山",
+  region: "中国",
+  latitude: 33.0,
+  longitude: 108.0
+});
+
+// 创建地点节点：灌题山
+CREATE (location:Location {
+  name: "灌题山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 104.0
+});
+
+// 创建地点节点：聂耳国
+CREATE (location:Location {
+  name: "聂耳国",
+  region: "中国",
+  latitude: 26.0,
+  longitude: 104.0
+});
+
+// 创建地点节点：鹿台山
+CREATE (location:Location {
+  name: "鹿台山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 112.0
+});
+
+// 创建地点节点：尧光山
+CREATE (location:Location {
+  name: "尧光山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：桃水
+CREATE (location:Location {
+  name: "桃水",
+  region: "中国",
+  latitude: 31.0,
+  longitude: 113.0
+});
+
+// 创建地点节点：化蛇
+CREATE (location:Location {
+  name: "化蛇",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：翼望山
+CREATE (location:Location {
+  name: "翼望山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 112.5
+});
+
+// 创建地点节点：驩头国
+CREATE (location:Location {
+  name: "驩头国",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 120.0
+});
+
+// 创建地点节点：环狗国
+CREATE (location:Location {
+  name: "环狗国",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 122.0
+});
+
+// 创建地点节点：豲国
+CREATE (location:Location {
+  name: "豲国",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 103.0
+});
+
+// 创建地点节点：䍺国
+CREATE (location:Location {
+  name: "䍺国",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 107.0
+});
+
+// 创建地点节点：计蒙国
+CREATE (location:Location {
+  name: "计蒙国",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 114.5
+});
+
+// 创建地点节点：交胫国
+CREATE (location:Location {
+  name: "交胫国",
+  region: "中国",
+  latitude: 22.0,
+  longitude: 113.0
+});
+
+// 创建地点节点：骄虫国
+CREATE (location:Location {
+  name: "骄虫国",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 111.0
+});
+
+// 创建地点节点：玉山
+CREATE (location:Location {
+  name: "玉山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 103.8
+});
+
+// 创建地点节点：空桑山
+CREATE (location:Location {
+  name: "空桑山",
+  region: "中国",
+  latitude: 35.5,
+  longitude: 112.8
+});
+
+// 创建地点节点：轩辕国
+CREATE (location:Location {
+  name: "轩辕国",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：旋龟渊
+CREATE (location:Location {
+  name: "旋龟渊",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：窫窳山
+CREATE (location:Location {
+  name: "窫窳山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 105.0
+});
+
+// 创建地点节点：厌火国
+CREATE (location:Location {
+  name: "厌火国",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 122.0
+});
+
+// 创建地点节点：一臂国
+CREATE (location:Location {
+  name: "一臂国",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 102.0
+});
+
+// 创建地点节点：一目国
+CREATE (location:Location {
+  name: "一目国",
+  region: "中国",
+  latitude: 42.0,
+  longitude: 124.0
+});
+
+// 创建地点节点：英招山
+CREATE (location:Location {
+  name: "英招山",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：雍和国
+CREATE (location:Location {
+  name: "雍和国",
+  region: "中国",
+  latitude: 39.0,
+  longitude: 106.0
+});
+
+// 创建地点节点：幽鴳山
+CREATE (location:Location {
+  name: "幽鴳山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 112.0
+});
+
+// 创建地点节点：峳峳山
+CREATE (location:Location {
+  name: "峳峳山",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：令丘山
+CREATE (location:Location {
+  name: "令丘山",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 117.0
+});
+
+// 创建地点节点：羽民国
+CREATE (location:Location {
+  name: "羽民国",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 105.0
+});
+
+// 创建地点节点：雨师妾国
+CREATE (location:Location {
+  name: "雨师妾国",
+  region: "中国",
+  latitude: 26.0,
+  longitude: 119.0
+});
+
+// 创建地点节点：寓鸟山
+CREATE (location:Location {
+  name: "寓鸟山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：妴胡山
+CREATE (location:Location {
+  name: "妴胡山",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 111.0
+});
+
+// 创建地点节点：凿齿国
+CREATE (location:Location {
+  name: "凿齿国",
+  region: "中国",
+  latitude: 23.0,
+  longitude: 103.0
+});
+
+// 创建地点节点：狰山
+CREATE (location:Location {
+  name: "狰山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 112.5
+});
+
+// 创建地点节点：彘山
+CREATE (location:Location {
+  name: "彘山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 115.0
+});
+
+// 创建地点节点：朱獳山
+CREATE (location:Location {
+  name: "朱獳山",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 114.5
+});
+
+// 创建地点节点：朱厌山
+CREATE (location:Location {
+  name: "朱厌山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 110.0
+});
+
+// 创建地点节点：珠蟞鱼泽
+CREATE (location:Location {
+  name: "珠蟞鱼泽",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：诸怀山
+CREATE (location:Location {
+  name: "诸怀山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 113.0
+});
+
+// 创建地点节点：诸犍山
+CREATE (location:Location {
+  name: "诸犍山",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 116.0
+});
+
+// 创建地点节点：鴸山
+CREATE (location:Location {
+  name: "鴸山",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 112.0
+});
+
+// 创建地点节点：烛阴山
+CREATE (location:Location {
+  name: "烛阴山",
+  region: "中国",
+  latitude: 38.5,
+  longitude: 106.0
+});
+
+// 创建地点节点：鱄鱼水
+CREATE (location:Location {
+  name: "鱄鱼水",
+  region: "中国",
+  latitude: 33.0,
+  longitude: 107.0
+});
+
+// 创建地点节点：驺吾国
+CREATE (location:Location {
+  name: "驺吾国",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 117.0
+});
+
+// 创建地点节点：蔓联山
+CREATE (location:Location {
+  name: "蔓联山",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：浮玉山
+CREATE (location:Location {
+  name: "浮玉山",
+  region: "中国",
+  latitude: 30.0,
+  longitude: 119.0
+});
+
+// 创建地点节点：葛山
+CREATE (location:Location {
+  name: "葛山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 115.0
+});
+
+// 创建地点节点：北岳山
+CREATE (location:Location {
+  name: "北岳山",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：单张山
+CREATE (location:Location {
+  name: "单张山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 118.0
+});
+
+// 创建地点节点：柜山
+CREATE (location:Location {
+  name: "柜山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 112.0
+});
+
+// 创建地点节点：槐江山
+CREATE (location:Location {
+  name: "槐江山",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 110.0
+});
+
+// 创建地点节点：支离山
+CREATE (location:Location {
+  name: "支离山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：丰山
+CREATE (location:Location {
+  name: "丰山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 111.0
+});
+
+// 创建地点节点：杻阳山
+CREATE (location:Location {
+  name: "杻阳山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：少咸山
+CREATE (location:Location {
+  name: "少咸山",
+  region: "中国",
+  latitude: 39.0,
+  longitude: 106.0
+});
+
+// 创建地点节点：钟山（烛阴）
+CREATE (location:Location {
+  name: "钟山（烛阴）",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：鸡山
+CREATE (location:Location {
+  name: "鸡山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 104.0
+});
+
+// 创建地点节点：林氏国
+CREATE (location:Location {
+  name: "林氏国",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 112.5
+});
+
+// 创建地点节点：葛山（珠蟞鱼）
+CREATE (location:Location {
+  name: "葛山（珠蟞鱼）",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 115.0
+});
+
+// 创建地点节点：北号山
+CREATE (location:Location {
+  name: "北号山",
+  region: "中国",
+  latitude: 41.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：昆仑山
+CREATE (location:Location {
+  name: "昆仑山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 93.0
+});
+
+// 创建地点节点：柢山
+CREATE (location:Location {
+  name: "柢山",
+  region: "中国",
+  latitude: 30.0,
+  longitude: 120.0
+});
+
+// 创建地点节点：女床山
+CREATE (location:Location {
+  name: "女床山",
+  region: "中国",
+  latitude: 33.0,
+  longitude: 105.0
+});
+
+// 创建地点节点：濛水
+CREATE (location:Location {
+  name: "濛水",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：蔓渠山
+CREATE (location:Location {
+  name: "蔓渠山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 113.0
+});
+
+// 创建地点节点：伊水
+CREATE (location:Location {
+  name: "伊水",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 112.0
+});
+
+// 创建地点节点：皋涂山
+CREATE (location:Location {
+  name: "皋涂山",
+  region: "中国",
+  latitude: 33.0,
+  longitude: 108.0
+});
+
+// 创建地点节点：鲜山
+CREATE (location:Location {
+  name: "鲜山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：灌题山
+CREATE (location:Location {
+  name: "灌题山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 104.0
+});
+
+// 创建地点节点：聂耳国
+CREATE (location:Location {
+  name: "聂耳国",
+  region: "中国",
+  latitude: 26.0,
+  longitude: 104.0
+});
+
+// 创建地点节点：鹿台山
+CREATE (location:Location {
+  name: "鹿台山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 112.0
+});
+
+// 创建地点节点：融父山
+CREATE (location:Location {
+  name: "融父山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：柔利国
+CREATE (location:Location {
+  name: "柔利国",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 101.0
+});
+
+// 创建地点节点：三身国
+CREATE (location:Location {
+  name: "三身国",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 116.0
+});
+
+// 创建地点节点：三首国
+CREATE (location:Location {
+  name: "三首国",
+  region: "中国",
+  latitude: 39.0,
+  longitude: 117.0
+});
+
+// 创建地点节点：从山
+CREATE (location:Location {
+  name: "从山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：尧光山
+CREATE (location:Location {
+  name: "尧光山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：桃水
+CREATE (location:Location {
+  name: "桃水",
+  region: "中国",
+  latitude: 31.0,
+  longitude: 113.0
+});
+
+// 创建地点节点：阳山
+CREATE (location:Location {
+  name: "阳山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：伊水
+CREATE (location:Location {
+  name: "伊水",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 112.0
+});
+
+// 创建地点节点：汤谷
+CREATE (location:Location {
+  name: "汤谷",
+  region: "中国",
+  latitude: 26.0,
+  longitude: 119.0
+});
+
+// 创建地点节点：大荒
+CREATE (location:Location {
+  name: "大荒",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：盖犹山
+CREATE (location:Location {
+  name: "盖犹山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 105.0
+});
+
+// 创建地点节点：大食国
+CREATE (location:Location {
+  name: "大食国",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：德庆山
+CREATE (location:Location {
+  name: "德庆山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 112.5
+});
+
+// 创建地点节点：白鹿原
+CREATE (location:Location {
+  name: "白鹿原",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 109.0
+});
+
+// 创建地点节点：狗枷堡
+CREATE (location:Location {
+  name: "狗枷堡",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：玉案山
+CREATE (location:Location {
+  name: "玉案山",
+  region: "中国",
+  latitude: 25.0,
+  longitude: 102.0
+});
+
+// 创建地点节点：沙河口
+CREATE (location:Location {
+  name: "沙河口",
+  region: "中国",
+  latitude: 39.0,
+  longitude: 117.0
+});
+
+// 创建地点节点：帽山
+CREATE (location:Location {
+  name: "帽山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 117.0
+});
+
+// 创建地点节点：枸状山
+CREATE (location:Location {
+  name: "枸状山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：上申山
+CREATE (location:Location {
+  name: "上申山",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 112.0
+});
+
+// 创建地点节点：天池山
+CREATE (location:Location {
+  name: "天池山",
+  region: "中国",
+  latitude: 44.0,
+  longitude: 87.0
+});
+
+// 创建地点节点：騩山
+CREATE (location:Location {
+  name: "騩山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：羭次山
+CREATE (location:Location {
+  name: "羭次山",
+  region: "中国",
+  latitude: 33.0,
+  longitude: 106.0
+});
+
+// 创建地点节点：放皋山
+CREATE (location:Location {
+  name: "放皋山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：泰器山
+CREATE (location:Location {
+  name: "泰器山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 112.5
+});
+
+// 创建地点节点：观水
+CREATE (location:Location {
+  name: "观水",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：祷过山
+CREATE (location:Location {
+  name: "祷过山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 115.0
+});
+
+// 创建地点节点：钩吾山
+CREATE (location:Location {
+  name: "钩吾山",
+  region: "中国",
+  latitude: 36.0,
+  longitude: 111.0
+});
+
+// 创建地点节点：伦山
+CREATE (location:Location {
+  name: "伦山",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 113.0
+});
+
+// 创建地点节点：昆仑
+CREATE (location:Location {
+  name: "昆仑",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 93.0
+});
+
+// 创建地点节点：涿光山
+CREATE (location:Location {
+  name: "涿光山",
+  region: "中国",
+  latitude: 38.0,
+  longitude: 114.5
+});
+
+// 创建地点节点：昆吾山
+CREATE (location:Location {
+  name: "昆吾山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 114.0
+});
+
+// 创建地点节点：凫丽山
+CREATE (location:Location {
+  name: "凫丽山",
+  region: "中国",
+  latitude: 37.0,
+  longitude: 111.0
+});
+
+// 创建地点节点：谯明山
+CREATE (location:Location {
+  name: "谯明山",
+  region: "中国",
+  latitude: 34.0,
+  longitude: 108.9
+});
+
+// 创建地点节点：祷过山
+CREATE (location:Location {
+  name: "祷过山",
+  region: "中国",
+  latitude: 35.0,
+  longitude: 115.0
+});

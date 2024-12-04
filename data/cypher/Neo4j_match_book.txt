@@ -1,0 +1,1019 @@
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "人鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "《山海经》里记载，龙侯之山的决水里面就有人鱼，长着四条腿，声音如同婴儿，吃了它，就不会变成痴呆。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "无支祈"})
+CREATE (m)-[:APPEARS_IN {
+  content: "无支祈，又叫巫支祈，是淮河里的精怪，常被认为是淮河的主宰者。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "精卫"})
+CREATE (m)-[:APPEARS_IN {
+  content: "发鸠山上生长着茂密的柘树。山中有一种禽鸟，形状像一般的乌鸦，却长着花脑袋、白嘴巴、红足爪，名为精卫。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "女尸"})
+CREATE (m)-[:APPEARS_IN {
+  content: "天帝有个女儿死了，名曰女尸，变成了姑媼山上的瑶草，吃了可以魅惑人。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "奇相"})
+CREATE (m)-[:APPEARS_IN {
+  content: "奇相为长江之主。传说上古时期，震蒙氏的女儿偷盗黄帝的玄珠，沉江而死，死后化为奇相。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "钦鴉"})
+CREATE (m)-[:APPEARS_IN {
+  content: "钟山有一种大翳，形状像普通的雕鹰却长有黑色的斑纹和白色的脑袋、红色的嘴巴和老虎一样的爪子，发出的声音如同晨鹄鸣叫。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "土伯"})
+CREATE (m)-[:APPEARS_IN {
+  content: "土伯是传说中阴间幽都的统治者。幽都位于阴森恐怖的幽冥世界，《山海经》曾记载：北海之内，有一座山，叫幽都山。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "相柳氏"})
+CREATE (m)-[:APPEARS_IN {
+  content: "相柳氏，原来是共工的臣子，有九个头，九个头分别在九座山上吃食物。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "傲因"})
+CREATE (m)-[:APPEARS_IN {
+  content: "三危山，方圆百里。山上有一种野兽，形状像普通的牛，却长着白色的身子和四只角，身上的硬毛又长又密，好像披着蓑衣，名为傲因，能吃人。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "巴蛇"})
+CREATE (m)-[:APPEARS_IN {
+  content: "巴蛇是传说中的一种巨蛇，能吞下大象，吞吃后三年才吐出大象的骨头，有才能品德的人吃了巴蛇的肉，就不患心痛或肚子痛之类的病。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "薄鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "女烝山上没有花草树木，石膏水从这座山发源，然后向西流入鬲水。水中有很多薄鱼，形状像一般的鳍鱼，却只长着一只眼睛，发出的声音如同人在呕吐，一出现天下就会发生大旱灾。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "毕方"})
+CREATE (m)-[:APPEARS_IN {
+  content: "章莪山中有一种禽鸟，形状像一般的鹤，但只有一只脚，红色的斑纹和青色的身子，还有一张白嘴巴，名为毕方，哪里一出现哪里就会发生怪火。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "獙獙"})
+CREATE (m)-[:APPEARS_IN {
+  content: "姑逢山，没有花草树木，有丰富的金属矿物和玉石。山中有一种野兽，形状像一般的狐狸却有翅膀，发出的声音如同大雁鸣叫，名为獙獙，一出现天下就会发生大旱灾。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "并封"})
+CREATE (m)-[:APPEARS_IN {
+  content: "并封，是传说中的怪兽，居住在巫咸国的东面，它的形状像普通的猪，却前后都有头，是黑色的。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "猼訑"})
+CREATE (m)-[:APPEARS_IN {
+  content: "基山的南坡阳面盛产玉石，山的北坡阴面有很多形态奇特的树木。山中有一种野兽，形状像羊，长着九条尾巴和四只耳朵，眼睛长在背上，名为猼訑，人穿戴上它的毛皮就不会产生恐惧心。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "駮"})
+CREATE (m)-[:APPEARS_IN {
+  content: "中曲山南边阳面盛产玉石，北边阴面盛产雄黄、白玉和金属矿物。山中有一种野兽，形状像普通的马，却长着白身子和黑尾巴，一只角，长着老虎的牙齿和爪子，发出的声音如同击鼓的响声，名为駮，能吃老虎和豹子，饲养它可以辟兵器。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "不死民"})
+CREATE (m)-[:APPEARS_IN {
+  content: "不死民，都是黑色的，个个长寿，人人不死。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "长臂人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "长臂国的人，双臂奇长，擅长将双手伸入海中捕鱼。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鹇鸺"})
+CREATE (m)-[:APPEARS_IN {
+  content: "基山中有一种禽鸟，形状像鸡，却长着三个脑袋、六只眼睛、六只脚、三只翅膀，名为鹇鸺，吃了它的肉就会使人不感到瞌睡。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "长蛇"})
+CREATE (m)-[:APPEARS_IN {
+  content: "大咸山，没有花草树木，山下盛产玉石，人不能攀登上去。山中有一种蛇叫长蛇，身上的毛与猪脖子上的硬毛相似，发出的声音像是人在敲击木梆子。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "长右"})
+CREATE (m)-[:APPEARS_IN {
+  content: "长右山中有一种野兽，形状像猿猴，却长着四只耳朵，名为长右，叫的声音如同人在呻吟，任何郡县一出现长右就会发生大水灾。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "乘黄"})
+CREATE (m)-[:APPEARS_IN {
+  content: "乘黄，是传说中的怪兽，形状像一般的狐狸，脊背上有角，人要是骑上它就能活两千岁。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鸱"})
+CREATE (m)-[:APPEARS_IN {
+  content: "三危山中有一种禽鸟，长着一个脑袋，却有三个身子，名为鸱。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "赤鱬"})
+CREATE (m)-[:APPEARS_IN {
+  content: "青丘山中有条河流名英水，向南流入即翼泽。泽中有很多赤鱬形状像普通的鱼，却有一副人的面孔，发出的声音如同鸳鸯鸟在叫，吃了它的肉能使人不生疥疮。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "茈鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "东始山上多出产苍玉，滥水从这座山发源，向东北流入大海。水中有很多茈鱼，形状像一般的鲫鱼，却长着一个脑袋十个身子，它的气味与靡芜草相似，人吃了就不放屁。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "从从"})
+CREATE (m)-[:APPEARS_IN {
+  content: "枸状山上有丰富的金属矿物和玉石，山下有丰富的青石碧玉。山中有一种野兽，形状像一般的狗，却长着六只脚，名为从从。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "当扈鸟"})
+CREATE (m)-[:APPEARS_IN {
+  content: "上申山上没有花草树木，但到处是大石头，榛树和梏树茂密，山里最多的禽鸟是当扈鸟，形状像普通的野鸡，却用髯毛当翅膀奋起高飞，吃了它的肉就能使人不眨眼睛。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "当康"})
+CREATE (m)-[:APPEARS_IN {
+  content: "钦山中栖息一种野兽，外形像猪，却长着大獴牙，名为当康。传说天下要获得丰收的时候，它就从山中出来啼叫，告诉人们丰收将至。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "氐人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "氐人国那里的人，都长着人的面孔，却是鱼的身子，没有脚。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "帝江"})
+CREATE (m)-[:APPEARS_IN {
+  content: "天山上有丰富的金属矿物和玉石，也出产石青、雄黄。英水从这座山发源，向西南流入汤谷。山里住着一个怪物，形貌像黄色口袋，发出的精光红如火，长着六只脚和四只翅膀，混混沌沌没有面目，却知道唱歌跳舞，名为帝江。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "䍶䍶"})
+CREATE (m)-[:APPEARS_IN {
+  content: "空桑山上没有花草树木，冬天夏天都有雪。空桑水从这座山发源，向东流入岸沱水。再往北三百里是泰戏山，不生长花草树木，到处有金属矿物和玉石。山中有一种野兽，形状像普通的羊，却长着一只角一只眼睛，眼睛在耳朵的背后，名为䍶䍶。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "耳鼠"})
+CREATE (m)-[:APPEARS_IN {
+  content: "丹熏山上有茂密的臭椿树和柏树，在众草中以野韭菜和野蓬菜最多，还盛产丹腹。熏水从这座山发源，向西流入棠水。山中有一种野兽，形状像一般的老鼠，却长着兔子的脑袋和麋鹿的耳朵，发出的声音如同狗嗥叫，用尾巴飞行，名为耳鼠。人吃了它的肉就不会生腹部鼓胀病，还可以辟百毒之害。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "飞鼠"})
+CREATE (m)-[:APPEARS_IN {
+  content: "天池山上没有花草树木，到处是带有花纹的美石。山中有一种野兽，形状像一般的兔子，却长着老鼠的头，借助它背上的毛飞行，名为飞鼠。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "飞鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "騩山上盛产味道甜美的枣子，正回水从这座山发源，向北流入黄河。水中生长着许多飞鱼，形状像小猪，却浑身是红色斑纹。吃了它的肉就能使人不怕打雷，还可以避开兵器。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "蜚"})
+CREATE (m)-[:APPEARS_IN {
+  content: "太山上有丰富的金属矿物和玉石，还有茂密的女贞树。山中有一种野兽，形状像一般的牛，却是白脑袋，长着一只眼睛和蛇一样的尾巴，名为蜚。它行经有水的地方水就干涸，行经有草的地方草就枯死，一出现天下就会发生大瘟疫。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "肥遗"})
+CREATE (m)-[:APPEARS_IN {
+  content: "太华山山崖陡峭像刀削而呈现四方形，高五千仞，宽十里，禽鸟野兽无法栖身。山中有一种蛇，名叫肥遗，长着六只脚和四只翅膀，一出现就会天下大旱。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "朏朏"})
+CREATE (m)-[:APPEARS_IN {
+  content: "霍山到处是茂密的构树。山中有一种野兽，形状像一般的野猫，却长着白尾巴，脖子上有鬃毛，名为朏朏，人饲养它就可以消除忧愁。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "凤凰"})
+CREATE (m)-[:APPEARS_IN {
+  content: "凤凰这种鸟，是鸟中之长，如同龙一般，极为罕见。传说凤凰长着鸡头、燕颔、蛇颈、龟背、鱼尾，身体如同仙鹤，羽毛有五种颜色。它的身体上还长出五个字，脑袋上是“德”，翅膀上是“义”，背部是“礼”，胸脯上是“仁”，肚子上是“信”。凤凰出现，是天下安宁的象征。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "夫诸"})
+CREATE (m)-[:APPEARS_IN {
+  content: "敖岸之山的山南阳面有很多增殍玉，山北阴面有很多黄金。山中有一种怪兽，长得像白鹿，却有四只角，名叫夫诸。它出现的地方，就会发大水。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "凫徯"})
+CREATE (m)-[:APPEARS_IN {
+  content: "鹿台山上多出产白玉，山下多出产银，山中有一种禽鸟，形状像普通的雄鸡，却长着人一样的脸面，名为凫徯，一出现天下就会有战争。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鮯鮯鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "跂踵山方圆二百里没有花草树木，山上有一水潭，方圆四十里都在喷涌泉水，名为深泽。深泽中生长着一种鱼，形状像一般的鲤鱼，却有六只脚和鸟一样的尾巴，名为鮯鮯鱼。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "猲狙"})
+CREATE (m)-[:APPEARS_IN {
+  content: "北号山屹立在北海边上，食水从这座山发源，向东北流入大海。山中有一种野兽，形状像狼，长着红脑袋和老鼠一样的眼睛，发出的声音如同小猪叫，名为猲狙，能吃人。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "蛊雕"})
+CREATE (m)-[:APPEARS_IN {
+  content: "鹿吴山上没有花草树木，但有丰富的金属矿物和玉石。泽更水从这座山发源，向南流入滂水。水中有一种野兽，名为蛊雕，形状像普通的雕鹰，却头上长角，发出的声音如同婴儿啼哭，能吃人。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鼓"})
+CREATE (m)-[:APPEARS_IN {
+  content: "钟山山神的儿子叫作鼓，鼓的形貌是人的脸面，龙的身子。鼓也化为鶴鸟，形状像一般的鶴鹰，但长着红色的脚和直直的嘴，身上是黄色的斑纹而头却是白色的，发出的声音与鸿鹄的鸣叫很相似，在哪里出现哪里就会有旱灾。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "贯胸人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "贯胸国的人，胸膛上都穿个洞。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "灌灌"})
+CREATE (m)-[:APPEARS_IN {
+  content: "青丘山中有一种禽鸟，形状像斑鸠，鸣叫的声音如同人在互相斥骂，名为灌灌。把它的羽毛插在身上，能使人不迷惑。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "蛫"})
+CREATE (m)-[:APPEARS_IN {
+  content: "即公山中生长着一种野兽，形状像一般的乌龟，却是白身子红脑袋，名为蛫,人饲养它可以辟火。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "合窳"})
+CREATE (m)-[:APPEARS_IN {
+  content: "剡山，有丰富的金属矿物和玉石。山中有一种野兽，形状像猪，却是人的面孔，黄色的身子上长着红色尾巴，名为合窳，发出的声音如同婴儿啼哭。这种合窳兽是吃人的，也吃虫和蛇，一出现天下就会发生水灾。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "何罗鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "谯明水从谯明山发源，向西流入黄河。水中生长着很多何罗鱼，长着一个脑袋，却有十个身子，发出的声音像狗叫，人吃了它的肉就可以治愈痈肿病。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "虎蛟"})
+CREATE (m)-[:APPEARS_IN {
+  content: "浪水从祷过山发源，向南流入大海。水中有一种虎蛟，形状像普通鱼的身体，却拖着一条蛇的尾巴，声音如同鸳鸯。吃了它的肉就能使人不生痈肿疾病，还可以治愈痔疮。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "猾褢"})
+CREATE (m)-[:APPEARS_IN {
+  content: "尧光山中有一种野兽，形状像人，却长有猪那样的鬃毛，冬季蛰伏在洞穴中，名为猾褢，叫声如同砍木头时发出的响声，哪里出现猾褢哪里就会有繁重的徭役。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "䱻鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "桃水从乐游山发源，向西流入稷泽。这里到处有白色玉石，水中还有很多䱻鱼，形状像普通的蛇，却长着四只脚，能吃鱼类。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "化蛇"})
+CREATE (m)-[:APPEARS_IN {
+  content: "阳山到处是石头，没有花草树木。阳水从这座山发源，向北流入伊水。水中有很多化蛇，形状是人的面孔，却长着豺一样的身子，有禽鸟的翅膀，却像蛇一样爬行，发出的声音如同人在呵斥，在哪里出现哪里就会发生水害。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "讙"})
+CREATE (m)-[:APPEARS_IN {
+  content: "翼望山上没有花草树木，到处是金属矿物和玉石。山中有一种野兽，形状像一般的野猫，只长着一只眼睛，却是三条尾巴，名为讙，发出的声音好像能赛过一百种动物的鸣叫。饲养它可以辟凶邪之气，人吃了它的肉就能治好黄疸病。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "讙头人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "讙头国的人都是人的面孔，却有两只翅膀，还长着鸟嘴，能用他们的鸟嘴捕鱼。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "驩头"})
+CREATE (m)-[:APPEARS_IN {
+  content: "传说在大荒当中，有个人名叫驩头。驩头长着人的面孔、鸟一样的嘴，生有翅膀，吃海中的鱼，凭借着翅膀行走。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "环狗"})
+CREATE (m)-[:APPEARS_IN {
+  content: "环狗长着人的身体，野兽的脑袋。有一种说法，环狗长得如同刺猬，黄色，形体像狗。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "豲"})
+CREATE (m)-[:APPEARS_IN {
+  content: "乾山没有花草树木，山南阳面蕴藏着金属矿物和玉石，山北阴面蕴藏着铁，但没有水流。山中有一种野兽，形状像普通的牛，却长着三只脚，名为豲。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "䍺"})
+CREATE (m)-[:APPEARS_IN {
+  content: "洵山山南阳面盛产金属矿物，山北阴面多出产玉石。山中有一种野兽，形状像普通的羊，却没有嘴巴，不吃东西也能活着而不死，名为䍺。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "计蒙"})
+CREATE (m)-[:APPEARS_IN {
+  content: "光山上到处有碧玉，山下到处是流水。计蒙居住在这座山里，形貌是人的身子、龙的头，常常在漳水的深渊里畅游，出入时一定有旋风急雨相伴随。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "交胫人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "交胫国的人，总是互相交叉着双腿双脚。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "骄虫"})
+CREATE (m)-[:APPEARS_IN {
+  content: "从平逢山上向南可以望见伊水和洛水，向东可以望见谷城山，这座山不生长花草树木，没有水，到处是沙子石头。山中有一怪物，形貌像人，却长着两个脑袋，叫作骄虫，是所有螫虫的首领。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "狡"})
+CREATE (m)-[:APPEARS_IN {
+  content: "玉山是西王母居住的地方。山中有一种野兽，形状像普通的狗，却长着豹子的斑纹，头上的角与牛角相似，名为狡，发出的声音如同狗叫，在哪个国家出现就会使哪个国家五谷丰登。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "絜钩"})
+CREATE (m)-[:APPEARS_IN {
+  content: "石垔山中有一种禽鸟，形状像野鸭子，却长着老鼠一样的尾巴，擅长攀登树木，名为絜钩，在哪个国家出现哪个国家就会频频发生瘟疫病。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "九尾狐"})
+CREATE (m)-[:APPEARS_IN {
+  content: "青丘山山南阳面盛产玉石，山北阴面多出产青腰。山中有一种野兽，形状像狐狸，却长着九条尾巴，吼叫的声音与婴儿啼哭相似，能吞食人，吃了它的肉就能使人不中妖邪毒气。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "狙如"})
+CREATE (m)-[:APPEARS_IN {
+  content: "倚帝山上有丰富的玉石，山下有丰富的金。山中有一种野兽，形状像獾鼠，长着白耳朵白嘴巴，名为狙如，在哪个国家出现哪个国家里就会发生大战争。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "居暨兽"})
+CREATE (m)-[:APPEARS_IN {
+  content: "梁渠山不生长花草树木，有丰富的金属矿物和玉石，脩水从这座山发源，向东流入雁门水。山中的野兽大多是居暨兽，形状像刺猬，却浑身长着红色的毛，发出的声音如同小猪叫。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "举父"})
+CREATE (m)-[:APPEARS_IN {
+  content: "崇吾山雄踞于黄河的南岸，山中有一种野兽，形状像猿猴而臂上却有斑纹，有豹子一样的尾巴而擅长投掷，名为举父。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鶌鶋"})
+CREATE (m)-[:APPEARS_IN {
+  content: "马成山里有一种禽鸟，形状像一般的乌鸦，却长着白色的脑袋和青色的身子、黄色的足爪，名为鶌鶋。吃了它的肉使人不感觉饥饿，还可以医治老年健忘症。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "獲如"})
+CREATE (m)-[:APPEARS_IN {
+  content: "皋涂山中有一种野兽，形状像普通的鹿，却长着白色的尾巴、马一样的蹄子、人一样的手，有四只角，名叫獲如。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "菌人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "在大荒当中有座山叫盖犹山，山上生长有甘粗树，枝条和茎干都是红色的，叶子是黄的，花朵是白的，果实是黑的。在这座山的东端还生长有甘华树，枝条和茎干都是红色的，叶子是黄的。山上有一种十分矮小的人，名叫菌人。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "开明兽"})
+CREATE (m)-[:APPEARS_IN {
+  content: "昆仑山方圆八百里，高一万仞。山顶有一棵像大树似的稻谷，高达五寻，粗细需五人合抱。昆仑山的每一面都有九眼井，每眼井都有用玉石制成的围栏。昆仑山的每一面都有九道门，而每道门都有叫开明兽的怪兽守卫着，是众多天神聚集的地方。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "夔"})
+CREATE (m)-[:APPEARS_IN {
+  content: "东海之外七千里，有一座流波山。山上有一个怪物，名为夔，形状似牛，全身都是灰色的，没有角，只长了一只脚。这个怪物全身上下闪耀着光芒，如同日月一般令人不能直视，吼声如雷，震耳欲聋，每次出现都会有狂风暴雨。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鸓鸟"})
+CREATE (m)-[:APPEARS_IN {
+  content: "翠山上是茂密的棕树和楠木树，山下到处是竹丛，山南面盛产黄金、玉，山北面有很多耗牛、羚羊、麝。山中的禽鸟大多是鸓鸟，形状像一般的喜鹊，却长着红黑色羽毛和两个脑袋、四只脚，人养着它可以辟火。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "类"})
+CREATE (m)-[:APPEARS_IN {
+  content: "亶爰山多水，没有草木，无法上去。山上有一种怪兽，形状如同狐狸，长着又长又密的毛，名为类，雌雄同体，吃它的肉就会不嫉妒。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "狸力"})
+CREATE (m)-[:APPEARS_IN {
+  content: "柜山中有一种野兽，形状像普通的小猪，长着一双鸡爪，叫的声音如同狗叫，名为狸力，哪里出现狸力哪里就一定会大兴土木。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "栎"})
+CREATE (m)-[:APPEARS_IN {
+  content: "天帝山中有一种禽鸟，形状像一般的鹳鹑，但长着黑色的花纹和红色的颈毛，名为栎，人吃了它的肉可以治愈痔疮。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "梁渠"})
+CREATE (m)-[:APPEARS_IN {
+  content: "历石山的树木以牡荆和枸杞最多，山南阳面盛产黄金，山北阴面盛产细磨石。山中有一种野兽，形状像野猫，却长着白色的脑袋、老虎一样的爪子，名为梁渠，在哪个国家出现哪个国家就会发生大战争。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "獜"})
+CREATE (m)-[:APPEARS_IN {
+  content: "依轱山上有茂密的杻树和橿树，柤树也不少。山中有一种野兽，形状像普通的狗，长着老虎一样的爪子而且身上有鳞甲，名为狒，擅长跳跃腾扑，吃了它的肉就能使人不患风痹病。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "軨軨"})
+CREATE (m)-[:APPEARS_IN {
+  content: "空桑山北面邻近食水，在山上向东可以望见沮吴，向南可以望见沙陵，向西可以望见滑泽。山中有一种野兽，形状像普通的牛，却有老虎一样的斑纹，发出的声音如同人在呻吟，名为軨軨，一出现天下就会发生水灾。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "领胡"})
+CREATE (m)-[:APPEARS_IN {
+  content: "阳山上有丰富的玉石，山下有丰富的金铜。山中有一种野兽，形状像普通的牛而长着红尾巴，脖子上有肉瘤，像斗的形状，名为领胡，人吃了它的肉就能治愈癫狂症。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "蠪蛭"})
+CREATE (m)-[:APPEARS_IN {
+  content: "昆吾山上有丰富的赤铜。山中有一种野兽，形状像一般的猪，却长着角，发出的声音如同人号啕大哭，名为蠪蛭，吃了它的肉就会使人不做噩梦。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "蠪侄"})
+CREATE (m)-[:APPEARS_IN {
+  content: "凫丽山上有丰富的金属矿物和玉石，山下盛产箴石。山中有一种野兽，形状像一般的狐狸，却有九条尾巴、九个脑袋、虎一样的爪子，名为蠪侄，发出的声音如同婴儿啼哭，能吃人。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "陆吾"})
+CREATE (m)-[:APPEARS_IN {
+  content: "昆仑山是天帝在下界的都邑，由陆吾主管。陆吾长着老虎的身子，却有九条尾巴，一副人的面孔，长着老虎的爪子，主管天上的九部和天帝苑圃的时节。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鹿蜀"})
+CREATE (m)-[:APPEARS_IN {
+  content: "柯阳山上有一种野兽，形状像马，白头，通身是老虎的斑纹，尾巴是红色的，鸣叫起来像是有人在唱歌，名为鹿蜀。据说将它的皮毛佩戴在身上，可以使子孙昌盛。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鯥"})
+CREATE (m)-[:APPEARS_IN {
+  content: "柢山这地方多水，没有草木。有一种怪鱼，形状像牛，长着蛇的尾巴，而且有翅膀，居住在洞穴里，名为鯥，叫的声音如同留牛，冬天死了夏天就可以活过来，吃它的肉，身体不会发肿。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鸾鸟"})
+CREATE (m)-[:APPEARS_IN {
+  content: "女床山南面多出产黄铜，山北面多出产石涅。山里有一种禽鸟，形状像野鸡，却长着色彩斑斓的羽毛，名为鸾鸟，一出现天下就会安宁。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "赢鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "濛水从邦山发源，向南流入洋水。水中有一种赢鱼，长着鱼的身子，却有鸟的翅膀，发出的声音像鸳鸯鸟鸣叫，在哪里出现哪里就会有水灾。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "马腹"})
+CREATE (m)-[:APPEARS_IN {
+  content: "蔓渠山上有丰富的金属矿物和玉石，山下到处是小竹丛。伊水从这座山发源，向东流入洛水。山中有一种野兽，名为马腹，长着人一样的面孔、虎一样的身子，发出的声音如同婴儿啼哭，能吃人。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "蛮蛮"})
+CREATE (m)-[:APPEARS_IN {
+  content: "崇吾山中有一种禽鸟，形状像一般的野鸭子，却只长了一只翅膀和一只眼睛，要两只鸟合起来才能飞翔，名为蛮蛮，一出现天下就会发生水灾。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "毛民"})
+CREATE (m)-[:APPEARS_IN {
+  content: "毛民国的人，全身长满了毛。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "孟槐"})
+CREATE (m)-[:APPEARS_IN {
+  content: "谯明山中有一种怪兽，形状像豪猪，却长着柔软的红毛，叫声如同用辘轿抽水的响声，名为孟槐，人饲养它可以辟凶邪之气。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "孟极"})
+CREATE (m)-[:APPEARS_IN {
+  content: "石者山上没有花草树木，但到处是瑶、碧之类的美玉。滥水从这座山发源，向西流入黄河。山中有一种野兽，形状像普通的豹子，却长着花额头和白身子，名为孟极，善于伏身隐藏。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鸣蛇"})
+CREATE (m)-[:APPEARS_IN {
+  content: "鲜山有丰富的金属矿物和玉石，但不生长花草树木。鲜水从这座山发源，向北流入伊水。水中有很多鸣蛇，形状像一般的蛇，却长着四只翅膀，叫声如同敲磐的声音，在哪里出现哪里就会发生大旱灾。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "那父"})
+CREATE (m)-[:APPEARS_IN {
+  content: "灌题山上是茂密的臭椿树和柘树，山下到处是流沙，还多出产磨石。山中有一种野兽，形状像普通的牛，却拖着一条白色的尾巴，发出的声音如同人在高声呼唤，名为那父。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "聂耳人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "聂耳国在无肠国的东面，那里的人使唤着两只花斑大虎，在行走时用手托着自己的大耳朵。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "狍鸮"})
+CREATE (m)-[:APPEARS_IN {
+  content: "钩吾山上盛产玉石，山下盛产铜。山中有一种野兽，形状是羊的身子、人的面孔，眼睛长在腋窝下，有老虎一样的牙齿和人一样的指甲，发出的声音如同婴儿啼哭，名叫狍鸮，能吃人。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "罴九"})
+CREATE (m)-[:APPEARS_IN {
+  content: "伦水从伦山发源，向东流入黄河。山中有一种野兽，形状像麋鹿，肛门却长在尾巴上面，名为罴九。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鵸鵌"})
+CREATE (m)-[:APPEARS_IN {
+  content: "翼望山中有一种禽鸟，形状像普通的乌鸦，却长着三个脑袋、六条尾巴，喜欢嬉笑，名为鵸鵌。吃了它的肉就能使人不做噩梦，还可以辟凶邪之气。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "奇肱人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "奇肱国在一臂国的北面，那里的人都是一条胳膊和三只眼睛，眼睛分为阴阳，阴在上阳在下，骑着名叫吉良的马。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "跂踵"})
+CREATE (m)-[:APPEARS_IN {
+  content: "复州山的树木以檀树居多，山南面有丰富的黄金。山中有一种禽鸟，形状像一般的猫头鹰，却长着一只爪子和猪一样的尾巴，名为跂踵，在哪个国家出现哪个国家就会发生大瘟疫。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鬿雀"})
+CREATE (m)-[:APPEARS_IN {
+  content: "北号山中有一种禽鸟，形状像普通的鸡，却长着白脑袋、老鼠一样的脚和老虎一样的爪子，名为鬿雀，能吃人。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鮨鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "诸怀水从北岳山发源，水中有很多鮨鱼，长着鱼的身子和狗的脑袋，发出的声音像婴儿啼哭，人吃了它的肉就能治愈疯癫病。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "窃脂"})
+CREATE (m)-[:APPEARS_IN {
+  content: "江水从帽山发源，向东流入长江，水中生长着许多怪蛇，这里的树木以栖树和柯树居多。山中有一种禽鸟，形状像一般的猫头鹰，却是红色的身子、白色的脑袋，名为窃脂，人饲养它可以辟火。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "钦原"})
+CREATE (m)-[:APPEARS_IN {
+  content: "昆仑山中有一种禽鸟，形状像一般的蜜蜂，大小与鸳鸯差不多，名为钦原。这种钦原鸟刺螫其他鸟兽就会使它们死去，刺螫树木就会使树木枯死。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "穷奇"})
+CREATE (m)-[:APPEARS_IN {
+  content: "穷奇是中国古代著名的妖怪，“四凶”之一。传说穷奇生存在大地的西北方，身体像老虎，长着翅膀能飞。它能够听懂人的言语，碰到争斗的人，它会吃掉对的一方；听到人讲忠信之言，它就会吃掉对方的鼻子；碰到做坏事的人，它就会杀死野兽送给对方，鼓励对方多做坏事。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "瞿如"})
+CREATE (m)-[:APPEARS_IN {
+  content: "祷过山上盛产金属矿物和玉石，山下到处是犀、兕，还有很多大象。山中有一种禽鸟，形状像鴳，却有白色的脑袋，长着三只脚、人一样的脸，名叫瞿如。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "䑏疏"})
+CREATE (m)-[:APPEARS_IN {
+  content: "带山上盛产玉石，山下盛产青石碧玉。山中有一种野兽，形状像普通的马，长的一只角有如粗硬的磨石，名为䑏疏，人饲养它可以辟火。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "冉遗鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "英醍山上生长着茂密的漆树，山下蕴藏着丰富的金属矿物和玉石，禽鸟野兽都是白色的。流水从这座山发源，向北流入陵羊泽。水里有很多冉遗鱼，长着鱼的身子、蛇的头和六只脚，眼睛长长的像马耳朵，吃了它的肉就能使人睡觉不做噩梦，也可以辟凶邪之气。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "戎宣王尸"})
+CREATE (m)-[:APPEARS_IN {
+  content: "大荒之中有座山叫融父山，山上有种赤色的怪兽，长得像马，却没有脑袋，名为戎宣王尸。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "柔利人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "柔利国在一目国的东面，那里的人是一只手一只脚，膝盖反长，脚弯曲朝上。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "三身人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "三身国在夏后启所在之地的北面，那里的人都长着一个脑袋、三个身子。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "三首人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "三首国的人，都是一个身子、三个头。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "三足鳖"})
+CREATE (m)-[:APPEARS_IN {
+  content: "从山上到处是松树和柏树，山下有茂密的竹丛。从水由这座山的山顶上发源，潜流到山下，水中有很多三足鳖，长着叉开的尾巴，吃了它的肉就能使人不患疑心病。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "山膏"})
+CREATE (m)-[:APPEARS_IN {
+  content: "苦山中有一种野兽，名为山膏，形状像普通的小猪，身上红得如同丹火，喜欢骂人。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "奢比尸"})
+CREATE (m)-[:APPEARS_IN {
+  content: "奢比尸，长着野兽的身子、人的面孔、大大的耳朵，耳朵上穿挂着两条青蛇。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "深目人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "深目国的人总是举起一只手，手上长着一只眼睛。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "狌狌"})
+CREATE (m)-[:APPEARS_IN {
+  content: "醮山上有一种怪兽，形状如同猿猴，长着白色的耳朵，跑的时候四肢着地，走路的时候直立如人，名为狌狌，吃它的肉，就会变得善于行走。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "胜遇"})
+CREATE (m)-[:APPEARS_IN {
+  content: "玉山中有一种禽鸟，形状像野鸡却通身是红色，名为胜遇，能吃鱼类，发出的声音如同鹿在叫，在哪个国家出现就会使哪个国家发生水灾。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "视肉"})
+CREATE (m)-[:APPEARS_IN {
+  content: "视肉，是传说中的一种怪兽，形状像牛肝，有两只眼睛，割去它的肉吃了后，不长时间就又重新生长出来，完好如故。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "孰湖"})
+CREATE (m)-[:APPEARS_IN {
+  content: "崦嵫山中有一种野兽，马的身子却长着鸟的翅膀，人的面孔却有蛇的尾巴，很喜欢把人抱着举起，名为孰湖。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "数斯"})
+CREATE (m)-[:APPEARS_IN {
+  content: "皋涂山中有一种禽鸟，形状像鶴鹰，却长着人一样的脚，名为数斯，吃了它的肉就能治愈人脖子上的赘瘤病。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "水马"})
+CREATE (m)-[:APPEARS_IN {
+  content: "求如山上蕴藏着丰富的铜，山下有丰富的玉石，但没有花草树木。滑水从这座山发源，水中生长着很多水马，形状与一般的马相似，但前腿上长有花纹，并拖着一条牛尾巴，发出的声音像人呼喊。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "兕"})
+CREATE (m)-[:APPEARS_IN {
+  content: "兕的长相似牛，头上一只角，又叫独角兽，象征文德。古人经常将見的形象刻在青铜器上作为装饰。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "竦斯"})
+CREATE (m)-[:APPEARS_IN {
+  content: "灌题山中有一种禽鸟，形状像一般的雌野鸡，却长着人的面孔，一看见人就跳跃，名为竦斯。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "酸与"})
+CREATE (m)-[:APPEARS_IN {
+  content: "景山上向南可以望见盐贩泽，向北可以望见少泽，山北阴面多出产赭石，山南阳面多出产玉石。山里有一种禽鸟，形状像一般的蛇，却长有四只翅膀、六只眼睛、三只脚，名为酸与，在哪里出现哪里就会发生使人惊恐的事情。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "泰逢"})
+CREATE (m)-[:APPEARS_IN {
+  content: "和山上不生长花草树木，到处是瑶、碧一类的美玉，确实是黄河中的九条水源所汇聚的地方。这座山盘旋回转了五层，有九条水从这里发源，然后汇集起来向北流入黄河，水中有很多苍玉。泰逢主管这座山，它的形貌像人，却长着虎一样的尾巴，出入时都有闪光。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "天狗"})
+CREATE (m)-[:APPEARS_IN {
+  content: "天狗是中国较为出名的妖怪之一，又叫天犬，出现意味着天下将会有刀兵之灾。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "天马"})
+CREATE (m)-[:APPEARS_IN {
+  content: "马成山上多出产有纹理的美石，山北阴面有丰富的金属矿物和玉石。山里有一种野兽，形状像普通的白狗，却长着黑脑袋，一看见人就腾空飞起，名为天马。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "天吴"})
+CREATE (m)-[:APPEARS_IN {
+  content: "天吴，是传说中的水伯，住在朝阳谷，有着野兽的形状，长着八个脑袋、人的脸面，八只爪子、八条尾巴，背部是青中带黄的颜色。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "儵鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "彭水从带山发源，向西流入芘湖水。水中有很多儵鱼，形状像一般的鸡，却长着红色的羽毛，还长着三条尾巴、六只脚、四只眼睛，它的叫声与喜鹊的鸣叫相似，吃了它的肉就能使人无忧无虑。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "狪狪"})
+CREATE (m)-[:APPEARS_IN {
+  content: "泰山上盛产玉，山下盛产金。山中有一种野兽，形状与一般的猪相似而体内却有珠子，名为狪狪。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "土蝼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "昆仑山中有一种野兽，形状像普通的羊，却长着四只角，名为土蝼，能吃人。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "橐𩇯"})
+CREATE (m)-[:APPEARS_IN {
+  content: "羭次山中有一种禽鸟，形状像一般的猫头鹰，长着人一样的面孔而只有一只脚，名为橐𩇯，常常是冬天出现而夏天蛰伏，把它的羽毛插在身上能使人不怕打雷。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "文文"})
+CREATE (m)-[:APPEARS_IN {
+  content: "明水从放皋山发源，向南流入伊水，水中有很多苍玉。山中有一种野兽，形状像蜜蜂，长着分叉的尾巴和倒转的舌头，擅长呼叫，名为文文。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "文鳐鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "观水从泰器山发源，向西流入流沙。观水中有很多文鳐鱼，形状像普通的鲤鱼，长着鱼一样的身子和鸟一样的翅膀，浑身是灰绿色的斑纹，却是白脑袋和红嘴巴，常常在西海行走，在东海畅游，在夜间飞行。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "闻獜"})
+CREATE (m)-[:APPEARS_IN {
+  content: "杳山往东三百五十里有座山，山中有一种野兽，形状像普通的猪，却是黄色的身子、白色的脑袋、白色的尾巴，名为闻獜，一出现天下就会刮起大风。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "无肠人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "无肠国那里的人，身体高大而肚子里却没有肠子。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "轩辕人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "轩辕国在穷山的旁边、女子国的北面，轩辕国的人长着人的面孔，却是蛇的身子，尾巴盘绕在头顶上，那里的人就是不长寿的也能活八百岁。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "旋龟"})
+CREATE (m)-[:APPEARS_IN {
+  content: "杻阳山的水中，有一种怪物叫旋龟，其体貌与普通的乌龟类似，但颜色为红黑色，长着鸟的头、毒蛇的尾巴。据说它的叫声像剖开木头时的声音，将其佩带在身上，耳不聋，还可以治疗足底的老茧。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "窫窳"})
+CREATE (m)-[:APPEARS_IN {
+  content: "少咸山上没有花草树木，到处是青石碧玉。山中有一种野兽，形状像普通的牛，却长着红色的身子、人的面孔、马的蹄子，名为窫窳，发出的声音如同婴儿啼哭，是能吃人的。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "厌火人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "厌火国的人，都长着野兽一样的身子而且是黑色的，火从他们的口中吐出。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "一臂人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "一臂国在三身国的北面，那里的人都是一条胳膊、一只眼睛、一个鼻孔。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "一目人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "一目国在钟山的东面，那里的人是在脸的中间长着一只眼睛。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "英招"})
+CREATE (m)-[:APPEARS_IN {
+  content: "丘时水从槐江山发源，向北流入沏水，山上蕴藏着丰富的石青、雄黄，还有很多的琅开、黄金、玉石，山南面到处是粟粒大小的丹砂，而山北阴面多产带符彩的黄金白银。槐江山由英招主管，英招的形状是马的身子、人的面孔，身上长有老虎的斑纹和禽鸟的翅膀，巡行四海而传布天帝的旨命，发出的声音如同用辘轿抽水。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "婴勺"})
+CREATE (m)-[:APPEARS_IN {
+  content: "淸水从支离山发源，向南流入汉水。山中有一种禽鸟，名为婴勺，形状像普通的喜鹊，却长着红眼睛、红嘴巴、白色的身子，尾巴与酒勺的形状相似。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "雍和"})
+CREATE (m)-[:APPEARS_IN {
+  content: "丰山中有一种野兽，形状像猿猴，却长着红眼睛、红嘴巴、黄色的身子，名为雍和，在哪个国家出现哪个国家就会发生大动乱。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "幽鴳"})
+CREATE (m)-[:APPEARS_IN {
+  content: "春山上到处是野葱、葵菜、韭菜、野桃树、李树。山中有一种野兽，形状像猿猴而身上满是花纹，喜欢嬉笑，一看见人就假装睡着，名为幽鴳。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "峳峳"})
+CREATE (m)-[:APPEARS_IN {
+  content: "从䃌山上向东可以望见湖泽。山中有一种野兽，形状像普通的马，却长着羊一样的眼睛、四只角、牛一样的尾巴，发出的声音如同狗叫，名为祓夜。它在哪个国家出现，哪个国家就会有很多奸猾的政客。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "颙"})
+CREATE (m)-[:APPEARS_IN {
+  content: "令丘山没有花草树木，到处是野火。山的南边有一峡谷，叫作中谷，东北风就是从这里吹出来的。山中有一种禽鸟，形状像猫头鹰，却长着一副人脸和四只眼睛，有耳朵，名为颙，一出现天下就会大旱。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "羽民人"})
+CREATE (m)-[:APPEARS_IN {
+  content: "羽民国的人都长着长长的脑袋，全身生满羽毛。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "雨师妾"})
+CREATE (m)-[:APPEARS_IN {
+  content: "雨师妾在汤谷的北面，那里的人全身黑色，两只手各握着一条蛇，左边耳朵上挂有青色蛇，右边耳朵挂有红色蛇。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "寓鸟"})
+CREATE (m)-[:APPEARS_IN {
+  content: "虢山上是茂密的漆树，山下是茂密的梧桐树和据树，山南阳面盛产玉石，山北阴面盛产铁。伊水从这座山发源，向西流入黄河。山中有一种鸟名为寓鸟，形状与一般的老鼠相似，却长着鸟一样的翅膀，发出的声音像羊叫，人饲养它可以辟兵器。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "妴胡"})
+CREATE (m)-[:APPEARS_IN {
+  content: "尸胡山上有丰富的金属矿物和玉石，山下有茂密的酸枣树。山中有一种野兽，形状像麋鹿，却长着鱼一样的眼睛，名为妴胡。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "凿齿"})
+CREATE (m)-[:APPEARS_IN {
+  content: "凿齿是传说中居住在中国南部沼泽地带的怪兽或巨人，长有像凿子一样的长牙，手中持有盾和矛。据说凿齿掠食人类，黄帝命令后羿前往讨伐，经过激烈的搏斗，后羿在昆仑山追上了凿齿并将他射杀。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "狰"})
+CREATE (m)-[:APPEARS_IN {
+  content: "章莪山上没有花草树木，到处是瑶、碧一类的美玉。山中有一种野兽，形状像赤豹，长着五条尾巴和一只角，发出的声音如同敲击石头的响声，名为狰。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "彘"})
+CREATE (m)-[:APPEARS_IN {
+  content: "浮玉山在山上向北可以望见具区泽，向东可以望见诸觥山。山中有一种野兽，形状像老虎，却长着牛的尾巴，发出的叫声如同狗叫，名为彘，能吃人。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "朱獳"})
+CREATE (m)-[:APPEARS_IN {
+  content: "耿山没有花草树木，到处是水晶石，还有很多大蛇。山中有一种野兽，形状像狐狸，却长着鱼鳍，名为朱獳。它在哪个国家出现，哪个国家就会有恐怖的事发生。"
+}]->(b);
+
+// 关系创建：妖怪与书籍《山海经》的关系
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "朱厌"})
+CREATE (m)-[:APPEARS_IN {
+  content: "小次山上盛产白玉，山下盛产黄铜。山中有一种野兽，形状像普通的猿猴，但头是白色的、脚是红色的，名为朱厌，一出现就会起大战事。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "珠蟞鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "葛山的末端没有花草树木，到处是粗细磨石。再往南三百八十里就是葛山的首端，这里没有花草树木。澧水从此发源，向东流入余泽，水中有很多珠蟞鱼，形状像动物的肺，有四只眼睛、六只脚，能吐珠子。这种珠螫鱼的肉味酸中带甜，人吃了它的肉就不会染上瘟疫病。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "诸怀"})
+CREATE (m)-[:APPEARS_IN {
+  content: "北岳山上到处是枳树、酸枣树和檀、柘一类的树木。山中有一种野兽，形状像一般的牛，却长着四只角、人的眼睛、猪的耳朵，名为诸怀，发出的声音如同大雁鸣叫，能吃人。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "诸犍"})
+CREATE (m)-[:APPEARS_IN {
+  content: "单张山上没有花草树木。山中有一种野兽，形状像豹子，却拖着一条长长的尾巴，还长着人一样的脑袋和牛一样的耳朵，一只眼睛，名为诸犍，喜欢吼叫，行走时就用嘴衔着尾巴，卧睡时就将尾巴盘蜷起来。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鴸"})
+CREATE (m)-[:APPEARS_IN {
+  content: "柜山中有一种鸟，形状像鹞鹰，却长着人手一样的爪子，啼叫的声音如同痺鸟鸣叫，名为鴸，哪里出现犒哪里就一定会有众多的士人被流放。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "烛阴"})
+CREATE (m)-[:APPEARS_IN {
+  content: "烛阴，睁开眼睛便是白昼，闭上眼睛便是黑夜，一吹气便是寒冬，一呼气便是炎夏，不喝水，不吃食物，不呼吸，一呼吸就生成风，身子有一千里长。它的形貌是人一样的面孔，蛇一样的身子，全身赤红色，住在钟山脚下。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "鱄鱼"})
+CREATE (m)-[:APPEARS_IN {
+  content: "鸡山上有丰富的金属矿物，山下盛产丹雘。黑水从这座山发源，向南流入大海。水中有一种鱄鱼，形状像鲫鱼，却长着猪毛，发出的声音如同小猪叫，它一出现就会天下大旱。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "驺吾"})
+CREATE (m)-[:APPEARS_IN {
+  content: "林氏国有一种珍奇的野兽，大小与老虎差不多，身上有五种颜色的斑纹，尾巴比身子长，名为驺吾，骑上它可以日行千里。"
+}]->(b);
+
+MATCH (b:Book {title: "山海经"})
+MATCH (m:Monster {name: "足訾"})
+CREATE (m)-[:APPEARS_IN {
+  content: "蔓联山上没有花草树木。山中有一种野兽，形状像猿猴，却长着鬣毛，还有牛一样的尾巴、长满花纹的双臂、马一样的蹄子，一看见人就呼叫，名为足訾。"
+}]->(b);

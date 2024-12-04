@@ -57,7 +57,7 @@ The Chinese Monster Encyclopedia is a digital platform that brings ancient Chine
 ### Stack
 - Frontend: React, TypeScript, Tailwind CSS
 - Backend: Node.js, Express
-- Database: MongoDB
+- Database: MongoDB Atlas, Neo4j Aura
 - Map: AMap API
 - Graph Visualization: D3.js
 
@@ -80,3 +80,10 @@ The Chinese Monster Encyclopedia is a digital platform that brings ancient Chine
 The monster data is organized into multiple JSON files located in the `/data/json` directory.
 Each JSON file contains detailed information about monsters including their names, types, descriptions, abilities, and geographical locations.
 
+#### Neo4j Knowledge Graph
+The knowledge graph data is stored in Neo4j database, with Cypher queries located in `/data/cypher`:
+The Cypher queries in `/data/cypher` directory define:
+- Node creation
+- Relationship establishment
+- Graph structure maintenance
+- Data integrity rules

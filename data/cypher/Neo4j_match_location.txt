@@ -1,0 +1,1409 @@
+// 关系创建：地点与人鱼的关系
+MATCH (m:Monster {name: "人鱼"})
+MATCH (l:Location {name: "龙侯之山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "《山海经》里记载，龙侯之山的决水里面就有人鱼。"
+}]->(l);
+
+// 关系创建：地点与无支祈的关系
+MATCH (m:Monster {name: "无支祈"})
+MATCH (l:Location {name: "淮河"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "无支祈，是淮河里的精怪，常被认为是淮河的主宰者。"
+}]->(l);
+
+// 关系创建：地点与精卫的关系
+MATCH (m:Monster {name: "精卫"})
+MATCH (l:Location {name: "发鸠山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "发鸠山上生长着茂密的柘树。山中有一种禽鸟，名为精卫。"
+}]->(l);
+
+// 关系创建：地点与女尸的关系
+MATCH (m:Monster {name: "女尸"})
+MATCH (l:Location {name: "姑媼山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "天帝有个女儿死了，名曰女尸，变成了姑媼山上的瑶草。"
+}]->(l);
+
+// 关系创建：地点与奇相的关系
+MATCH (m:Monster {name: "奇相"})
+MATCH (l:Location {name: "长江"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "奇相为长江之主。"
+}]->(l);
+
+// 关系创建：地点与钦鴉的关系
+MATCH (m:Monster {name: "钦鴉"})
+MATCH (l:Location {name: "钟山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "钟山有一种大翳，名为钦鴉。"
+}]->(l);
+
+// 关系创建：地点与土伯的关系
+MATCH (m:Monster {name: "土伯"})
+MATCH (l:Location {name: "幽都"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "土伯是传说中阴间幽都的统治者。"
+}]->(l);
+
+// 关系创建：地点与相柳氏的关系
+MATCH (m:Monster {name: "相柳氏"})
+MATCH (l:Location {name: "共工之地"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "相柳氏，原来是共工的臣子。"
+}]->(l);
+
+// 关系创建：地点与傲因的关系
+MATCH (m:Monster {name: "傲因"})
+MATCH (l:Location {name: "三危山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "三危山上有一种野兽，名为傲因。"
+}]->(l);
+
+// 关系创建：地点与巴蛇的关系
+MATCH (m:Monster {name: "巴蛇"})
+MATCH (l:Location {name: "巴蛇洞"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "巴蛇是传说中的一种巨蛇，能吞下大象。"
+}]->(l);
+
+// 关系创建：地点与薄鱼的关系
+MATCH (m:Monster {name: "薄鱼"})
+MATCH (l:Location {name: "女烝山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "女烝山上没有花草树木，石膏水从这座山发源，水中有很多薄鱼。"
+}]->(l);
+
+// 关系创建：地点与毕方的关系
+MATCH (m:Monster {name: "毕方"})
+MATCH (l:Location {name: "章莪山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "章莪山中有一种禽鸟，名为毕方。"
+}]->(l);
+
+// 关系创建：地点与獙獙的关系
+MATCH (m:Monster {name: "獙獙"})
+MATCH (l:Location {name: "姑逢山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "姑逢山中有一种野兽，名为獙獙。"
+}]->(l);
+
+// 关系创建：地点并与封的关系
+MATCH (m:Monster {name: "并封"})
+MATCH (l:Location {name: "巫咸国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "并封，是传说中的怪兽，居住在巫咸国的东面。"
+}]->(l);
+
+// 关系创建：地点与猼訑的关系
+MATCH (m:Monster {name: "猼訑"})
+MATCH (l:Location {name: "基山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "基山中有一种野兽，名为猼訑。"
+}]->(l);
+
+// 关系创建：地点与駮的关系
+MATCH (m:Monster {name: "駮"})
+MATCH (l:Location {name: "中曲山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "中曲山中有一种野兽，名为駮。"
+}]->(l);
+
+// 关系创建：地点与不死民的关系
+MATCH (m:Monster {name: "不死民"})
+MATCH (l:Location {name: "不死民国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "不死民国的人都是黑色的，个个长寿，人人不死。"
+}]->(l);
+
+// 关系创建：地点与长臂人的关系
+MATCH (m:Monster {name: "长臂人"})
+MATCH (l:Location {name: "长臂国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "长臂国的人，双臂奇长，擅长将双手伸入海中捕鱼。"
+}]->(l);
+
+// 关系创建：地点与鹇鸺的关系
+MATCH (m:Monster {name: "鹇鸺"})
+MATCH (l:Location {name: "基山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "基山中有一种禽鸟，名为鹇鸺。"
+}]->(l);
+
+// 关系创建：地点与长蛇的关系
+MATCH (m:Monster {name: "长蛇"})
+MATCH (l:Location {name: "大咸山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "大咸山中有一种蛇叫长蛇。"
+}]->(l);
+
+// 关系创建：地点与长右的关系
+MATCH (m:Monster {name: "长右"})
+MATCH (l:Location {name: "长右山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "长右山中有一种野兽，名为长右。"
+}]->(l);
+
+// 关系创建：地点与乘黄的关系
+MATCH (m:Monster {name: "乘黄"})
+MATCH (l:Location {name: "乘黄国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "乘黄，是传说中的怪兽，形状像一般的狐狸，脊背上有角。"
+}]->(l);
+
+// 关系创建：地点与鸱的关系
+MATCH (m:Monster {name: "鸱"})
+MATCH (l:Location {name: "三危山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "三危山中有一种禽鸟，名为鸱。"
+}]->(l);
+
+// 关系创建：地点与赤鱬的关系
+MATCH (m:Monster {name: "赤鱬"})
+MATCH (l:Location {name: "青丘山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "青丘山中有条河流名英水，泽中有很多赤鱬。"
+}]->(l);
+
+// 关系创建：地点与茈鱼的关系
+MATCH (m:Monster {name: "茈鱼"})
+MATCH (l:Location {name: "东始山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "东始山上多出产苍玉，滥水从这座山发源，水中有很多茈鱼。"
+}]->(l);
+
+// 关系创建：地点与从从的关系
+MATCH (m:Monster {name: "从从"})
+MATCH (l:Location {name: "枸状山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "枸状山上有丰富的金属矿物和玉石，山中有一种野兽，名为从从。"
+}]->(l);
+
+// 关系创建：地点与当扈鸟的关系
+MATCH (m:Monster {name: "当扈鸟"})
+MATCH (l:Location {name: "上申山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "上申山上没有花草树木，山里最多的禽鸟是当扈鸟。"
+}]->(l);
+
+// 关系创建：地点与当康的关系
+MATCH (m:Monster {name: "当康"})
+MATCH (l:Location {name: "钦山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "钦山中栖息一种野兽，名为当康。"
+}]->(l);
+
+// 关系创建：地点与氐人的关系
+MATCH (m:Monster {name: "氐人"})
+MATCH (l:Location {name: "氐人国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "氐人国那里的人，都长着人的面孔，却是鱼的身子，没有脚。"
+}]->(l);
+
+// 关系创建：地点与帝江的关系
+MATCH (m:Monster {name: "帝江"})
+MATCH (l:Location {name: "天山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "天山上有丰富的金属矿物和玉石，山里住着一个怪物，名为帝江。"
+}]->(l);
+
+// 关系创建：地点与䍶䍶的关系
+MATCH (m:Monster {name: "䍶䍶"})
+MATCH (l:Location {name: "空桑山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "空桑山上没有花草树木，冬天夏天都有雪，山中有一种野兽，名为䍶䍶。"
+}]->(l);
+
+// 关系创建：地点与耳鼠的关系
+MATCH (m:Monster {name: "耳鼠"})
+MATCH (l:Location {name: "丹熏山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "丹熏山上有茂密的臭椿树和柏树，山中有一种野兽，名为耳鼠。"
+}]->(l);
+
+// 关系创建：地点与飞鼠的关系
+MATCH (m:Monster {name: "飞鼠"})
+MATCH (l:Location {name: "天池山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "天池山上没有花草树木，到处是带有花纹的美石，山中有一种野兽，名为飞鼠。"
+}]->(l);
+
+// 关系创建：地点与飞鱼的关系
+MATCH (m:Monster {name: "飞鱼"})
+MATCH (l:Location {name: "騩山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "騩山上盛产味道甜美的枣子，水中生长着许多飞鱼。"
+}]->(l);
+
+// 关系创建：地点与蜚的关系
+MATCH (m:Monster {name: "蜚"})
+MATCH (l:Location {name: "太山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "太山上有丰富的金属矿物和玉石，山中有一种野兽，名为蜚。"
+}]->(l);
+
+// 关系创建：地点与肥遗的关系
+MATCH (m:Monster {name: "肥遗"})
+MATCH (l:Location {name: "太华山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "太华山山崖陡峭像刀削而呈现四方形，山中有一种蛇，名叫肥遗。"
+}]->(l);
+
+// 关系创建：地点与朏朏的关系
+MATCH (m:Monster {name: "朏朏"})
+MATCH (l:Location {name: "霍山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "霍山中有一种野兽，名为朏朏，人饲养它就可以消除忧愁。"
+}]->(l);
+
+// 关系创建：地点与凤凰的关系
+MATCH (m:Monster {name: "凤凰"})
+MATCH (l:Location {name: "睢阳城"})
+CREATE (m)-[:INHABITS {
+  era: "唐朝",
+  description: "唐朝贞元十四年秋天，有一只奇异的鸟，在睢阳城郊飞翔，被认为是凤凰。"
+}]->(l);
+
+// 关系创建：地点与夫诸的关系
+MATCH (m:Monster {name: "夫诸"})
+MATCH (l:Location {name: "敖岸之山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "敖岸之山的山南阳面有很多增殍玉，山北阴面有很多黄金。山中有一种怪兽，名为夫诸。"
+}]->(l);
+
+// 关系创建：地点与凫徯的关系
+MATCH (m:Monster {name: "凫徯"})
+MATCH (l:Location {name: "鹿台山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "鹿台山中有一种禽鸟，名为凫徯，一出现天下就会有战争。"
+}]->(l);
+
+// 关系创建：地点与鮯鮯鱼的关系
+MATCH (m:Monster {name: "鮯鮯鱼"})
+MATCH (l:Location {name: "跂踵山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "跂踵山方圆二百里没有花草树木，山上有一水潭，名为深泽。深泽中生长着一种鱼，名为鮯鮯鱼。"
+}]->(l);
+
+// 关系创建：地点与猲狙的关系
+MATCH (m:Monster {name: "猲狙"})
+MATCH (l:Location {name: "北号山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "北号山屹立在北海边上，山中有一种野兽，名为猲狙，能吃人。"
+}]->(l);
+
+// 关系创建：地点与蛊雕的关系
+MATCH (m:Monster {name: "蛊雕"})
+MATCH (l:Location {name: "鹿吴山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "鹿吴山上没有花草树木，但有丰富的金属矿物和玉石。泽更水从这座山发源，水中有一种野兽，名为蛊雕。"
+}]->(l);
+
+// 关系创建：地点与鼓的关系
+MATCH (m:Monster {name: "鼓"})
+MATCH (l:Location {name: "钟山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "钟山山神的儿子叫作鼓，鼓也化为鶴鸟，在哪里出现哪里就会有旱灾。"
+}]->(l);
+
+// 关系创建：地点与贯胸人的关系
+MATCH (m:Monster {name: "贯胸人"})
+MATCH (l:Location {name: "贯胸国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "贯胸国的人，胸膛上都穿个洞。"
+}]->(l);
+
+// 关系创建：地点与灌灌的关系
+MATCH (m:Monster {name: "灌灌"})
+MATCH (l:Location {name: "青丘山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "青丘山中有一种禽鸟，名为灌灌。"
+}]->(l);
+
+// 关系创建：地点与蛫的关系
+MATCH (m:Monster {name: "蛫"})
+MATCH (l:Location {name: "即公山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "即公山中生长着一种野兽，名为蛫。"
+}]->(l);
+
+// 关系创建：地点与合窳的关系
+MATCH (m:Monster {name: "合窳"})
+MATCH (l:Location {name: "剡山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "剡山中有一种野兽，名为合窳。"
+}]->(l);
+
+// 关系创建：地点与何罗鱼的关系
+MATCH (m:Monster {name: "何罗鱼"})
+MATCH (l:Location {name: "谯明水"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "谯明水中生长着很多何罗鱼。"
+}]->(l);
+
+// 关系创建：地点与虎蛟的关系
+MATCH (m:Monster {name: "虎蛟"})
+MATCH (l:Location {name: "浪水"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "浪水中有一种虎蛟。"
+}]->(l);
+
+// 关系创建：地点与猾褢的关系
+MATCH (m:Monster {name: "猾褢"})
+MATCH (l:Location {name: "尧光山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "尧光山中有一种野兽，名为猾褢。"
+}]->(l);
+
+// 关系创建：地点与䱻鱼的关系
+MATCH (m:Monster {name: "䱻鱼"})
+MATCH (l:Location {name: "桃水"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "桃水中有很多䱻鱼。"
+}]->(l);
+
+// 关系创建：地点与化蛇的关系
+MATCH (m:Monster {name: "化蛇"})
+MATCH (l:Location {name: "阳山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "阳山到处是石头，没有花草树木。阳水中有很多化蛇。"
+}]->(l);
+
+// 关系创建：地点与讙的关系
+MATCH (m:Monster {name: "讙"})
+MATCH (l:Location {name: "翼望山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "翼望山上没有花草树木，到处是金属矿物和玉石。山中有一种野兽，名为讙。"
+}]->(l);
+
+// 关系创建：地点与讙头人的关系
+MATCH (m:Monster {name: "讙头人"})
+MATCH (l:Location {name: "讙头国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "讙头国的人都是人的面孔，却有两只翅膀，还长着鸟嘴，能用他们的鸟嘴捕鱼。"
+}]->(l);
+
+// 关系创建：地点与驩头的关系
+MATCH (m:Monster {name: "驩头"})
+MATCH (l:Location {name: "大荒"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "传说在大荒当中，有个人名叫驩头。"
+}]->(l);
+
+// 关系创建：地点与环狗的关系
+MATCH (m:Monster {name: "环狗"})
+MATCH (l:Location {name: "环狗国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "环狗长着人的身体，野兽的脑袋。"
+}]->(l);
+
+// 关系创建：地点与豲的关系
+MATCH (m:Monster {name: "豲"})
+MATCH (l:Location {name: "乾山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "乾山中有一种野兽，名为豲。"
+}]->(l);
+
+// 关系创建：地点与䍺的关系
+MATCH (m:Monster {name: "䍺"})
+MATCH (l:Location {name: "洵山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "洵山中有一种野兽，名为䍺。"
+}]->(l);
+
+// 关系创建：地点与计蒙的关系
+MATCH (m:Monster {name: "计蒙"})
+MATCH (l:Location {name: "光山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "光山上到处有碧玉，山下到处是流水。计蒙居住在这座山里。"
+}]->(l);
+
+// 关系创建：地点与交胫人的关系
+MATCH (m:Monster {name: "交胫人"})
+MATCH (l:Location {name: "交胫国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "交胫国的人，总是互相交叉着双腿双脚。"
+}]->(l);
+
+// 关系创建：地点与骄虫的关系
+MATCH (m:Monster {name: "骄虫"})
+MATCH (l:Location {name: "平逢山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "从平逢山上向南可以望见伊水和洛水，向东可以望见谷城山，山中有一怪物，形貌像人，却长着两个脑袋，叫作骄虫。"
+}]->(l);
+
+// 关系创建：地点与狡的关系
+MATCH (m:Monster {name: "狡"})
+MATCH (l:Location {name: "玉山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "玉山是西王母居住的地方。山中有一种野兽，名为狡。"
+}]->(l);
+
+// 关系创建：地点与絜钩的关系
+MATCH (m:Monster {name: "絜钩"})
+MATCH (l:Location {name: "石垔山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "石垔山中有一种禽鸟，名为絜钩。"
+}]->(l);
+
+// 关系创建：地点与九尾狐的关系
+MATCH (m:Monster {name: "九尾狐"})
+MATCH (l:Location {name: "青丘山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "青丘山中有一种野兽，形状像狐狸，却长着九条尾巴，名为九尾狐。"
+}]->(l);
+
+// 关系创建：地点与狙如的关系
+MATCH (m:Monster {name: "狙如"})
+MATCH (l:Location {name: "倚帝山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "倚帝山上有丰富的玉石，山下有丰富的金。山中有一种野兽，名为狙如。"
+}]->(l);
+
+// 关系创建：地点与居暨兽的关系
+MATCH (m:Monster {name: "居暨兽"})
+MATCH (l:Location {name: "梁渠山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "梁渠山不生长花草树木，有丰富的金属矿物和玉石。山中的野兽大多是居暨兽。"
+}]->(l);
+
+// 关系创建：地点与举父的关系
+MATCH (m:Monster {name: "举父"})
+MATCH (l:Location {name: "崇吾山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "崇吾山中有一种野兽，名为举父。"
+}]->(l);
+
+// 关系创建：地点与鶌鶋的关系
+MATCH (m:Monster {name: "鶌鶋"})
+MATCH (l:Location {name: "马成山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "马成山里有一种禽鸟，名为鶌鶋。"
+}]->(l);
+
+// 关系创建：地点与獲如的关系
+MATCH (m:Monster {name: "獲如"})
+MATCH (l:Location {name: "皋涂山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "皋涂山中有一种野兽，名为獲如。"
+}]->(l);
+
+// 关系创建：地点与菌人的关系
+MATCH (m:Monster {name: "菌人"})
+MATCH (l:Location {name: "盖犹山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "在大荒当中有座山叫盖犹山，山上有一种十分矮小的人，名叫菌人。"
+}]->(l);
+
+// 关系创建：地点与开明兽的关系
+MATCH (m:Monster {name: "开明兽"})
+MATCH (l:Location {name: "昆仑山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "昆仑山的每一面都有九道门，而每道门都有叫开明兽的怪兽守卫着。"
+}]->(l);
+
+// 关系创建：地点与夔的关系
+MATCH (m:Monster {name: "夔"})
+MATCH (l:Location {name: "流波山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "东海之外七千里，有一座流波山。山上有一个怪物，名为夔。"
+}]->(l);
+
+// 关系创建：地点与鸓鸟的关系
+MATCH (m:Monster {name: "鸓鸟"})
+MATCH (l:Location {name: "翠山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "翠山上是茂密的棕树和楠木树，山中有一种禽鸟，名为鸓鸟。"
+}]->(l);
+
+// 关系创建：地点与类的关系
+MATCH (m:Monster {name: "类"})
+MATCH (l:Location {name: "亶爰山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "亶爰山多水，没有草木，无法上去。山上有一种怪兽，形状如同狐狸，长着又长又密的毛，名为类。"
+}]->(l);
+
+// 关系创建：地点与狸力的关系
+MATCH (m:Monster {name: "狸力"})
+MATCH (l:Location {name: "柜山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "柜山中有一种野兽，形状像普通的小猪，长着一双鸡爪，名为狸力。"
+}]->(l);
+
+// 关系创建：地点与栎的关系
+MATCH (m:Monster {name: "栎"})
+MATCH (l:Location {name: "天帝山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "天帝山中有一种禽鸟，形状像一般的鹳鹑，名为栎。"
+}]->(l);
+
+// 关系创建：地点与梁渠的关系
+MATCH (m:Monster {name: "梁渠"})
+MATCH (l:Location {name: "历石山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "历石山中有一种野兽，形状像野猫，却长着白色的脑袋、老虎一样的爪子，名为梁渠。"
+}]->(l);
+
+// 关系创建：地点与獜的关系
+MATCH (m:Monster {name: "獜"})
+MATCH (l:Location {name: "依轱山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "依轱山中有一种野兽，形状像普通的狗，长着老虎一样的爪子而且身上有鳞甲，名为狒。"
+}]->(l);
+
+// 关系创建：地点与軨軨的关系
+MATCH (m:Monster {name: "軨軨"})
+MATCH (l:Location {name: "空桑山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "空桑山中有一种野兽，形状像普通的牛，却有老虎一样的斑纹，名为軨軨。"
+}]->(l);
+
+// 关系创建：地点与领胡的关系
+MATCH (m:Monster {name: "领胡"})
+MATCH (l:Location {name: "阳山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "阳山上有丰富的玉石，山下有丰富的金铜。山中有一种野兽，名为领胡。"
+}]->(l);
+
+// 关系创建：地点与蠪蛭的关系
+MATCH (m:Monster {name: "蠪蛭"})
+MATCH (l:Location {name: "昆吾山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "昆吾山上有丰富的赤铜。山中有一种野兽，形状像一般的猪，却长着角，名为蠪蛭。"
+}]->(l);
+
+// 关系创建：地点与蠪侄的关系
+MATCH (m:Monster {name: "蠪侄"})
+MATCH (l:Location {name: "凫丽山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "凫丽山上有丰富的金属矿物和玉石，山下盛产箴石。山中有一种野兽，名为蠪侄。"
+}]->(l);
+
+// 关系创建：地点与陆吾的关系
+MATCH (m:Monster {name: "陆吾"})
+MATCH (l:Location {name: "昆仑山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "昆仑山是天帝在下界的都邑，由陆吾主管。"
+}]->(l);
+
+// 关系创建：地点与鹿蜀的关系
+MATCH (m:Monster {name: "鹿蜀"})
+MATCH (l:Location {name: "柯阳山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "柯阳山上有一种野兽，形状像马，白头，通身是老虎的斑纹，尾巴是红色的，名为鹿蜀。"
+}]->(l);
+
+// 关系创建：地点与鯥的关系
+MATCH (m:Monster {name: "鯥"})
+MATCH (l:Location {name: "柢山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "柢山这地方多水，没有草木。有一种怪鱼，形状像牛，长着蛇的尾巴，而且有翅膀，居住在洞穴里，名为鯥。"
+}]->(l);
+
+// 关系创建：地点与鸾鸟的关系
+MATCH (m:Monster {name: "鸾鸟"})
+MATCH (l:Location {name: "女床山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "女床山南面多出产黄铜，山北面多出产石涅。山里有一种禽鸟，名为鸾鸟。"
+}]->(l);
+
+// 关系创建：地点与赢鱼的关系
+MATCH (m:Monster {name: "赢鱼"})
+MATCH (l:Location {name: "邦山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "濛水从邦山发源，向南流入洋水。水中有一种赢鱼。"
+}]->(l);
+
+// 关系创建：地点与马腹的关系
+MATCH (m:Monster {name: "马腹"})
+MATCH (l:Location {name: "蔓渠山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "蔓渠山上有丰富的金属矿物和玉石，山下到处是小竹丛。伊水从这座山发源，向东流入洛水。山中有一种野兽，名为马腹。"
+}]->(l);
+
+// 关系创建：地点与蛮蛮的关系
+MATCH (m:Monster {name: "蛮蛮"})
+MATCH (l:Location {name: "崇吾山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "崇吾山中有一种禽鸟，形状像一般的野鸭子，却只长了一只翅膀和一只眼睛，名为蛮蛮。"
+}]->(l);
+
+// 关系创建：地点与毛民的关系
+MATCH (m:Monster {name: "毛民"})
+MATCH (l:Location {name: "毛民国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "毛民国的人，全身长满了毛。"
+}]->(l);
+
+// 关系创建：地点与孟槐的关系
+MATCH (m:Monster {name: "孟槐"})
+MATCH (l:Location {name: "谯明山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "谯明山中有一种怪兽，形状像豪猪，却长着柔软的红毛，名为孟槐。"
+}]->(l);
+
+// 关系创建：地点与孟极的关系
+MATCH (m:Monster {name: "孟极"})
+MATCH (l:Location {name: "石者山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "石者山上没有花草树木，但到处是瑶、碧之类的美玉。山中有一种野兽，名为孟极。"
+}]->(l);
+
+// 关系创建：地点与鸣蛇的关系
+MATCH (m:Monster {name: "鸣蛇"})
+MATCH (l:Location {name: "鲜山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "鲜山有丰富的金属矿物和玉石，但不生长花草树木。鲜水中有很多鸣蛇。"
+}]->(l);
+
+// 关系创建：地点与那父的关系
+MATCH (m:Monster {name: "那父"})
+MATCH (l:Location {name: "灌题山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "灌题山上是茂密的臭椿树和柘树，山下到处是流沙，还多出产磨石。山中有一种野兽，名为那父。"
+}]->(l);
+
+// 关系创建：地点与聂耳人的关系
+MATCH (m:Monster {name: "聂耳人"})
+MATCH (l:Location {name: "聂耳国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "聂耳国在无肠国的东面，那里的人使唤着两只花斑大虎，在行走时用手托着自己的大耳朵。"
+}]->(l);
+
+// 关系创建：地点与狍鸮的关系
+MATCH (m:Monster {name: "狍鸮"})
+MATCH (l:Location {name: "钩吾山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "钩吾山上盛产玉石，山下盛产铜。山中有一种野兽，名为狍鸮。"
+}]->(l);
+
+// 关系创建：地点与罴九的关系
+MATCH (m:Monster {name: "罴九"})
+MATCH (l:Location {name: "伦山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "伦水从伦山发源，向东流入黄河。山中有一种野兽，名为罴九。"
+}]->(l);
+
+// 关系创建：地点与鵸鵌的关系
+MATCH (m:Monster {name: "鵸鵌"})
+MATCH (l:Location {name: "翼望山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "翼望山中有一种禽鸟，形状像普通的乌鸦，却长着三个脑袋、六条尾巴，名为鵸鵌。"
+}]->(l);
+
+// 关系创建：地点与奇肱人的关系
+MATCH (m:Monster {name: "奇肱人"})
+MATCH (l:Location {name: "奇肱国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "奇肱国在一臂国的北面，那里的人都是一条胳膊和三只眼睛，眼睛分为阴阳，阴在上阳在下，骑着名叫吉良的马。"
+}]->(l);
+
+// 关系创建：地点与跂踵的关系
+MATCH (m:Monster {name: "跂踵"})
+MATCH (l:Location {name: "复州山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "复州山的树木以檀树居多，山南面有丰富的黄金。山中有一种禽鸟，名为跂踵。"
+}]->(l);
+
+// 关系创建：地点与鬿雀的关系
+MATCH (m:Monster {name: "鬿雀"})
+MATCH (l:Location {name: "北号山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "北号山中有一种禽鸟，名为鬿雀，能吃人。"
+}]->(l);
+
+// 关系创建：地点与鮨鱼的关系
+MATCH (m:Monster {name: "鮨鱼"})
+MATCH (l:Location {name: "诸怀水"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "诸怀水中有很多鮨鱼，长着鱼的身子和狗的脑袋。"
+}]->(l);
+
+// 关系创建：地点与窃脂的关系
+MATCH (m:Monster {name: "窃脂"})
+MATCH (l:Location {name: "江水"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "江水中生长着许多怪蛇，山中有一种禽鸟，名为窃脂。"
+}]->(l);
+
+// 关系创建：地点与钦原的关系
+MATCH (m:Monster {name: "钦原"})
+MATCH (l:Location {name: "昆仑山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "昆仑山中有一种禽鸟，名为钦原。"
+}]->(l);
+
+// 关系创建：地点与穷奇的关系
+MATCH (m:Monster {name: "穷奇"})
+MATCH (l:Location {name: "西北方"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "穷奇生存在大地的西北方，身体像老虎，长着翅膀能飞。"
+}]->(l);
+
+// 关系创建：地点与瞿如的关系
+MATCH (m:Monster {name: "瞿如"})
+MATCH (l:Location {name: "祷过山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "祷过山上盛产金属矿物和玉石，山下到处是犀、兕，还有很多大象。山中有一种禽鸟，名为瞿如。"
+}]->(l);
+
+// 关系创建：地点与䑏疏的关系
+MATCH (m:Monster {name: "䑏疏"})
+MATCH (l:Location {name: "带山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "带山上盛产玉石，山下盛产青石碧玉。山中有一种野兽，名为䑏疏。"
+}]->(l);
+
+// 关系创建：地点与冉遗鱼的关系
+MATCH (m:Monster {name: "冉遗鱼"})
+MATCH (l:Location {name: "英醍山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "英醍山上生长着茂密的漆树，山下蕴藏着丰富的金属矿物和玉石，流水从这座山发源，水里有很多冉遗鱼。"
+}]->(l);
+
+// 关系创建：地点与戎宣王尸的关系
+MATCH (m:Monster {name: "戎宣王尸"})
+MATCH (l:Location {name: "融父山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "大荒之中有座山叫融父山，山上有种赤色的怪兽，长得像马，却没有脑袋，名为戎宣王尸。"
+}]->(l);
+
+// 关系创建：地点与柔利人的关系
+MATCH (m:Monster {name: "柔利人"})
+MATCH (l:Location {name: "柔利国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "柔利国在一目国的东面，那里的人是一只手一只脚，膝盖反长，脚弯曲朝上。"
+}]->(l);
+
+// 关系创建：地点与三身人的关系
+MATCH (m:Monster {name: "三身人"})
+MATCH (l:Location {name: "三身国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "三身国在夏后启所在之地的北面，那里的人都长着一个脑袋、三个身子。"
+}]->(l);
+
+// 关系创建：地点与三首人的关系
+MATCH (m:Monster {name: "三首人"})
+MATCH (l:Location {name: "三首国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "三首国的人，都是一个身子、三个头。"
+}]->(l);
+
+// 关系创建：地点与三足鳖的关系
+MATCH (m:Monster {name: "三足鳖"})
+MATCH (l:Location {name: "从山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "从山上到处是松树和柏树，山下有茂密的竹丛。从水中有很多三足鳖。"
+}]->(l);
+
+// 关系创建：地点与山膏的关系
+MATCH (m:Monster {name: "山膏"})
+MATCH (l:Location {name: "苦山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "苦山中有一种野兽，名为山膏，形状像普通的小猪，身上红得如同丹火，喜欢骂人。"
+}]->(l);
+
+// 关系创建：地点与奢比尸的关系
+MATCH (m:Monster {name: "奢比尸"})
+MATCH (l:Location {name: "奢比尸之地"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "奢比尸，长着野兽的身子、人的面孔、大大的耳朵，耳朵上穿挂着两条青蛇。"
+}]->(l);
+
+// 关系创建：地点与深目人的关系
+MATCH (m:Monster {name: "深目人"})
+MATCH (l:Location {name: "深目国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "深目国的人总是举起一只手，手上长着一只眼睛。"
+}]->(l);
+
+// 关系创建：地点与狌狌的关系
+MATCH (m:Monster {name: "狌狌"})
+MATCH (l:Location {name: "醮山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "醮山上有一种怪兽，形状如同猿猴，长着白色的耳朵，跑的时候四肢着地，走路的时候直立如人，名为狌狌。"
+}]->(l);
+
+// 关系创建：地点与胜遇的关系
+MATCH (m:Monster {name: "胜遇"})
+MATCH (l:Location {name: "玉山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "玉山中有一种禽鸟，形状像野鸡却通身是红色，名为胜遇。"
+}]->(l);
+
+// 关系创建：地点与视肉的关系
+MATCH (m:Monster {name: "视肉"})
+MATCH (l:Location {name: "视肉之地"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "视肉，是传说中的一种怪兽，形状像牛肝，有两只眼睛，割去它的肉吃了后，不长时间就又重新生长出来，完好如故。"
+}]->(l);
+
+// 关系创建：地点与孰湖的关系
+MATCH (m:Monster {name: "孰湖"})
+MATCH (l:Location {name: "崦嵫山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "崦嵫山中有一种野兽，马的身子却长着鸟的翅膀，人的面孔却有蛇的尾巴，名为孰湖。"
+}]->(l);
+
+// 关系创建：地点与数斯的关系
+MATCH (m:Monster {name: "数斯"})
+MATCH (l:Location {name: "皋涂山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "皋涂山中有一种禽鸟，形状像鶴鹰，却长着人一样的脚，名为数斯。"
+}]->(l);
+
+// 关系创建：地点与水马的关系
+MATCH (m:Monster {name: "水马"})
+MATCH (l:Location {name: "求如山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "求如山上蕴藏着丰富的铜，山下有丰富的玉石，但没有花草树木。滑水从这座山发源，水中生长着很多水马。"
+}]->(l);
+
+// 关系创建：地点与兕的关系
+MATCH (m:Monster {name: "兕"})
+MATCH (l:Location {name: "兕之地"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "兕的长相似牛，头上一只角，又叫独角兽，象征文德。"
+}]->(l);
+
+// 关系创建：地点与竦斯的关系
+MATCH (m:Monster {name: "竦斯"})
+MATCH (l:Location {name: "灌题山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "灌题山中有一种禽鸟，形状像一般的雌野鸡，却长着人的面孔，名为竦斯。"
+}]->(l);
+
+// 关系创建：地点与酸与的关系
+MATCH (m:Monster {name: "酸与"})
+MATCH (l:Location {name: "景山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "景山里有一种禽鸟，形状像一般的蛇，却长有四只翅膀、六只眼睛、三只脚，名为酸与。"
+}]->(l);
+
+// 关系创建：地点与泰逢的关系
+MATCH (m:Monster {name: "泰逢"})
+MATCH (l:Location {name: "和山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "和山上不生长花草树木，到处是瑶、碧一类的美玉，确实是黄河中的九条水源所汇聚的地方。泰逢主管这座山。"
+}]->(l);
+
+// 关系创建：地点与天狗的关系
+MATCH (m:Monster {name: "天狗"})
+MATCH (l:Location {name: "阴山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "《山海经》记载，天狗住在阴山，形状像野猫，却是白脑袋，发出的叫声与“猫猫”的读音相似。"
+}]->(l);
+
+// 关系创建：地点与天马的关系
+MATCH (m:Monster {name: "天马"})
+MATCH (l:Location {name: "马成山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "马成山上多出产有纹理的美石，山北阴面有丰富的金属矿物和玉石。山里有一种野兽，形状像普通的白狗，却长着黑脑袋，名为天马。"
+}]->(l);
+
+
+// 关系创建：地点与天吴的关系
+MATCH (m:Monster {name: "天吴"})
+MATCH (l:Location {name: "朝阳谷"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "天吴，是传说中的水伯，住在朝阳谷，有着野兽的形状，长着八个脑袋、人的脸面，八只爪子、八条尾巴。"
+}]->(l);
+
+// 关系创建：地点与儵鱼的关系
+MATCH (m:Monster {name: "儵鱼"})
+MATCH (l:Location {name: "带山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "彭水从带山发源，向西流入芘湖水。水中有很多儵鱼。"
+}]->(l);
+
+// 关系创建：地点与狪狪的关系
+MATCH (m:Monster {name: "狪狪"})
+MATCH (l:Location {name: "泰山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "泰山上盛产玉，山下盛产金。山中有一种野兽，名为狪狪。"
+}]->(l);
+
+// 关系创建：地点与土蝼的关系
+MATCH (m:Monster {name: "土蝼"})
+MATCH (l:Location {name: "昆仑山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "昆仑山中有一种野兽，形状像普通的羊，却长着四只角，名为土蝼。"
+}]->(l);
+
+// 关系创建：地点与橐𩇯的关系
+MATCH (m:Monster {name: "橐𩇯"})
+MATCH (l:Location {name: "羭次山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "羭次山中有一种禽鸟，形状像一般的猫头鹰，长着人一样的面孔而只有一只脚，名为橐𩇯。"
+}]->(l);
+
+// 关系创建：地点与文文的关系
+MATCH (m:Monster {name: "文文"})
+MATCH (l:Location {name: "放皋山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "明水从放皋山发源，向南流入伊水，水中有很多苍玉。山中有一种野兽，名为文文。"
+}]->(l);
+
+// 关系创建：地点与文鳐鱼的关系
+MATCH (m:Monster {name: "文鳐鱼"})
+MATCH (l:Location {name: "泰器山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "观水从泰器山发源，向西流入流沙。观水中有很多文鳐鱼。"
+}]->(l);
+
+// 关系创建：地点与闻獜的关系
+MATCH (m:Monster {name: "闻獜"})
+MATCH (l:Location {name: "杳山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "杳山往东三百五十里有座山，山中有一种野兽，名为闻獜。"
+}]->(l);
+
+// 关系创建：地点与无肠人的关系
+MATCH (m:Monster {name: "无肠人"})
+MATCH (l:Location {name: "无肠国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "无肠国那里的人，身体高大而肚子里却没有肠子。"
+}]->(l);
+
+// 关系创建：地点与无启民/录人/细人的关系
+MATCH (m:Monster {name: "无启民/录人/细人"})
+MATCH (l:Location {name: "无启民国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "无启民没有子嗣，住在洞穴中，吃土。他们的人死了，埋葬后，死者心脏不烂，经过一百年又变成人。"
+}]->(l);
+
+// 关系创建：地点与犀渠的关系
+MATCH (m:Monster {name: "犀渠"})
+MATCH (l:Location {name: "厘山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "厘山的山南面有很多玉石，山北面有茂密的茜草。山中有一种野兽，形状像一般的牛，全身青黑色，名为犀渠。"
+}]->(l);
+
+// 关系创建：地点与谿边的关系
+MATCH (m:Monster {name: "谿边"})
+MATCH (l:Location {name: "天帝山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "天帝山上是茂密的棕树和楠木树，山下主要生长茅草和蕙草。山中有一种野兽，名为谿边。"
+}]->(l);
+
+// 关系创建：地点与鳛鳛鱼的关系
+MATCH (m:Monster {name: "鳛鳛鱼"})
+MATCH (l:Location {name: "嚻水"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "嚻水从涿光山发源，向西流入黄河。水中生长着很多鳛鳛鱼。"
+}]->(l);
+
+// 关系创建：地点与枭阳人的关系
+MATCH (m:Monster {name: "枭阳人"})
+MATCH (l:Location {name: "枭阳国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "枭阳国那里的人，长着长长的嘴唇，黑黑的身子有长毛，脚跟在前而脚尖在后，一看见人就张口大笑。"
+}]->(l);
+
+// 关系创建：地点与鵁的关系
+MATCH (m:Monster {name: "鵁"})
+MATCH (l:Location {name: "蔓联山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "蔓联山中有一种禽鸟，喜欢成群栖息，结队飞行，名为鵁。"
+}]->(l);
+
+// 关系创建：地点与嚣的关系
+MATCH (m:Monster {name: "嚣"})
+MATCH (l:Location {name: "梁渠山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "梁渠山中有一种禽鸟，形状像夸父，长着四只翅膀、一只眼睛、狗一样的尾巴，名为嚣。"
+}]->(l);
+
+// 关系创建：地点与刑天的关系
+MATCH (m:Monster {name: "刑天"})
+MATCH (l:Location {name: "常羊之山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "刑天与帝争神，帝断其首，葬之常羊之山。乃以乳为目，以脐为口，操干戚以舞。"
+}]->(l);
+
+// 关系创建：地点与脩辟鱼的关系
+MATCH (m:Monster {name: "脩辟鱼"})
+MATCH (l:Location {name: "橐山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "橐山中的树木大多是臭椿树，山南面有丰富的金属矿物和玉石，山北面有丰富的铁，还有茂密的萧草。橐水从这座山发源，水中有很多脩辟鱼。"
+}]->(l);
+
+// 关系创建：地点与轩辕人的关系
+MATCH (m:Monster {name: "轩辕人"})
+MATCH (l:Location {name: "轩辕国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "轩辕国在穷山的旁边、女子国的北面，轩辕国的人长着人的面孔，却是蛇的身子，尾巴盘绕在头顶上。"
+}]->(l);
+
+// 关系创建：地点与旋龟的关系
+MATCH (m:Monster {name: "旋龟"})
+MATCH (l:Location {name: "杻阳山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "杻阳山的水中，有一种怪物叫旋龟，其体貌与普通的乌龟类似，但颜色为红黑色，长着鸟的头、毒蛇的尾巴。"
+}]->(l);
+
+// 关系创建：地点与窫窳的关系
+MATCH (m:Monster {name: "窫窳"})
+MATCH (l:Location {name: "少咸山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "少咸山上没有花草树木，到处是青石碧玉。山中有一种野兽，形状像普通的牛，却长着红色的身子、人的面孔、马的蹄子，名为窫窳。"
+}]->(l);
+
+// 关系创建：地点与厌火人的关系
+MATCH (m:Monster {name: "厌火人"})
+MATCH (l:Location {name: "厌火国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "厌火国的人，都长着野兽一样的身子而且是黑色的，火从他们的口中吐出。"
+}]->(l);
+
+// 关系创建：地点与一臂人的关系
+MATCH (m:Monster {name: "一臂人"})
+MATCH (l:Location {name: "一臂国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "一臂国在三身国的北面，那里的人都是一条胳膊、一只眼睛、一个鼻孔。"
+}]->(l);
+
+// 关系创建：地点与一目人的关系
+MATCH (m:Monster {name: "一目人"})
+MATCH (l:Location {name: "一目国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "一目国在钟山的东面，那里的人是在脸的中间长着一只眼睛。"
+}]->(l);
+
+// 关系创建：地点与英招的关系
+MATCH (m:Monster {name: "英招"})
+MATCH (l:Location {name: "槐江山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "槐江山由英招主管，英招的形状是马的身子、人的面孔，身上长有老虎的斑纹和禽鸟的翅膀。"
+}]->(l);
+
+// 关系创建：地点与婴勺的关系
+MATCH (m:Monster {name: "婴勺"})
+MATCH (l:Location {name: "支离山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "淸水从支离山发源，向南流入汉水。山中有一种禽鸟，名为婴勺。"
+}]->(l);
+
+// 关系创建：地点与雍和的关系
+MATCH (m:Monster {name: "雍和"})
+MATCH (l:Location {name: "丰山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "丰山中有一种野兽，形状像猿猴，却长着红眼睛、红嘴巴、黄色的身子，名为雍和。"
+}]->(l);
+
+// 关系创建：地点与幽鴳的关系
+MATCH (m:Monster {name: "幽鴳"})
+MATCH (l:Location {name: "春山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "春山上到处是野葱、葵菜、韭菜、野桃树、李树。山中有一种野兽，形状像猿猴而身上满是花纹，名为幽鴳。"
+}]->(l);
+
+// 关系创建：地点与峳峳的关系
+MATCH (m:Monster {name: "峳峳"})
+MATCH (l:Location {name: "从䃌山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "从䃌山上向东可以望见湖泽。山中有一种野兽，形状像普通的马，却长着羊一样的眼睛、四只角、牛一样的尾巴，名为祓夜。"
+}]->(l);
+
+// 关系创建：地点与颙的关系
+MATCH (m:Monster {name: "颙"})
+MATCH (l:Location {name: "令丘山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "令丘山没有花草树木，到处是野火。山的南边有一峡谷，叫作中谷，东北风就是从这里吹出来的。山中有一种禽鸟，名为颙。"
+}]->(l);
+
+// 关系创建：地点与羽民人的关系
+MATCH (m:Monster {name: "羽民人"})
+MATCH (l:Location {name: "羽民国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "羽民国的人都长着长长的脑袋，全身生满羽毛。"
+}]->(l);
+
+// 关系创建：地点与雨师妾的关系
+MATCH (m:Monster {name: "雨师妾"})
+MATCH (l:Location {name: "汤谷"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "雨师妾在汤谷的北面，那里的人全身黑色，两只手各握着一条蛇。"
+}]->(l);
+
+// 关系创建：地点与寓鸟的关系
+MATCH (m:Monster {name: "寓鸟"})
+MATCH (l:Location {name: "虢山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "虢山上是茂密的漆树，山下是茂密的梧桐树和据树，山中有一种鸟名为寓鸟。"
+}]->(l);
+
+// 关系创建：地点与妴胡的关系
+MATCH (m:Monster {name: "妴胡"})
+MATCH (l:Location {name: "尸胡山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "尸胡山上有丰富的金属矿物和玉石，山下有茂密的酸枣树。山中有一种野兽，名为妴胡。"
+}]->(l);
+
+// 关系创建：地点与凿齿的关系
+MATCH (m:Monster {name: "凿齿"})
+MATCH (l:Location {name: "中国南部沼泽地带"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "凿齿是传说中居住在中国南部沼泽地带的怪兽或巨人，长有像凿子一样的长牙。"
+}]->(l);
+
+// 关系创建：地点与狰的关系
+MATCH (m:Monster {name: "狰"})
+MATCH (l:Location {name: "章莪山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "章莪山上没有花草树木，到处是瑶、碧一类的美玉。山中有一种野兽，名为狰。"
+}]->(l);
+
+// 关系创建：地点与彘的关系
+MATCH (m:Monster {name: "彘"})
+MATCH (l:Location {name: "浮玉山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "浮玉山中有一种野兽，形状像老虎，却长着牛的尾巴，名为彘。"
+}]->(l);
+
+// 关系创建：地点与朱獳的关系
+MATCH (m:Monster {name: "朱獳"})
+MATCH (l:Location {name: "耿山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "耿山没有花草树木，到处是水晶石，还有很多大蛇。山中有一种野兽，名为朱獳。"
+}]->(l);
+
+// 关系创建：地点与朱厌的关系
+MATCH (m:Monster {name: "朱厌"})
+MATCH (l:Location {name: "小次山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "小次山上盛产白玉，山下盛产黄铜。山中有一种野兽，名为朱厌。"
+}]->(l);
+
+// 关系创建：地点与珠蟞鱼的关系
+MATCH (m:Monster {name: "珠蟞鱼"})
+MATCH (l:Location {name: "葛山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "葛山的末端没有花草树木，到处是粗细磨石。澧水从此发源，水中有很多珠蟞鱼。"
+}]->(l);
+
+// 关系创建：地点与诸怀的关系
+MATCH (m:Monster {name: "诸怀"})
+MATCH (l:Location {name: "北岳山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "北岳山上到处是枳树、酸枣树和檀、柘一类的树木。山中有一种野兽，名为诸怀。"
+}]->(l);
+
+// 关系创建：地点与诸犍的关系
+MATCH (m:Monster {name: "诸犍"})
+MATCH (l:Location {name: "单张山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "单张山上没有花草树木。山中有一种野兽，名为诸犍。"
+}]->(l);
+
+// 关系创建：地点与鴸的关系
+MATCH (m:Monster {name: "鴸"})
+MATCH (l:Location {name: "柜山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "柜山中有一种鸟，形状像鹞鹰，却长着人手一样的爪子，名为鴸。"
+}]->(l);
+
+// 关系创建：地点与烛阴的关系
+MATCH (m:Monster {name: "烛阴"})
+MATCH (l:Location {name: "钟山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "烛阴，睁开眼睛便是白昼，闭上眼睛便是黑夜，一吹气便是寒冬，一呼气便是炎夏，不喝水，不吃食物，不呼吸，一呼吸就生成风，身子有一千里长。住在钟山脚下。"
+}]->(l);
+
+// 关系创建：地点与鱄鱼的关系
+MATCH (m:Monster {name: "鱄鱼"})
+MATCH (l:Location {name: "鸡山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "鸡山上有丰富的金属矿物，山下盛产丹雘。黑水从这座山发源，水中有一种鱄鱼。"
+}]->(l);
+
+// 关系创建：地点与驺吾的关系
+MATCH (m:Monster {name: "驺吾"})
+MATCH (l:Location {name: "林氏国"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "林氏国有一种珍奇的野兽，名为驺吾，骑上它可以日行千里。"
+}]->(l);
+
+// 关系创建：地点与足訾的关系
+MATCH (m:Monster {name: "足訾"})
+MATCH (l:Location {name: "蔓联山"})
+CREATE (m)-[:INHABITS {
+  era: "古代",
+  description: "蔓联山上没有花草树木。山中有一种野兽，形状像猿猴，却长着鬣毛，还有牛一样的尾巴、长满花纹的双臂、马一样的蹄子，一看见人就呼叫，名为足訾。"
+}]->(l);
+

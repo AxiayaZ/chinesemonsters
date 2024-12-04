@@ -1,0 +1,591 @@
+// 关系创建：妖怪之间的关系
+
+// 假设人鱼和无支祈之间存在“敌对”关系，因为人鱼生活在水域，而无支祈控制淮河，可能存在水域争夺。
+MATCH (m1:Monster {name: "人鱼"})
+MATCH (m2:Monster {name: "无支祈"})
+CREATE (m1)-[:RELATED_TO {
+  type: "敌对",
+  description: "人鱼和无支祈可能因水域控制权而敌对。"
+}]->(m2);
+
+// 假设精卫和女尸之间存在“同族”关系，因为两者都与水有关，且都有女性特征。
+MATCH (m1:Monster {name: "精卫"})
+MATCH (m2:Monster {name: "女尸"})
+CREATE (m1)-[:RELATED_TO {
+  type: "同族",
+  description: "精卫和女尸都与水有关，可能属于同一水族。"
+}]->(m2);
+
+// 假设奇相和钦鴉之间存在“同盟”关系，因为两者都是水神，可能共同管理水域。
+MATCH (m1:Monster {name: "奇相"})
+MATCH (m2:Monster {name: "钦鴉"})
+CREATE (m1)-[:RELATED_TO {
+  type: "同盟",
+  description: "奇相和钦鴉可能因共同管理水域而结成同盟。"
+}]->(m2);
+
+// 假设土伯和相柳氏之间存在“敌对”关系，因为土伯是阴间统治者，而相柳氏曾被大禹杀死，可能存在敌对关系。
+MATCH (m1:Monster {name: "土伯"})
+MATCH (m2:Monster {name: "相柳氏"})
+CREATE (m1)-[:RELATED_TO {
+  type: "敌对",
+  description: "土伯和相柳氏可能因统治权和历史恩怨而敌对。"
+}]->(m2);
+
+// 假设傲因和巴蛇之间存在“竞争”关系，因为两者都是强大的野兽，可能在食物链中存在竞争。
+MATCH (m1:Monster {name: "傲因"})
+MATCH (m2:Monster {name: "巴蛇"})
+CREATE (m1)-[:RELATED_TO {
+  type: "竞争",
+  description: "傲因和巴蛇可能因食物和领地而竞争。"
+}]->(m2);
+
+// 假设薄鱼和毕方之间存在“相生”关系，因为薄鱼出现预示旱灾，而毕方出现预示火灾，两者相互制约。
+MATCH (m1:Monster {name: "薄鱼"})
+MATCH (m2:Monster {name: "毕方"})
+CREATE (m1)-[:RELATED_TO {
+  type: "相生",
+  description: "薄鱼和毕方可能因自然灾害的相互制约而相生。"
+}]->(m2);
+
+// 假设獙獙和并封之间存在“相似”关系，因为两者都是传说中的怪兽，可能在形态上有相似之处。
+MATCH (m1:Monster {name: "獙獙"})
+MATCH (m2:Monster {name: "并封"})
+CREATE (m1)-[:RELATED_TO {
+  type: "相似",
+  description: "獙獙和并封可能因相似的神秘属性而关联。"
+}]->(m2);
+
+// 假设猼訑和駮之间存在“相克”关系，因为猼訑的毛皮可以消除恐惧，而駮能辟兵器，两者可能在功能上相克。
+MATCH (m1:Monster {name: "猼訑"})
+MATCH (m2:Monster {name: "駮"})
+CREATE (m1)-[:RELATED_TO {
+  type: "相克",
+  description: "猼訑和駮可能因功能上的相克而关联。"
+}]->(m2);
+
+// 假设不死民和长臂人之间存在“贸易”关系，因为不死民长寿，长臂人擅长捕鱼，可能存在贸易往来。
+MATCH (m1:Monster {name: "不死民"})
+MATCH (m2:Monster {name: "长臂人"})
+CREATE (m1)-[:RELATED_TO {
+  type: "贸易",
+  description: "不死民和长臂人可能因资源交换而进行贸易。"
+}]->(m2);
+
+// 关系创建：妖怪之间的关系
+
+// 精卫和女尸都与水有关，可以认为它们有共同的水域生活环境。
+MATCH (m1:Monster {name: "精卫"})
+MATCH (m2:Monster {name: "女尸"})
+CREATE (m1)-[:RELATED_TO {
+  type: "水域共生",
+  description: "精卫和女尸都与水域有关，可能在水域中共同生活。"
+}]->(m2);
+
+// 无支祈和奇相都被认为是河流的主宰者，可以认为它们在水域中有共同的统治地位。
+MATCH (m1:Monster {name: "无支祈"})
+MATCH (m2:Monster {name: "奇相"})
+CREATE (m1)-[:RELATED_TO {
+  type: "水域主宰",
+  description: "无支祈和奇相都被认为是河流的主宰者，可能在水域中有共同的统治地位。"
+}]->(m2);
+
+// 钦鴉和鼓都是钟山的生物，可以认为它们是同地域的生物。
+MATCH (m1:Monster {name: "钦鴉"})
+MATCH (m2:Monster {name: "鼓"})
+CREATE (m1)-[:RELATED_TO {
+  type: "同地域生物",
+  description: "钦鴉和鼓都与钟山有关，可能是同地域的生物。"
+}]->(m2);
+
+// 土伯作为阴间幽都的统治者，与相柳氏有敌对关系，因为相柳氏被大禹所杀，而土伯也是被大禹所囚禁。
+MATCH (m1:Monster {name: "土伯"})
+MATCH (m2:Monster {name: "相柳氏"})
+CREATE (m1)-[:RELATED_TO {
+  type: "敌对",
+  description: "土伯与相柳氏因大禹的行动而成为敌对关系。"
+}]->(m2);
+
+// 傲因和巴蛇都具有攻击性，可以认为它们在食物链中处于相似的位置。
+MATCH (m1:Monster {name: "傲因"})
+MATCH (m2:Monster {name: "巴蛇"})
+CREATE (m1)-[:RELATED_TO {
+  type: "食物链同层",
+  description: "傲因和巴蛇都具有攻击性，可能在食物链中处于相似的位置。"
+}]->(m2);
+
+// 薄鱼和獙獙都与旱灾有关，可以认为它们在自然灾害中扮演相似的角色。
+MATCH (m1:Monster {name: "薄鱼"})
+MATCH (m2:Monster {name: "獙獙"})
+CREATE (m1)-[:RELATED_TO {
+  type: "旱灾相关",
+  description: "薄鱼和獙獙都与旱灾有关，可能在自然灾害中扮演相似的角色。"
+}]->(m2);
+
+// 并封和猼訑都有多头或多尾的特征，可以认为它们在形态上有相似之处。
+MATCH (m1:Monster {name: "并封"})
+MATCH (m2:Monster {name: "猼訑"})
+CREATE (m1)-[:RELATED_TO {
+  type: "形态相似",
+  description: "并封和猼訑都有多头或多尾的特征，可能在形态上有相似之处。"
+}]->(m2);
+
+// 駮和不死民都与长寿有关，可以认为它们在传说中具有相似的象征意义。
+MATCH (m1:Monster {name: "駮"})
+MATCH (m2:Monster {name: "不死民"})
+CREATE (m1)-[:RELATED_TO {
+  type: "长寿象征",
+  description: "駮和不死民都与长寿有关，可能在传说中具有相似的象征意义。"
+}]->(m2);
+
+// 长臂人和鹇鸺都与特殊能力有关，可以认为它们在神话中具有相似的角色。
+MATCH (m1:Monster {name: "长臂人"})
+MATCH (m2:Monster {name: "鹇鸺"})
+CREATE (m1)-[:RELATED_TO {
+  type: "特殊能力",
+  description: "长臂人和鹇鸺都与特殊能力有关，可能在神话中具有相似的角色。"
+}]->(m2);
+
+// 关系创建：妖怪之间的关系
+
+// 长臂人和长右，两者都具有“长”的特征，可以认为它们在特征上有相似之处。
+MATCH (m1:Monster {name: "长臂人"})
+MATCH (m2:Monster {name: "长右"})
+CREATE (m1)-[:RELATED_TO {
+  type: "特征相似",
+  description: "长臂人和长右都具有‘长’的特征，可能在特征上有相似之处。"
+}]->(m2);
+
+// 乘黄和駮，两者都与“骑乘”有关，乘黄能让人活两千岁，駮能辟兵器，可以认为它们在骑乘文化中扮演重要角色。
+MATCH (m1:Monster {name: "乘黄"})
+MATCH (m2:Monster {name: "駮"})
+CREATE (m1)-[:RELATED_TO {
+  type: "骑乘文化",
+  description: "乘黄和駮都与‘骑乘’有关，可能在骑乘文化中扮演重要角色。"
+}]->(m2);
+
+// 鸱和赤鱬，两者都与“鸟”有关，鸱有三个身子，赤鱬有人面，可以认为它们在形态上有相似之处。
+MATCH (m1:Monster {name: "鸱"})
+MATCH (m2:Monster {name: "赤鱬"})
+CREATE (m1)-[:RELATED_TO {
+  type: "形态相似",
+  description: "鸱和赤鱬都与‘鸟’有关，可能在形态上有相似之处。"
+}]->(m2);
+
+// 茈鱼和从从，两者都与“多”有关，茈鱼一个头十个身子，从从六只脚，可以认为它们在数量特征上有相似之处。
+MATCH (m1:Monster {name: "茈鱼"})
+MATCH (m2:Monster {name: "从从"})
+CREATE (m1)-[:RELATED_TO {
+  type: "数量特征",
+  description: "茈鱼和从从都与‘多’有关，可能在数量特征上有相似之处。"
+}]->(m2);
+
+// 当扈鸟和当康，两者都与“当”字有关，可以认为它们在命名上有相似之处。
+MATCH (m1:Monster {name: "当扈鸟"})
+MATCH (m2:Monster {name: "当康"})
+CREATE (m1)-[:RELATED_TO {
+  type: "命名相似",
+  description: "当扈鸟和当康都与‘当’字有关，可能在命名上有相似之处。"
+}]->(m2);
+
+// 氐人和帝江，两者都与“非人”特征有关，氐人鱼身人面，帝江无面目，可以认为它们在形态上有相似之处。
+MATCH (m1:Monster {name: "氐人"})
+MATCH (m2:Monster {name: "帝江"})
+CREATE (m1)-[:RELATED_TO {
+  type: "形态相似",
+  description: "氐人和帝江都与‘非人’特征有关，可能在形态上有相似之处。"
+}]->(m2);
+
+// 耳鼠和飞鼠，两者都与“飞行”有关，耳鼠用尾巴飞行，飞鼠背上的毛飞行，可以认为它们在能力上有相似之处。
+MATCH (m1:Monster {name: "耳鼠"})
+MATCH (m2:Monster {name: "飞鼠"})
+CREATE (m1)-[:RELATED_TO {
+  type: "能力相似",
+  description: "耳鼠和飞鼠都与‘飞行’有关，可能在能力上有相似之处。"
+}]->(m2);
+
+// 飞鱼和蜚，两者都与“飞”有关，飞鱼能飞，蜚行经之处草枯死，可以认为它们在行为上有相似之处。
+MATCH (m1:Monster {name: "飞鱼"})
+MATCH (m2:Monster {name: "蜚"})
+CREATE (m1)-[:RELATED_TO {
+  type: "行为相似",
+  description: "飞鱼和蜚都与‘飞’有关，可能在行为上有相似之处。"
+}]->(m2);
+
+// 肥遗和朏朏，两者都与“治愈”有关，肥遗出现则大旱，朏朏饲养可消除忧愁，可以认为它们在影响上有相似之处。
+MATCH (m1:Monster {name: "肥遗"})
+MATCH (m2:Monster {name: "朏朏"})
+CREATE (m1)-[:RELATED_TO {
+  type: "影响相似",
+  description: "肥遗和朏朏都与‘治愈’有关，可能在影响上有相似之处。"
+}]->(m2);
+
+// 关系创建：妖怪之间的关系
+
+// 凤凰和鸾鸟，两者都是吉祥的象征，可以认为它们在文化上有相似的地位。
+MATCH (m1:Monster {name: "凤凰"})
+MATCH (m2:Monster {name: "鸾鸟"})
+CREATE (m1)-[:RELATED_TO {
+  type: "文化象征",
+  description: "凤凰和鸾鸟都是吉祥的象征，在文化上具有相似的地位。"
+}]->(m2);
+
+// 夫诸和凫徯，两者都与水有关，夫诸出现则发大水，凫徯出现则有战争，可以认为它们在水的象征上有联系。
+MATCH (m1:Monster {name: "夫诸"})
+MATCH (m2:Monster {name: "凫徯"})
+CREATE (m1)-[:RELATED_TO {
+  type: "水的象征",
+  description: "夫诸和凫徯都与水有关，可能在水的象征上有联系。"
+}]->(m2);
+
+// 鮯鮯鱼和䱻鱼，两者都具有奇特的外形，鮯鮯鱼有六只脚和鸟一样的尾巴，䱻鱼像蛇有四只脚，可以认为它们在外形上有相似之处。
+MATCH (m1:Monster {name: "鮯鮯鱼"})
+MATCH (m2:Monster {name: "䱻鱼"})
+CREATE (m1)-[:RELATED_TO {
+  type: "外形相似",
+  description: "鮯鮯鱼和䱻鱼都具有奇特的外形，可能在外形上有相似之处。"
+}]->(m2);
+
+// 化蛇和讙，两者都与水害有关，化蛇出现则有水害，讙出现则治黄疸病，可以认为它们在水的属性上有联系。
+MATCH (m1:Monster {name: "化蛇"})
+MATCH (m2:Monster {name: "讙"})
+CREATE (m1)-[:RELATED_TO {
+  type: "水的属性",
+  description: "化蛇和讙都与水有关，可能在水的属性上有联系。"
+}]->(m2);
+
+// 讙和讙头人，两者名称相似，可以认为它们在命名上有联系。
+MATCH (m1:Monster {name: "讙"})
+MATCH (m2:Monster {name: "讙头人"})
+CREATE (m1)-[:RELATED_TO {
+  type: "命名联系",
+  description: "讙和讙头人名称相似，可能在命名上有联系。"
+}]->(m2);
+
+// 讙头人和驩头，两者都具有人面特征，可以认为它们在形态上有相似之处。
+MATCH (m1:Monster {name: "讙头人"})
+MATCH (m2:Monster {name: "驩头"})
+CREATE (m1)-[:RELATED_TO {
+  type: "形态相似",
+  description: "讙头人和驩头都具有人面特征，可能在形态上有相似之处。"
+}]->(m2);
+
+// 环狗和猲狙，两者都具有野兽的特征，环狗有人的身体野兽的脑袋，猲狙像狼，可以认为它们在特征上有相似之处。
+MATCH (m1:Monster {name: "环狗"})
+MATCH (m2:Monster {name: "猲狙"})
+CREATE (m1)-[:RELATED_TO {
+  type: "野兽特征",
+  description: "环狗和猲狙都具有野兽的特征，可能在特征上有相似之处。"
+}]->(m2);
+
+// 狍鸮和蛊雕，两者都与食人有关，狍鸮能吃人，蛊雕发出的声音如同婴儿啼哭，能吃人，可以认为它们在食性上有相似之处。
+MATCH (m1:Monster {name: "狍鸮"})
+MATCH (m2:Monster {name: "蛊雕"})
+CREATE (m1)-[:RELATED_TO {
+  type: "食性相似",
+  description: "狍鸮和蛊雕都与食人有关，可能在食性上有相似之处。"
+}]->(m2);
+
+// 狪狪和土蝼，两者都与吃人有关，狪狪体内有珠子，土蝼能吃人，可以认为它们在特性上有联系。
+MATCH (m1:Monster {name: "狪狪"})
+MATCH (m2:Monster {name: "土蝼"})
+CREATE (m1)-[:RELATED_TO {
+  type: "特性联系",
+  description: "狪狪和土蝼都与吃人有关，可能在特性上有联系。"
+}]->(m2);
+
+// 关系创建：妖怪之间的关系
+
+// 橐𩇯和文文，两者都与特殊能力有关，橐𩇯能使人不怕打雷，文文擅长呼叫，可以认为它们在能力上有相似之处。
+MATCH (m1:Monster {name: "橐𩇯"})
+MATCH (m2:Monster {name: "文文"})
+CREATE (m1)-[:RELATED_TO {
+  type: "特殊能力",
+  description: "橐𩇯和文文都具有特殊能力，可能在能力上有相似之处。"
+}]->(m2);
+
+// 文鳐鱼和肥遗，两者都与疾病治疗有关，文鳐鱼能治癫狂病，肥遗出现则大旱，可以认为它们在影响上有联系。
+MATCH (m1:Monster {name: "文鳐鱼"})
+MATCH (m2:Monster {name: "肥遗"})
+CREATE (m1)-[:RELATED_TO {
+  type: "影响联系",
+  description: "文鳐鱼和肥遗都与疾病治疗有关，可能在影响上有联系。"
+}]->(m2);
+
+// 闻獜和无肠人，两者都与特殊生理结构有关，闻獜出现则大风，无肠人肚子里没有肠子，可以认为它们在生理上有相似之处。
+MATCH (m1:Monster {name: "闻獜"})
+MATCH (m2:Monster {name: "无肠人"})
+CREATE (m1)-[:RELATED_TO {
+  type: "生理结构",
+  description: "闻獜和无肠人都有特殊的生理结构，可能在生理上有相似之处。"
+}]->(m2);
+
+// 无启民/录人/细人和不死民，两者都与不死有关，无启民/录人/细人死后能复生，不死民长寿不死，可以认为它们在不死属性上有联系。
+MATCH (m1:Monster {name: "无启民/录人/细人"})
+MATCH (m2:Monster {name: "不死民"})
+CREATE (m1)-[:RELATED_TO {
+  type: "不死属性",
+  description: "无启民/录人/细人和不死民都与不死有关，可能在不死属性上有联系。"
+}]->(m2);
+
+// 犀渠和谿边，两者都与防御有关，犀渠能吃人，谿边兽的皮能防妖邪，可以认为它们在防御上有相似之处。
+MATCH (m1:Monster {name: "犀渠"})
+MATCH (m2:Monster {name: "谿边"})
+CREATE (m1)-[:RELATED_TO {
+  type: "防御相似",
+  description: "犀渠和谿边都与防御有关，可能在防御上有相似之处。"
+}]->(m2);
+
+// 蠪蛭和蠪侄，两者名称相似，且都与恐怖或灾难有关，可以认为它们在文化上有联系。
+MATCH (m1:Monster {name: "蠪蛭"})
+MATCH (m2:Monster {name: "蠪侄"})
+CREATE (m1)-[:RELATED_TO {
+  type: "文化联系",
+  description: "蠪蛭和蠪侄名称相似，且都与恐怖或灾难有关，可能在文化上有联系。"
+}]->(m2);
+
+// 陆吾和开明兽，两者都与守护有关，陆吾主管昆仑山，开明兽守卫昆仑山的门，可以认为它们在守护职责上有联系。
+MATCH (m1:Monster {name: "陆吾"})
+MATCH (m2:Monster {name: "开明兽"})
+CREATE (m1)-[:RELATED_TO {
+  type: "守护职责",
+  description: "陆吾和开明兽都与守护有关，可能在守护职责上有联系。"
+}]->(m2);
+
+// 鹿蜀和鯥，两者都与吉祥有关，鹿蜀佩戴其皮毛可以使子孙昌盛，鯥冬死夏活，可以认为它们在吉祥属性上有联系。
+MATCH (m1:Monster {name: "鹿蜀"})
+MATCH (m2:Monster {name: "鯥"})
+CREATE (m1)-[:RELATED_TO {
+  type: "吉祥属性",
+  description: "鹿蜀和鯥都与吉祥有关，可能在吉祥属性上有联系。"
+}]->(m2);
+
+// 鸾鸟和赢鱼，两者都与水有关，鸾鸟出现则天下安宁，赢鱼出现则有水灾，可以认为它们在水的属性上有联系。
+MATCH (m1:Monster {name: "鸾鸟"})
+MATCH (m2:Monster {name: "赢鱼"})
+CREATE (m1)-[:RELATED_TO {
+  type: "水的属性",
+  description: "鸾鸟和赢鱼都与水有关，可能在水的属性上有联系。"
+}]->(m2);
+
+// 关系创建：妖怪之间的关系
+
+// 马腹和蛮蛮，两者都与山林有关，马腹生活在山中，蛮蛮需要两只鸟合起来才能飞翔，可以认为它们在山林生态中有联系。
+MATCH (m1:Monster {name: "马腹"})
+MATCH (m2:Monster {name: "蛮蛮"})
+CREATE (m1)-[:RELATED_TO {
+  type: "山林生态",
+  description: "马腹和蛮蛮都与山林有关，可能在山林生态中有联系。"
+}]->(m2);
+
+// 毛民和孟槐，两者都与特殊的身体特征有关，毛民全身长毛，孟槐长着柔软的红毛，可以认为它们在身体特征上有相似之处。
+MATCH (m1:Monster {name: "毛民"})
+MATCH (m2:Monster {name: "孟槐"})
+CREATE (m1)-[:RELATED_TO {
+  type: "身体特征",
+  description: "毛民和孟槐都有特殊的身体特征，可能在身体特征上有相似之处。"
+}]->(m2);
+
+// 孟极和鸣蛇，两者都与隐蔽或隐藏有关，孟极善于伏身隐藏，鸣蛇长着四只翅膀，可以认为它们在隐藏行为上有相似之处。
+MATCH (m1:Monster {name: "孟极"})
+MATCH (m2:Monster {name: "鸣蛇"})
+CREATE (m1)-[:RELATED_TO {
+  type: "隐藏行为",
+  description: "孟极和鸣蛇都与隐蔽或隐藏有关，可能在隐藏行为上有相似之处。"
+}]->(m2);
+
+// 那父和聂耳人，两者都与特殊的行走方式有关，那父拖着白色的尾巴，聂耳人使唤着两只花斑大虎，可以认为它们在行走方式上有相似之处。
+MATCH (m1:Monster {name: "那父"})
+MATCH (m2:Monster {name: "聂耳人"})
+CREATE (m1)-[:RELATED_TO {
+  type: "行走方式",
+  description: "那父和聂耳人都与特殊的行走方式有关，可能在行走方式上有相似之处。"
+}]->(m2);
+
+// 狍鸮和猾褢，两者都与食人有关，狍鸮能吃人，猾褢出现则有繁重的徭役，可以认为它们在食性或影响上有联系。
+MATCH (m1:Monster {name: "狍鸮"})
+MATCH (m2:Monster {name: "猾褢"})
+CREATE (m1)-[:RELATED_TO {
+  type: "食性影响",
+  description: "狍鸮和猾褢都与食人有关，可能在食性或影响上有联系。"
+}]->(m2);
+
+// 罴九和鵸鵌，两者都与特殊的生理结构有关，罴九肛门长在尾巴上面，鵸鵌有三个脑袋、六条尾巴，可以认为它们在生理结构上有相似之处。
+MATCH (m1:Monster {name: "罴九"})
+MATCH (m2:Monster {name: "鵸鵌"})
+CREATE (m1)-[:RELATED_TO {
+  type: "生理结构",
+  description: "罴九和鵸鵌都有特殊的生理结构，可能在生理结构上有相似之处。"
+}]->(m2);
+
+// 鵁和嚣，两者都与鸟有关，鵁喜欢成群栖息，结队飞行，嚣长着四只翅膀、一只眼睛，可以认为它们在鸟的属性上有联系。
+MATCH (m1:Monster {name: "鵁"})
+MATCH (m2:Monster {name: "嚣"})
+CREATE (m1)-[:RELATED_TO {
+  type: "鸟的属性",
+  description: "鵁和嚣都与鸟有关，可能在鸟的属性上有联系。"
+}]->(m2);
+
+// 嚣和刑天，两者都与战争或争斗有关，嚣出现则有旱灾，刑天与帝争神，可以认为它们在战争或争斗上有联系。
+MATCH (m1:Monster {name: "嚣"})
+MATCH (m2:Monster {name: "刑天"})
+CREATE (m1)-[:RELATED_TO {
+  type: "战争争斗",
+  description: "嚣和刑天都与战争或争斗有关，可能在战争或争斗上有联系。"
+}]->(m2);
+
+// 脩辟鱼和轩辕人，两者都与特殊的居住地有关，脩辟鱼生活在橐山，轩辕人居住在轩辕国，可以认为它们在居住地上有联系。
+MATCH (m1:Monster {name: "脩辟鱼"})
+MATCH (m2:Monster {name: "轩辕人"})
+CREATE (m1)-[:RELATED_TO {
+  type: "居住地",
+  description: "脩辟鱼和轩辕人都有特殊的居住地，可能在居住地上有联系。"
+}]->(m2);
+
+// 关系创建：妖怪之间的关系
+
+// 旋龟和窫窳，两者都与水有关，旋龟生活在杻阳山的水中，窫窳也是水边的生物，可以认为它们在水域生态中有联系。
+MATCH (m1:Monster {name: "旋龟"})
+MATCH (m2:Monster {name: "窫窳"})
+CREATE (m1)-[:RELATED_TO {
+  type: "水域生态",
+  description: "旋龟和窫窳都与水有关，可能在水域生态中有联系。"
+}]->(m2);
+
+// 厌火人和火鼠，两者都与火有关，厌火人能吐火，火鼠生活在火焰山，可以认为它们在火的属性上有联系。
+MATCH (m1:Monster {name: "厌火人"})
+MATCH (m2:Monster {name: "火鼠"})
+CREATE (m1)-[:RELATED_TO {
+  type: "火的属性",
+  description: "厌火人和火鼠都与火有关，可能在火的属性上有联系。"
+}]->(m2);
+
+// 一臂人和一目人，两者都与身体特征有关，一臂人只有一条胳膊，一目人只有一只眼睛，可以认为它们在身体特征上有相似之处。
+MATCH (m1:Monster {name: "一臂人"})
+MATCH (m2:Monster {name: "一目人"})
+CREATE (m1)-[:RELATED_TO {
+  type: "身体特征",
+  description: "一臂人和一目人都有特殊的身体特征，可能在身体特征上有相似之处。"
+}]->(m2);
+
+// 英招和陆吾，两者都是山神，英招主管槐江山，陆吾主管昆仑山，可以认为它们在山神职责上有联系。
+MATCH (m1:Monster {name: "英招"})
+MATCH (m2:Monster {name: "陆吾"})
+CREATE (m1)-[:RELATED_TO {
+  type: "山神职责",
+  description: "英招和陆吾都是山神，可能在山神职责上有联系。"
+}]->(m2);
+
+// 婴勺和雍和，两者都与鸟类有关，婴勺形状像喜鹊，雍和形状像猿猴但有鸟的特征，可以认为它们在鸟类属性上有联系。
+MATCH (m1:Monster {name: "婴勺"})
+MATCH (m2:Monster {name: "雍和"})
+CREATE (m1)-[:RELATED_TO {
+  type: "鸟类属性",
+  description: "婴勺和雍和都与鸟类有关，可能在鸟类属性上有联系。"
+}]->(m2);
+
+// 狌狌和獙獙，两者都与山林有关，狌狌生活在山林中，獙獙出现则有旱灾，可以认为它们在山林生态中有联系。
+MATCH (m1:Monster {name: "狌狌"})
+MATCH (m2:Monster {name: "獙獙"})
+CREATE (m1)-[:RELATED_TO {
+  type: "山林生态",
+  description: "狌狌和獙獙都与山林有关，可能在山林生态中有联系。"
+}]->(m2);
+
+// 獜和猼訑，两者都与野兽有关，獜像普通的狗但体内有珠子，猼訑像羊但有九条尾巴，可以认为它们在野兽属性上有联系。
+MATCH (m1:Monster {name: "獜"})
+MATCH (m2:Monster {name: "猼訑"})
+CREATE (m1)-[:RELATED_TO {
+  type: "野兽属性",
+  description: "獜和猼訑都是特殊的野兽，可能在野兽属性上有联系。"
+}]->(m2);
+
+// 鴸和凿齿，两者都与食人有关，鴸出现则有众多的士人被流放，凿齿掠食人类，可以认为它们在食性上有联系。
+MATCH (m1:Monster {name: "鴸"})
+MATCH (m2:Monster {name: "凿齿"})
+CREATE (m1)-[:RELATED_TO {
+  type: "食性",
+  description: "鴸和凿齿都与食人有关，可能在食性上有联系。"
+}]->(m2);
+
+// 彘和朱厌，两者都与战争有关，彘能吃人，朱厌出现则起大战事，可以认为它们在战争属性上有联系。
+MATCH (m1:Monster {name: "彘"})
+MATCH (m2:Monster {name: "朱厌"})
+CREATE (m1)-[:RELATED_TO {
+  type: "战争属性",
+  description: "彘和朱厌都与战争有关，可能在战争属性上有联系。"
+}]->(m2);
+
+// 关系创建：妖怪之间的关系
+
+// 朱獳和朱厌，两者都与不祥之兆有关，朱獳出现则有恐怖的事发生，朱厌出现则起大战事，可以认为它们在不祥属性上有联系。
+MATCH (m1:Monster {name: "朱獳"})
+MATCH (m2:Monster {name: "朱厌"})
+CREATE (m1)-[:RELATED_TO {
+  type: "不祥之兆",
+  description: "朱獳和朱厌都与不祥之兆有关，可能在不祥属性上有联系。"
+}]->(m2);
+
+// 珠蟞鱼和诸怀，两者都与特殊能力有关，珠蟞鱼能吐珠子，诸怀能吃人，可以认为它们在特殊能力上有联系。
+MATCH (m1:Monster {name: "珠蟞鱼"})
+MATCH (m2:Monster {name: "诸怀"})
+CREATE (m1)-[:RELATED_TO {
+  type: "特殊能力",
+  description: "珠蟞鱼和诸怀都具有特殊能力，可能在特殊能力上有联系。"
+}]->(m2);
+
+// 诸犍和鴸，两者都与单一特征有关，诸犍一只眼睛，鴸一只爪子，可以认为它们在单一特征上有联系。
+MATCH (m1:Monster {name: "诸犍"})
+MATCH (m2:Monster {name: "鴸"})
+CREATE (m1)-[:RELATED_TO {
+  type: "单一特征",
+  description: "诸犍和鴸都具有单一特征，可能在单一特征上有联系。"
+}]->(m2);
+
+// 烛阴和鱄鱼，两者都与极端现象有关，烛阴控制昼夜，鱄鱼出现则天下大旱，可以认为它们在极端现象上有联系。
+MATCH (m1:Monster {name: "烛阴"})
+MATCH (m2:Monster {name: "鱄鱼"})
+CREATE (m1)-[:RELATED_TO {
+  type: "极端现象",
+  description: "烛阴和鱄鱼都与极端现象有关，可能在极端现象上有联系。"
+}]->(m2);
+
+// 驺吾和足訾，两者都与速度有关，驺吾能日行千里，足訾有马一样的蹄子，可以认为它们在速度上有联系。
+MATCH (m1:Monster {name: "驺吾"})
+MATCH (m2:Monster {name: "足訾"})
+CREATE (m1)-[:RELATED_TO {
+  type: "速度",
+  description: "驺吾和足訾都与速度有关，可能在速度上有联系。"
+}]->(m2);
+
+// 䑏疏和鵁，两者都与辟火有关，䑏疏人饲养它可以辟火，鵁人吃了它的肉就能治好风痹病，可以认为它们在辟火上有联系。
+MATCH (m1:Monster {name: "䑏疏"})
+MATCH (m2:Monster {name: "鵁"})
+CREATE (m1)-[:RELATED_TO {
+  type: "辟火",
+  description: "䑏疏和鵁都与辟火有关，可能在辟火上有联系。"
+}]->(m2);
+
+// 冉遗鱼和凫徯，两者都与梦境有关，冉遗鱼吃了它的肉就能使人睡觉不做噩梦，凫徯出现则有战争，可以认为它们在梦境上有联系。
+MATCH (m1:Monster {name: "冉遗鱼"})
+MATCH (m2:Monster {name: "凫徯"})
+CREATE (m1)-[:RELATED_TO {
+  type: "梦境",
+  description: "冉遗鱼和凫徯都与梦境有关，可能在梦境上有联系。"
+}]->(m2);
+
+// 戎宣王尸和柔利人，两者都与形态异常有关，戎宣王尸没有脑袋，柔利人一只手一只脚，可以认为它们在形态异常上有联系。
+MATCH (m1:Monster {name: "戎宣王尸"})
+MATCH (m2:Monster {name: "柔利人"})
+CREATE (m1)-[:RELATED_TO {
+  type: "形态异常",
+  description: "戎宣王尸和柔利人都与形态异常有关，可能在形态异常上有联系。"
+}]->(m2);
+
+// 狌狌和獜，两者都与山林有关，狌狌生活在山林中，獜像普通的狗但体内有珠子，可以认为它们在山林生态中有联系。
+MATCH (m1:Monster {name: "狌狌"})
+MATCH (m2:Monster {name: "獜"})
+CREATE (m1)-[:RELATED_TO {
+  type: "山林生态",
+  description: "狌狌和獜都与山林有关，可能在山林生态中有联系。"
+}]->(m2);
